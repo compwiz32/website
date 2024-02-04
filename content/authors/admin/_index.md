@@ -9,3 +9,4 @@ github: https://github.com/compwiz32
 mastodon: https://fosstodon.org/@mikekanakos
 rtpsug: https://www.meetup.com/research-triangle-powershell-users-group
 ---
+Microsoft MVP, PowerShell expert, lifelong learner, and active member of the PowerShell and Azure communities.
