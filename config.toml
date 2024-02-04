@@ -1,10 +1,10 @@
 #-------------------------------
 # General Site Settings
-baseURL = "http://example.org/"
+baseURL = "https://clninja.netlify.app/"
 languageCode = "en-us"
-title = "Danto"
+title = "TESTFILLER"
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
-paginate = 12
+paginate = 6
 
 
 #-------------------------------
@@ -128,12 +128,12 @@ paginate = 12
   [[params.social]]
     icon = "ion-logo-twitter"
     name = "Twitter"
-    link = "https://twitter.com"
+    link = "https://twitter.com/MikeKanakos"
 
   [[params.social]]
     icon = "ion-logo-linkedin"
     name = "LinkedIn"
-    link = "https://www.linkedin.com/"
+    link = "https://www.linkedin.com/in/mikekanakos/"
 
   [[params.social]]
     icon = "ion-logo-codepen"
