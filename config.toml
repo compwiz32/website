@@ -2,7 +2,7 @@
 # General Site Settings
 baseURL = "https://clninja.netlify.app/"
 languageCode = "en-us"
-title = "TESTFILLER"
+title = "Command Line Ninja!"
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 paginate = 6
 
@@ -73,8 +73,8 @@ paginate = 6
 
 
 [params]
-  logo = "/images/logo.png" # You can add own logo. For example "/images/logo.png".
-  logo_dark = "/images/logo.png"
+  logo = "/images/WebsiteLogo-Round.png" # You can add own logo. For example "/images/logo.png".
+  logo_dark = "/images/WebsiteLogo-Round.png"
   description = "Danto is a news and magazine Hugo theme"
   color_scheme = "auto" # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
@@ -83,8 +83,8 @@ paginate = 6
   # Hero Settings
   [params.hero]
     enable = true
-    hero__title = "One Stop Daily News, Article, Inspiration, and Tips."
-    hero__description = "Features productivity, tips, inspiration and strategies for massive profits. Find out how to set up a successful blog or how to make yours even better!"
+    hero__title = "Learn PowerShell. Write Code. Automate Tasks."
+    hero__description = "Learn how to craft excpeptional code, automate tasks and increase your efficiency."
 
 
   #-------------------------------
