@@ -16,7 +16,7 @@ paginate = 12
     weight = 1
 
   [[menu.main]]
-    name = "Latest"
+    name = "Archive"
     url = "/posts/"
     weight = 2
 
@@ -30,46 +30,46 @@ paginate = 12
     url = "/tags/"
     weight = 4
 
-  [[menu.main]]
-    name = "Pages"
-    weight = 5
-    hasChildren = true
+  # [[menu.main]]
+  #   name = "Pages"
+  #   weight = 5
+  #   hasChildren = true
 
-  [[menu.main]]
-    parent = "Pages"
-    name = "About"
-    url = "/about/"
-    weight = 1
+  # [[menu.main]]
+  #   parent = "Pages"
+  #   name = "About"
+  #   url = "/about/"
+  #   weight = 1
 
-  [[menu.main]]
-    parent = "Pages"
-    name = "Elements"
-    url = "/elements/"
-    weight = 2
+  # [[menu.main]]
+  #   parent = "Pages"
+  #   name = "Elements"
+  #   url = "/elements/"
+  #   weight = 2
 
-  [[menu.main]]
-    parent = "Pages"
-    name = "Contact"
-    url = "/contact/"
-    weight = 3
+  # [[menu.main]]
+  #   parent = "Pages"
+  #   name = "Contact"
+  #   url = "/contact/"
+  #   weight = 3
 
-  [[menu.main]]
-    parent = "Pages"
-    name = "Videos"
-    url = "/videos/"
-    weight = 4
+  # [[menu.main]]
+  #   parent = "Pages"
+  #   name = "Videos"
+  #   url = "/videos/"
+  #   weight = 4
 
-  [[menu.main]]
-    parent = "Pages"
-    name = "Featured"
-    url = "/featured/"
-    weight = 5
+  # [[menu.main]]
+  #   parent = "Pages"
+  #   name = "Featured"
+  #   url = "/featured/"
+  #   weight = 5
 
   # Call to action button
   [params.cta_button]
     enable = true
     cta_button_link = "/contact/"
-    cta_button_text = "Get in touch"
+    cta_button_text = "Drop me a message"
 
 
 [params]
@@ -131,9 +131,9 @@ paginate = 12
     link = "https://twitter.com"
 
   [[params.social]]
-    icon = "ion-logo-facebook"
-    name = "Facebook"
-    link = "https://facebook.com"
+    icon = "ion-logo-linkedin"
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/"
 
   [[params.social]]
     icon = "ion-logo-codepen"
@@ -177,7 +177,7 @@ paginate = 12
   #-------------------------------
   # Contact Settings
   [params.contact]
-    email = "your@email.com" # Add your form_id
+    email = "https://formspree.io/f/mpzgabkd" # Add your form_id
 
     # NOTE
     # Danto comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
@@ -185,7 +185,7 @@ paginate = 12
   #-------------------------------
   # Comment Section (Disqus)
   [params.disqus]
-    enable = true
+    enable = false
     disqusShortname = "anvod-studio-test" # Add your shortname for Disqus Comment. For example anvod-studio-test
 
 
