@@ -1,6 +1,6 @@
 ---
 name: Mike Kanakos
-image: 'https://via.placeholder.com/400x400'
+image: 'https://i.imgur.com/M6qDOot.jpg'
 location: North Carolina
 mvpprofile: https://mvp.microsoft.com/en-us/PublicProfile/5004073
 twitter: https://twitter.com/MikeKanakos
