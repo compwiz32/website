@@ -27,4 +27,4 @@ Apart from this website, I frequently contribute to technical websites and onlin
 - [TechTarget.com](https://www.techtarget.com/contributor/Mike-Kanakos)
 - [Progress/Ipswitch.com](https://www.ipswitch.com/blog/author/mike-kanakos)
 
-![Speaker flag]('./images/MK-Speaker-Flag')
+![Speaker flag]('/images/MK-Speaker-Flag')
