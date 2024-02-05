@@ -115,7 +115,7 @@ paginate = 6
   #-------------------------------
   # Authors Section Settings
   [params.authors_section]
-    enable = true
+    enable = false
     section_title = "Meet our authors"
 
 
@@ -136,24 +136,19 @@ paginate = 6
     link = "https://www.linkedin.com/in/mikekanakos/"
 
   [[params.social]]
-    icon = "ion-logo-codepen"
-    name = "Codepen"
-    link = "https://codepen.io"
-
-  [[params.social]]
-    icon = "ion-logo-pinterest"
-    name = "Pinterest"
-    link = "https://pinterest.com"
-
-  [[params.social]]
     icon = "ion-logo-github"
-    name = "Github"
-    link = "https://github.com"
+    name = "GitHub"
+    link = "https://github.com/compwiz32"
+
+  [[params.social]]
+    icon = "ion-logo-chatboxes"
+    name = "Mastodon"
+    link = "https://fosstodon.org/@mikekanakos"
 
   [[params.social]]
     icon = "ion-logo-youtube"
-    name = "Youtube"
-    link = "https://youtube.com"
+    name = "YouTube"
+    link = "https://www.youtube.com/channel/UCb3EZh_i45GYHeNdTddjt6w"
 
   # Example of adding a new link to the footer section:
   # [[params.social]]
