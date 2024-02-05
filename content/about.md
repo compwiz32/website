@@ -1,6 +1,6 @@
 ---
 title: About Me
-image: ''https://i.imgur.com/M6qDOot.jpg''
+image: 'https://i.imgur.com/M6qDOot.jpg'
 ---
 Hey there, I'm Mike. Thanks for stopping by...
 
