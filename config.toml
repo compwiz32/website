@@ -141,7 +141,12 @@ paginate = 6
     link = "https://github.com/compwiz32"
 
   [[params.social]]
-    icon = "ion-logo-chatboxes"
+    icon = "ion-star"
+    name = "Microsoft MVP Profile"
+    link = "https://mvp.microsoft.com/en-us/PublicProfile/5004073"
+
+  [[params.social]]
+    icon = "ion-chatbubbles"
     name = "Mastodon"
     link = "https://fosstodon.org/@mikekanakos"
 
@@ -149,6 +154,12 @@ paginate = 6
     icon = "ion-logo-youtube"
     name = "YouTube"
     link = "https://www.youtube.com/channel/UCb3EZh_i45GYHeNdTddjt6w"
+
+  [[params.social]]
+    icon = "ion-people"
+    name = "Meetup"
+    link = "https://www.meetup.com/Research-Triangle-PowerShell-Users-Group/"
+
 
   # Example of adding a new link to the footer section:
   # [[params.social]]
