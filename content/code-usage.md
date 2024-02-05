@@ -1,6 +1,6 @@
 ---
 title: Steal My Code!
-image: 'https://unsplash.com/photos/person-using-black-laptop-computer-I_pOqP6kCOI'
+image: '/images/Unsplash-TwoComputers.jpg'
 ---
 
 
@@ -45,3 +45,6 @@ Under the following terms:
  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">The Command Line Ninja website and associated code found on website</span> was created by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.commandline.ninja/">Mike Kanakos</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
 
 <hr>
+
+
+Photo by <a href="https://unsplash.com/@freestocks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">freestocks</a> on <a href="https://unsplash.com/photos/person-using-black-laptop-computer-I_pOqP6kCOI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
