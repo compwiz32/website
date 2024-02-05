@@ -1,6 +1,6 @@
 ---
 layout: contact
-title: Contact
+title: Reach out and say, Hi!
 image: '/images/Tin-Can-Messaging.jpg'
 ---
 
