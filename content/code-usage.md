@@ -14,9 +14,9 @@ Stealing sounds wrong, and in fact, claiming someone else's work as your own is 
 
 I encourage you to use the code I post on this website for your own personal use. However, you need to understand a few important things before you do so.
 
-### The code I share is not exactly what I use in production, but it's close**.
+### The code I share is not exactly what I use in production, but it's close**
 
-Often, I write my code using my home lab as the test bed to prove or verify the concepts I share in my articles. Just because it works for me in my small environment, doesn't mean it's ready for production deployment in your org! I will make every effort to call ou tin my articles if I think the code I have writtten is good for using in coporate settings, but you still need to to test my code, BEFORE your run it.
+Often, I write my code using my home lab as the test bed to prove or verify the concepts I share in my articles. Just because it works for me in my small environment, doesn't mean it's ready for production deployment in your org! I will make every effort to call out in my articles if I think the code I have written is good for using in coporate settings, but you still need to to test my code, BEFORE your run it.
 
 ### You can use my code, but you still need to give me the credit
 
