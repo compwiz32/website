@@ -16,29 +16,29 @@ paginate = 6
     weight = 1
 
   [[menu.main]]
-    name = "Archive"
+    name = "Archives"
     url = "/posts/"
     weight = 2
-
-  [[menu.main]]
-    name = "Authors"
-    url = "/authors/"
-    weight = 3
 
   [[menu.main]]
     name = "Tags"
     url = "/tags/"
     weight = 4
 
-[[menu.main]]
+  [[menu.main]]
     name = "About Me"
     url = "/about/"
     weight = 5
 
-[[menu.main]]
+  [[menu.main]]
     name = "Steal My Code"
     url = "/code-usage/"
     weight = 6
+
+  # [[menu.main]]
+  #   name = "Authors"
+  #   url = "/authors/"
+  #   weight = 3
 
 
   # [[menu.main]]
@@ -80,7 +80,7 @@ paginate = 6
   [params.cta_button]
     enable = true
     cta_button_link = "/contact/"
-    cta_button_text = "Drop me a message"
+    cta_button_text = "REach out and say, Hi!"
 
 
 [params]
