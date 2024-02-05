@@ -4,15 +4,15 @@ image: '/images/MK-PSChatt.jpg'
 ---
 Hey there, I'm Mike. Thanks for stopping by...
 
-I am 25+ year veteran of IT infrastructure and operations, I often have to figure out how to solve problems in interesting ways. Over the past 10 years, automation has changed the way I work. Honestly, it has completely transformed my professional life and opened doors in Information Technology that I never thought possible. Automation and scripting changed everything for me, and I never went back. Since then, I have spent 1000s of hours trying to learn how to do things with code. It's been an amazing, but sometimes frustrating journey! Over time, I understood the importance of sharing my knowledge with others.
+I have been working in IT for over 25 years, and I thoroughly enjoy finding creative solutions to challenges. Automation has revolutionized the way I work in the past decade. Since embracing automation and scripting, I have dedicated 1000s hours to learning how to accomplish tasks through coding, and it has been an incredible but occasionally frustrating journey. As time went on, I realized the importance of sharing my knowledge with others.
 
-I am currently employed by Align Technology and oversee a global team focused on developing automation tools for on-prem and cloud technologies like AzureAD, Exchange, Server Management, and core Active Directory technologies. Every day, I am immersed in automation. I get to see what works and what doesn't.
+This website serves as a platform for me to share the tips and tricks I have learned over the years that have played a crucial role in my success with automation. My writing primarily revolves around PowerShell, Active Directory, Azure AD, automation fundamentals, and other topics that system administrators encounter in their daily routines. Through my articles, I provide solutions to common issues and offer insights into efficient coding. I discuss the problems I face at work and share solutions to assist others.
 
-This website allows me to share the tips and tricks I've learned over the years that have been instrumental in my automation success. My writing focuses on PowerShell, Active Directory, Azure AD, automation fundamentals, and other topics that sysadmins encounter in their daily routines. My articles provide solutions for common issues and offer tips for efficient coding. I talk about the problems I encounter at work and share solutions to support others.
+Currently, I am employed at Align Technology, where I oversee a global team focused on developing automation tools for on-prem and cloud technologies such as AzureAD, Exchange, Server Management, and core Active Directory technologies. Automation is a part of my daily life, and I am constantly exposed to what works and what doesn't.
 
-Besides blogging, I am very active in the PowerShell community and I leverage those contacts to bring great content to you every month at this website and through the user group I lead. The Research Triangle PowerShell user group is the largest PowerShell group in the United States with over 3000 members and we meet twice a month to share ideas with community members. I'm also the community director for the DevOps Collective and their website, PowerShell.org.
+Besides blogging, I am an active member of the PowerShell community. I am the co-lead of the Research Triangle PowerShell user group. We are the largest PowerShell group in the United States, with over 3000 members. We meet twice a month to exchange ideas with fellow community members. I also serve as the community director for the DevOps Collective and their website, PowerShell.org.
 
-I made this website to help others learn PowerShell and automation. Besides this website, I write often for technical websites and online publications. Here's a list of places and things I've contributed to that you might like.
+Apart from this website, I frequently contribute to technical websites and online publications. Here is a list of places and projects where I have made contributions you might find interesting.
 
 - [PowerShell Conference Book volume 1](https://leanpub.com/powershell-conference-book?ref=commandline.ninja)
 - [PowerShell Conference Book volume 2](https://leanpub.com/psconfbook2?ref=commandline.ninja)
@@ -21,3 +21,6 @@ I made this website to help others learn PowerShell and automation. Besides this
 - [4sysops.com](https://4sysops.com/members/mkanakos/)
 - [TechTarget.com](https://www.techtarget.com/contributor/Mike-Kanakos)
 - [Progress/Ipswitch.com](https://www.ipswitch.com/blog/author/mike-kanakos)
+
+
+[Speaker flag]('./images/MK-Speaker-Flag')

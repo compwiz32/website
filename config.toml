@@ -35,6 +35,12 @@ paginate = 6
     url = "/about/"
     weight = 5
 
+[[menu.main]]
+    name = "Steal My Code"
+    url = "/code-usage/"
+    weight = 6
+
+
   # [[menu.main]]
   #   name = "Pages"
   #   weight = 5
