@@ -1,6 +1,6 @@
 ---
-title: About Me
-image: '/images/MK-Speaker-Flag.jpg'
+title: Let me help you learn the fundamentals of writing good code!
+image: '/images/MK-PSChatt.jpg'
 ---
 Hey there, I'm Mike. Thanks for stopping by...
 
