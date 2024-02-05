@@ -122,7 +122,7 @@ paginate = 6
   #-------------------------------
   # Footer Settings
   [params.footer]
-    footer__description = "Features productivity, tips, inspiration and strategies for massive profits. Find out how to set up a successful blog or how to make yours even better!"
+    footer__description = "Connect with me on social media and explore my code repositories."
 
   # Social Links
   [[params.social]]
@@ -141,12 +141,12 @@ paginate = 6
     link = "https://github.com/compwiz32"
 
   [[params.social]]
-    icon = "ion-star"
+    icon = "ion-icon-star"
     name = "Microsoft MVP Profile"
     link = "https://mvp.microsoft.com/en-us/PublicProfile/5004073"
 
   [[params.social]]
-    icon = "ion-chatbubbles"
+    icon = "ion-icon-chatbubbles"
     name = "Mastodon"
     link = "https://fosstodon.org/@mikekanakos"
 
@@ -156,7 +156,7 @@ paginate = 6
     link = "https://www.youtube.com/channel/UCb3EZh_i45GYHeNdTddjt6w"
 
   [[params.social]]
-    icon = "ion-people"
+    icon = "ion-icon-people"
     name = "Meetup"
     link = "https://www.meetup.com/Research-Triangle-PowerShell-Users-Group/"
 
