@@ -101,7 +101,7 @@ paginate = 6
   #-------------------------------
   # Tags Section Settings
   [params.tags_section]
-    enable = true
+    enable = false
     number_posts = 9 # To control how many posts to show under each tag section, set the value to a number. Three is the default.
     number_columns = 3 # You can specify the number of columns from 1-4 for large screen resolution. By default, the theme uses three columns grid.
 
