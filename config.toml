@@ -109,13 +109,7 @@ paginate = 6
     tag = "Jumpstarts"
 
   [[params.tag]]
-    tag = "PowerShell"
-
-  [[params.tag]]
     tag = "Cloud"
-
-  [[params.tag]]
-    tag = "ActiveDirectory"
 
   [[params.tag]]
     tag = "Community"
