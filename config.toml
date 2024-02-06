@@ -208,7 +208,7 @@ paginate = 6
 
 [taxonomies]
   author = "authors"
-  tag = "topics"
+  tag = "tags"
 
 
 [markup]
