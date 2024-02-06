@@ -95,7 +95,7 @@ paginate = 6
   [params.hero]
     enable = true
     hero__title = "Learn PowerShell. Write Code. Automate Tasks."
-    hero__description = "Learn how to create great code, automate tasks and increase your efficiency."
+    hero__description = "Learn how to write great code, automate tasks and increase your efficiency."
 
 
   #-------------------------------
