@@ -22,7 +22,7 @@ paginate = 6
 
   [[menu.main]]
     name = "Topics"
-    url = "/tags/"
+    url = "/topics/"
     weight = 4
 
   [[menu.main]]
@@ -109,7 +109,13 @@ paginate = 6
     tag = "Jumpstarts"
 
   [[params.tag]]
+    tag = "PowerShell"
+
+  [[params.tag]]
     tag = "Cloud"
+
+  [[params.tag]]
+    tag = "Active-Directory"
 
   [[params.tag]]
     tag = "Community"
@@ -202,7 +208,7 @@ paginate = 6
 
 [taxonomies]
   author = "authors"
-  tag = "tags"
+  tag = "topics"
 
 
 [markup]
