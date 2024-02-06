@@ -106,16 +106,16 @@ paginate = 6
     number_columns = 3 # You can specify the number of columns from 1-4 for large screen resolution. By default, the theme uses three columns grid.
 
   [[params.tag]]
-    tag = "ActiveDirectory"
-
-  [[params.tag]]
-    tag = "Azure"
-
-  [[params.tag]]
-    tag = "Power_Shell"
-
-  [[params.tag]]
     tag = "Jumpstarts"
+
+  [[params.tag]]
+    tag = "PowerShell"
+
+  [[params.tag]]
+    tag = "Cloud"
+
+  [[params.tag]]
+    tag = "ActiveDirectory"
 
   [[params.tag]]
     tag = "Community"
