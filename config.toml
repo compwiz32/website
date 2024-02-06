@@ -22,7 +22,7 @@ paginate = 6
 
   [[menu.main]]
     name = "Topics"
-    url = "/topics/"
+    url = "/tags/"
     weight = 4
 
   [[menu.main]]
