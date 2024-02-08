@@ -101,7 +101,7 @@ paginate = 6
   #-------------------------------
   # Tags Section Settings
   [params.tags_section]
-    enable = false
+    enable = true
     number_posts = 9 # To control how many posts to show under each tag section, set the value to a number. Three is the default.
     number_columns = 3 # You can specify the number of columns from 1-4 for large screen resolution. By default, the theme uses three columns grid.
 
@@ -157,7 +157,7 @@ paginate = 6
     link = "https://mvp.microsoft.com/en-us/PublicProfile/5004073"
 
   [[params.social]]
-    icon = "ion-icon-chatbubbles"
+    icon = "ion-logo-mastodon"
     name = "Mastodon"
     link = "https://fosstodon.org/@mikekanakos"
 
@@ -184,8 +184,8 @@ paginate = 6
   # Newsletter
   [params.mailchimp]
     enable = true
-    mailchimp__title = "Get interesting news"
-    mailchimp__description = "Subscribe to our newsletter and we'll send you the emails of latest posts."
+    mailchimp__title = "Sign up for my weekly summary digest"
+    mailchimp__description = "Subscribe and receive a weekly email summary of my newest posts. Zero spam, zero nonsense."
     mailchimp__identifier = "frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3" # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
     mailchimp__input__text = "Your email address"
     mailchimp__button__text = "Subscribe"
