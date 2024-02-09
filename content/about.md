@@ -10,7 +10,7 @@ Currently, I am employed at Align Technology, where I oversee a global team focu
 
 This website serves as a platform for me to share the tips and tricks I have learned over the years that have played a crucial role in my success with automation. My writing primarily revolves around PowerShell, Active Directory, Azure AD, automation fundamentals, and other topics that system administrators encounter in their daily routines. Through my articles, I provide solutions to common issues and offer insights into efficient coding. I discuss the problems I face at work and share solutions to assist others.
 
-![Speaker flag]('/images/MK-Speaker-Flag.jpg')
+![Speaker flag](/images/MK-Speaker-Flag.jpg)
 
 Besides blogging, I am an active member of the PowerShell community. I am the co-lead of the Research Triangle PowerShell user group. We are the largest PowerShell group in the United States, with over 3000 members. We meet twice a month to exchange ideas with fellow community members. I also serve as the community director for the DevOps Collective and their website, PowerShell.org.
 
@@ -24,9 +24,9 @@ Apart from this website, I frequently contribute to technical websites and onlin
 
 **My Published Articles:**
 
-- [Petri.com](https://petri.com/author/mike-kanakos/)
-- [4sysops.com](https://4sysops.com/members/mkanakos/)
-- [TechTarget.com](https://www.techtarget.com/contributor/Mike-Kanakos)
-- [Progress/Ipswitch.com](https://www.ipswitch.com/blog/author/mike-kanakos)
+- [Petri](https://petri.com/author/mike-kanakos/)
+- [4sysops](https://4sysops.com/members/mkanakos/)
+- [TechTarget](https://www.techtarget.com/contributor/Mike-Kanakos)
+- [Progress/Ipswitch](https://www.ipswitch.com/blog/author/mike-kanakos)
 
 
