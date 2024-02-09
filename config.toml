@@ -133,7 +133,7 @@ paginate = 6
   #-------------------------------
   # Footer Settings
   [params.footer]
-    footer__description = "Connect with me on social media and explore my code repositories."
+    footer__description = "Let's connect!"
 
   # Social Links
   [[params.social]]
