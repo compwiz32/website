@@ -4,23 +4,25 @@ image: '/images/Unsplash-TwoComputers.jpg#wide'
 ---
 
 
-I stumbled across a great post on [Stack Overflow](https://stackoverflow.blog/2020/05/20/good-coders-borrow-great-coders-steal/) talking about taking code from others and using it for your own. I liked it so much, that I decided to use the core of the article to explain how I feel about others using my code.
+I stumbled across a great post on [Stack Overflow](https://stackoverflow.blog/2020/05/20/good-coders-borrow-great-coders-steal/) talking about taking code from others and using it for your own. I liked it so much, that I used the core of the article to explain how I feel about others using my code.
 
-The famous artist Pablo Picasso is quoted as saying:
+Many people attribute the quote to the famous artist Pablo Picasso:
 
 > "Good artists borrow, great artists steal."
 
-Stealing sounds wrong, and in fact, claiming someone else's work as your own is plagiarism. But the quote above is using the word "steal" to say something a little different.. A borrowed object still belongs to someone else; you copy a style and it still belongs to someone else. To steal, however, is to make that idea your own. Taking credit for someone else's idea is borrowing; understanding an idea and weaving it into your own work, that's what he meant by theft.
+Taking something without permission is just plain wrong, especially when you pretend it's yours. That's plagiarism. But the quote I mentioned earlier uses "steal" to mean something different. When you borrow something, it's still someone else's. If you want to own an idea, you need to make it yours. You need to learn from that idea and then explain in your own way.
+
+> Taking credit for someone else's idea is borrowing; understanding an idea and weaving it into your own work, that's what he meant by theft.
 
 I encourage you to use the code I post on this website for your own personal use. However, you need to understand a few important things before you do so.
 
 ### The code I share is not exactly what I use in production, but it's close**
 
-Often, I write my code using my home lab as the test bed to prove or verify the concepts I share in my articles. Just because it works for me in my small environment, doesn't mean it's ready for production deployment in your org! I will make every effort to call out in my articles if I think the code I have written is good for using in corporate settings, but you still need to to test my code, BEFORE your run it.
+My home lab serves as the testing ground where I write and verify the code for the concepts I discuss in my articles. What works for me in my small environment may not be suitable for production deployment in your organization. I'll make every attempt to mention in my articles whether the code I've written is appropriate for corporate settings, but it's crucial to test it before running.
 
 ### You can use my code, but you still need to give me the credit
 
-Please, please, please... Think twice before blindly copying code and running it in your org! I am not responsible if you blow up things in your network because you copied my code! Now, with all that said... Here's the rules governing the fair use of my code and the articles written on this sight.
+Let me be real with you... I wanna do my bit and assist others. I just want to be acknowledged for helping people. Neglecting to acknowledge your sources undermines the core principles of a thriving community. You're not contributing to what came before you. Your actions are harming the open source community and compromising the knowledge sharing process. Just do the right thing and give credit if you borrow from my site.
 
 ## Creative Commons License and Usage Guidelines
 
@@ -45,6 +47,5 @@ Under the following terms:
  <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">The Command Line Ninja website and associated code found on website</span> was created by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.commandline.ninja/">Mike Kanakos</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
 
 <hr>
-
 
 Photo by <a href="https://unsplash.com/@freestocks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">freestocks</a> on <a href="https://unsplash.com/photos/person-using-black-laptop-computer-I_pOqP6kCOI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
