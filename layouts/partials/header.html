@@ -4,16 +4,7 @@
     <div class="row">
       <div class="header__inner col col-12">
 
-        <div class="logo">
-          <a class="logo__link" href="{{ .Site.BaseURL }}">
-            {{ if or (.Site.Params.logo) (.Site.Params.logo_dark) }}
-            <img class="logo__image" src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" alt="{{ .Site.Title }}">
-            <img class="logo__image__dark" src="{{ .Site.BaseURL }}{{ .Site.Params.logo_dark }}" alt="{{ .Site.Title }}">
-            {{ else }}
-              {{ .Site.Title }}
-            {{ end }}
-          </a>
-        </div>
+
 
         <div class="hamburger">
           <div></div>
