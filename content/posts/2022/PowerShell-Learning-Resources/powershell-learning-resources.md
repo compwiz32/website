@@ -3,7 +3,7 @@ title: PowerShell Learning Resources
 description: Need to skill up on PowerShell? Here's a list of resources I recommend to get your yourself started learning .
 date: 2022-01-05 15:01:35 +0300
 authors: [admin]
-image: '/images/2022/01/Learning.jpg'
+image: '/Learning.jpg'
 tags: [jumpstarts, PowerShell]
 featured: true
 ---
