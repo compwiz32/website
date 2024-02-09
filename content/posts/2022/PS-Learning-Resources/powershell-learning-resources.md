@@ -3,7 +3,7 @@ title: PowerShell Learning Resources
 description: Need to skill up on PowerShell? Here's a list of resources I recommend to get your yourself started learning .
 date: 2022-01-05 15:01:35 +0300
 authors: [admin]
-image: '/Learning.jpg'
+image: '/images/2022/PS-Learning-Resources/Learning-Head-Image.jpg'
 tags: [jumpstarts, PowerShell]
 featured: true
 ---
@@ -14,7 +14,7 @@ There are a multitude of answers to that question. Some individuals favor books,
 
 ## If you like to learn from books
 
-[Learn Windows PowerShell in a Month of Lunches vol 3 - Don Jones & Jeff Hicks](https://www.manning.com/books/learn-windows-powershell-in-a-month-of-lunches-third-edition?ref=commandline.ninja)
+[Learn Windows PowerShell in a Month of Lunches vol.3 - Don Jones & Jeff Hicks](https://www.manning.com/books/learn-windows-powershell-in-a-month-of-lunches-third-edition?ref=commandline.ninja)
 
 If you have no experience with PowerShell, then this is one book I recommend over all the others. The authors, Don Jones and Jeff Hicks, are the best in the business and write in a way that is simple to understand and follow along with.
 
@@ -26,7 +26,7 @@ There are two follow-ups to this book that are equally great. These are follow o
 
 [Learn PowerShell Scripting in a Month of Lunches - Don Jones & Jeff Hicks](https://www.manning.com/books/learn-powershell-scripting-in-a-month-of-lunches?ref=commandline.ninja)
 
-Learn how to move from the interactive cmd prompt to repeatable scripts. This is a great first step in automation once you have finished the first month of lunches book listed above.
+Learn how to move from the interactive command prompt to repeatable scripts. This is a great first step in automation once you have finished the first month of lunches book listed above.
 
 [Learn PowerShell Toolmaking in a Month of Lunches - Don Jones & Jeff Hicks](https://www.manning.com/books/learn-powershell-toolmaking-in-a-month-of-lunches?ref=commandline.ninja)
 
@@ -64,14 +64,13 @@ Hey, come check out my user group! We post all of our meetings to YouTube and no
 
 Microsoft's learn website is not technically a blog site. Rather, it is guided learning site that consists of collections of technical and educational articles.
 
-If you haven't visted this resources in the last six months, then you owe yourself to take another look. Microsoft has built a fantastic learning resource which has guided paths to follow depending on what you want to learn. This resource covers all of PowerShell as well as other pupular topics like Azure, SQl, PowerBI, etc. You will need some time to get through all the content available. Highly recommend.
+If you haven't visited this resources in the last six months, then you owe yourself to take another look. Microsoft has built a fantastic learning resource which has guided paths to follow depending on what you want to learn. This resource covers all of PowerShell as well as other popular topics like Azure, SQL, PowerBI, etc. You will need some time to get through all the content available. Highly recommend.
 
 [PlanetPowerShell](https://www.planetpowershell.com/)
 
 The easiest way to keep up with the mountain of PowerShell content is to use an RSS reader and subscribe to Planet PowerShell. It is a PowerShell blog aggregator that this site and about 100 others are a part of. One RSS subscription keeps you tied to the best content.
 
 [Petri](https://petri.com/category/powershell/)
-
 
 [4Sysops](https://4sysops.com/?ref=commandline.ninja)
 
@@ -85,7 +84,6 @@ Adam and his cronies put out a volume of content not matched by anyone. His arti
 
 The blog of Jeff Hicks who is maybe the best teacher of PowerShell in the business. Jeff is a true pro with a gift to share. Jeff produces a blog post every two weeks and they are all worth reading.
 
-
 [PowerShellExplained](https://powershellexplained.com/?ref=commandline.ninja)
 
 The online home of Kevin Marquette! If you are looking for a deep dive on some of the fundamental coding concepts of the PowerShell language, then this is the place to go! Kevin's tutorials are bookmark worthy and I visit his pages all the time for refreshers and details on PowerShell key concepts.
@@ -96,7 +94,7 @@ The online home of Kevin Marquette! If you are looking for a deep dive on some o
 
 Come join me and my peers for an interactive learning session! We meet on the 1st and 3rd Wednesday of the month. Content ranges from basic to advanced, but we always welcome all levels of knowledge. Come spend time in a place with other IT pros and share some knowledge.
 
-I like to say our usergroup is like no other place on the internet to experience the PowerShell community. Come join us and see why we say that!
+I like to say our user group is like no other place on the internet to experience the PowerShell community. Come join us and see why we say that!
 
 [New York PowerShell User Group](https://www.meetup.com/NycPowershellMeetup?ref=commandline.ninja)
 
