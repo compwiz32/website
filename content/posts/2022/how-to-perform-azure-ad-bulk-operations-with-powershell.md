@@ -1,9 +1,9 @@
 ---
 categories: ["Azure", "PowerShell"]
 date: 2022-02-07 13:00:00 +0300
-description: ""When you need to make changes in bulk, PowerShell is the optimal choice when you need to make large-scale changes.""
+description: "When you need to make changes in bulk, PowerShell is the optimal choice for large-scale modifications."
 draft: false
-image: "/images/2022/AzureAD-Bulk-Operations/alvaro-reyes-qWwpHwip31M-unsplash.jpg"
+image: "/images/2022/AzureAD-Bulk-Operations/alvaro-reyes-unsplash.jpg"
 slug: "how-to-perform-azure-ad-bulk-operations-with-powershell"
 tags: ["Azure", "PowerShell"]
 title: "How to perform Azure AD bulk operations with PowerShell"
