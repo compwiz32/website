@@ -15,4 +15,4 @@ While the Azure portal provides a graphical interface for user and group managem
 
 Head on over to the TechTarget website to read this article, which offers a thorough deep-dive comparison of the AzureAD and AZ modules for making bulk changes. Head on over to the website by visiting [this link](https://www.techtarget.com/searchwindowsserver/tutorial/How-to-perform-Azure-AD-bulk-operations-with-PowerShell).
 
-You can find all of my articles for TechTarget at [my author webpage](https://www.techtarget.com/contributor/Mike-Kanakos).
+You can find all of my articles for TechTarget at [my author webpage](https://www.techtarget.com/contributor/Mike-Kanakos)
