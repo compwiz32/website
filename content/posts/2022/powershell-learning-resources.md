@@ -14,8 +14,7 @@ There are a multitude of answers to that question. Some individuals favor books,
 
 ## If you like to learn from books
 
-[Learn Windows PowerShell in a Month of Lunches vol.3](https://www.manning.com/books/learn-windows-powershell-in-a-month-of-lunches-third-edition?ref=commandline.ninja)
-
+[Learn Windows PowerShell in a Month of Lunches vol.3](https://www.manning.com/books/learn-windows-powershell-in-a-month-of-lunches-third-edition?ref=commandline.ninja)\
 Don Jones & Jeff Hicks
 
 If you have no experience with PowerShell, then this is one book I recommend over all the others. The authors, Don Jones and Jeff Hicks, are the best in the business and write in a way that is simple to understand and follow along with.
@@ -26,22 +25,22 @@ The book is available as a paper book, e-book or online. I used the online versi
 
 There are two follow-ups to this book that are equally great. These are follow on books that pickup where the first book ends. You can go wrong with any of the books in this series.
 
-[Learn PowerShell Scripting in a Month of Lunches](https://www.manning.com/books/learn-powershell-scripting-in-a-month-of-lunches?ref=commandline.ninja)
+[Learn PowerShell Scripting in a Month of Lunches](https://www.manning.com/books/learn-powershell-scripting-in-a-month-of-lunches?ref=commandline.ninja)\
 Don Jones & Jeff Hicks
 
 Learn how to move from the interactive command prompt to repeatable scripts. This is a great first step in automation once you have finished the first month of lunches book listed above.
 
-[Learn PowerShell Toolmaking in a Month of Lunches](https://www.manning.com/books/learn-powershell-toolmaking-in-a-month-of-lunches?ref=commandline.ninja)
+[Learn PowerShell Toolmaking in a Month of Lunches](https://www.manning.com/books/learn-powershell-toolmaking-in-a-month-of-lunches?ref=commandline.ninja)\
 Don Jones & Jeff Hicks
 
 Learn how to create tools you can share with others. Learn the advanced concepts of PowerShell in easy to digest bite-size nuggets.
 
-[Windows PowerShell in Action, Third Edition](https://www.manning.com/books/windows-powershell-in-action-third-edition?ref=commandline.ninja)
+[Windows PowerShell in Action, Third Edition](https://www.manning.com/books/windows-powershell-in-action-third-edition?ref=commandline.ninja)\
 Bruce Payette and Richard Siddaway
 
 A great book but probably not the best place to start. This book is written by one of the PowerShell original designers (Bruce Payette) and Richard Siddaway (a Microsoft MVP). Both gentlemen have a legendary knowledge of PowerShell and have written a book that gets into some of the deep pieces of PowerShell.
 
-[PowerShell Practice Primer](https://leanpub.com/psprimer?ref=commandline.ninja)
+[PowerShell Practice Primer](https://leanpub.com/psprimer?ref=commandline.ninja)\
 Jeff Hicks
 
 Jeff has written a book that is nothing but challenges to help you test your knowledge and reinforce the minor details that get forgotten about PowerShell. The book contains 100+ PowerShell challenges to improve your PowerShell proficiency and enhance your PowerShell learning skills.
