@@ -112,7 +112,7 @@ paginate = 6
     tag = "PowerShell"
 
   [[params.tag]]
-    tag = "Cloud"
+    tag = "Azure"
 
   [[params.tag]]
     tag = "Active-Directory"
