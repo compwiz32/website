@@ -15,6 +15,7 @@ There are a multitude of answers to that question. Some individuals favor books,
 ## If you like to learn from books
 
 [Learn Windows PowerShell in a Month of Lunches vol.3](https://www.manning.com/books/learn-windows-powershell-in-a-month-of-lunches-third-edition?ref=commandline.ninja)
+
 Don Jones & Jeff Hicks
 
 If you have no experience with PowerShell, then this is one book I recommend over all the others. The authors, Don Jones and Jeff Hicks, are the best in the business and write in a way that is simple to understand and follow along with.
