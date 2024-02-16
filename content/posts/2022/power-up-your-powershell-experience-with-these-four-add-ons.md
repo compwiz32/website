@@ -1,13 +1,12 @@
 ---
 date: 2022-04-20 13:10:00 +0300
-description: ""The PowerShell devs have added new tools and functionality that makes your life easier in PowerShell. Let me show how to use these new toys!""
+description: "The PowerShell devs have added new tools and functionality that makes your life easier in PowerShell. Let me show how to use these new toys!"
 draft: false
 image: '/images/2022/Four-PowerShell-Addons/Windows-Terminal.webp'
 slug: "PowerShell-Addons"
-tags: ["PowerShell", "PSReadLine", "PSStyle"]
+tags: [PowerShell, PSReadLine, PSStyle]
 title: "Power Up your PowerShell experience with these four add-ons"
 authors: [admin]
-
 ---
 
 
