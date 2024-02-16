@@ -1,15 +1,14 @@
-+++
-categories = ["Azure"]
-date = 2022-02-02T13:00:00Z
-description = ""
-draft = false
-image = "__GHOST_URL__/content/images/2022/01/introducing-azure-devops.png"
-slug = "video-intro-to-azure-devops"
-summary = "Azure DevOps is a great option to consider for use as an on-prem task scheduler for your Windows Servers."
-tags = ["Azure"]
-title = "Video Intro to Azure DevOps"
+---
+categories: ["Azure"]
+date: 2022-02-02 13:00:00 +0300
+description: ""Azure DevOps is a great option to consider for use as an on-prem task scheduler for your Windows Servers.""
+draft: false
+image: /images/2022/01/AZDevOps-VideoIntro/introducing-azure-devops.png
+slug: "video-intro-to-azure-devops"
+tags: ["Azure"]
+title: "Video Intro to Azure DevOps"
 
-+++
+---
 
 
 A few months ago I gave a demo that focused on using Azure DevOps as alternative  to the traditional task scheduler for on-prem servers. The demo which was done for the [Southern California PowerShell User Group](https://www.meetup.com/SoCal-PowerShell-User-Group/) is just under two hours and takes you from the basics of signing in, right through to configuring pipelines and using secrets for your jobs. Most people don't think of Azure DevOps as a task scheduler replacement at first glance, but it's got all the pieces you need to run jobs on-prem or from the cloud. One of the great things about this configuration is that Azure DevOps is surprisingly cheap to run as an on-prem task scheduler. In fact, the cost can be as low as $0 a month if you don't need to have concurrent jobs running in parallel.
