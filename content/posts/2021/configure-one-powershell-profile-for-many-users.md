@@ -1,7 +1,7 @@
 ---
-date: 2021-02-15T15:10:00 +0300
+date: 2021-02-15 15:10:00 +0300
 draft: false
-image: "/images/2021/One-PSProfile/OneProfile-Common-Location-1.png"
+image: /images/2021/One-PSProfile/OneProfile-Common-Location-1.png#wide
 slug: "configure-one-powershell-profile-for-many-users"
 description: "Learn how to use one PowerShell profile script for multiple users on a box. Configure your profile settings once and be done for all users! "
 tags: ["PowerShell", "PowerShell Profiles"]
