@@ -6,20 +6,21 @@
   <div class="row">
     <div class="col col-10 col-w-12">
       <div class="post__head">
-  
+
         <div class="post__meta">
         <div class="post__tags">
           {{ range ($.GetTerms "tags") }}
             <a href="{{ .Permalink }}" class="post__tag">{{ .LinkTitle }}</a>
           {{ end }}
         </div>
-          <span class="article__date">•<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2 Jan, 2006" }}</time></span>
-        </div>
-  
+          <span class="article__date">•<time datetime="{{ .Date.Format "Jan 2, 2006" }}">{{ .Date.Format "Jan 2, 2006" }}</time></span>
+      </div>
+
+
         {{ if .Title }}
         <h1 class="post__title">{{ .Title }}</h1>
         {{ end }}
-  
+
         {{ if .Params.description }}
         <div class="post__description">{{ .Params.description }}</div>
         {{ end }}
@@ -43,7 +44,7 @@
 
     <div class="col col-9 col-w-8 col-d-12">
       <article class="post">
-    
+
         {{ if .Params.video_embed }}
         <div class="post-video">
           <div class="post-video__wrap">
