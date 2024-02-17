@@ -37,7 +37,7 @@ Each user who launches a PowerShell session will have a PowerShell profile. It i
 
 But if you try to browse to the location listed above, you will find that there is no file in the folder listed above. Oddly enough, the profile script file isn't created automatically; you have to do it manually. Here's what happens when I tried to open the file stated on one of my test VM's in PowerShell v5:
 
-![Profile script is missing from user profile](/images/2021/One-PSProfile/Missing-Profile-Script.jpg)
+![Profile script is missing from user profile](/images/2021/One-PSProfile/Missing-Profile-Script.png)
 
 There's multiple ways to create the script file. You can browse to the folder an create and empty .ps1 file with the correct name and you are set. You can also use PowerShell to create a blank file for you very easily.
 
