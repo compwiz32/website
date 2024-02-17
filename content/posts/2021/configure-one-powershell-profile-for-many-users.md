@@ -10,9 +10,9 @@ featured: true
 ---
 
 
-Most workplaces today practice the idea of working with the least set of privileges as possible. In these IT shops, admins and support staff use multiple ID's throughout the day to get their job done. PowerShell allows for each ID to have its own profile, each with its own set of configurations, shortcuts, code snippets, etc. This can be incredibly useful for customizing your work environment differently for each user ID.
+The prevailing practice in most workplaces is to operate with the fewest privileges necessary. Admins and support staff in IT shops rely on multiple IDs to perform their tasks. In PowerShell, it's possible to assign a separate profile to each ID, complete with individual configurations, shortcuts, code snippets, and so on. This feature allows you to customize your work environment uniquely for each user ID, which can be incredibly useful.
 
-But what about if you don't want to customize each profile? What if you have a profile you configured EXACTLY as you like and you want all your ID's to use the same profile? Let me walk you through how I tackled this issue with a simple, elegant solution that is easy to implement and maintain.
+But what if you don't feel like customizing every profile? Imagine you have a profile that is set up exactly the way you want it. What if you want all your IDs to use that same profile? Let me show you step by step through how I solved this problem with a solution that is both simple and elegant, making it easy to implement and maintain.
 
 ## Article Contents
 
@@ -25,21 +25,23 @@ But what about if you don't want to customize each profile? What if you have a p
 
 ## A primer on PowerShell profiles
 
-Before I can fully explain my solution, we need to cover some of the important parts of PowerShell profiles and how they work. Profiles allow a user to customize their experience to their liking. Each profile allows for custom configurations to be tailored to each user. If you're not super knowledgeable on PowerShell profiles, you can get up to speed by reading the built-in help inside of PowerShell: `help about_profiles` . I love the description they give so much that I am quoting it verbatim:
+Before delving into my solution, it is essential to discuss the crucial components of PowerShell profiles and how they work. Profiles allow a user to customize their experience to their liking. Each user can personalize their PowerShell profiles with custom configurations. If you're not well-versed in PowerShell profiles, you can familiarize yourself by reading the built-in help in PowerShell: `help about_profiles`. I'm quoting the description exactly because I love it so much.
 
 *You can create a PowerShell profile to customize your environment and to add session-specific elements to every PowerShell session that you start.*
 
-*A PowerShell profile is a script that runs when PowerShell starts. You can use the profile as a logon script to customize the environment. You can add commands, aliases, functions, variables, snap-ins, modules, and PowerShell drives. You can also add other session-specific elements to your profile so they are available in every session without having to import or re-create them.*
+*A PowerShell profile is a script that runs when PowerShell starts. You can use the profile as a logon script to customize the environment. Commands, aliases, functions, variables, snap-ins, modules, and PowerShell drives can be added. You can also add other session-specific elements to your profile so they are available in every session without having to import or re-create them.*
 
-Each user who launches a PowerShell session will have a PowerShell profile. It is a PowerShell script that runs every time you launch a PowerShell session, and you can add many things to the profile to make it work exactly as you wish. The automatic variable `$profile` reveals the path to your PowerShell profile location. As you might expect, your PowerShell profile is part of your Windows profile.
+When a user starts a PowerShell session, it generates a corresponding PowerShell profile. This PowerShell script runs whenever you start PowerShell, and you can customize it to your liking. You can find your PowerShell profile location with the `$profile` variable. Naturally, your PowerShell profile is included in your Windows profile.
 
 ![Displaying Your Profile Path](/images/2021/One-PSProfile/Displaying-yourprofile-path.png)
 
-But if you try to browse to the location listed above, you will find that there is no file in the folder listed above. Oddly enough, the profile script file isn't created automatically; you have to do it manually. Here's what happens when I tried to open the file stated on one of my test VM's in PowerShell v5:
+However, attempting to access the mentioned location will reveal an empty folder. Strangely, the profile script file does not generate on its own. You need to create it manually. When I tried to open the file mentioned on one of my test VMs in PowerShell v5, here's what happened.
 
 ![Profile script is missing from user profile](/images/2021/One-PSProfile/Missing-Profile-Script.png)
 
-There's multiple ways to create the script file. You can browse to the folder an create and empty .ps1 file with the correct name and you are set. You can also use PowerShell to create a blank file for you very easily.
+You can create the script file in several ways.
+- You can browse to the folder and create an empty .ps1 file.
+-You can also use PowerShell to create a blank file for you.
 
 ```PowerShell
 # Create a blank .ps1 profile script
@@ -49,11 +51,11 @@ if (!(Test-Path -Path $PROFILE)) {
 }
 ```
 
-Since I will be talking about profiles located in multiple locations throughout the article, I'll state this once here and it will cover all profiles mentioned in this article. PowerShell will populate the `$profile` variable with a path to a file. **You will need to create this file in order to do what is outlined in this article. You will also need to create profile scripts for the various other profiles I reference in this article.** I don't know why Microsoft doesn't auto create the file for you, but that is the default behavior. Refer to this [Microsoft doc](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.1) for a good explainer on all things related to PowerShell profiles.
+Since profiles mentioned in this article are in multiple locations, I'll state this once to cover them all. PowerShell assigns the path to a file to the `$profile` variable. In order to follow the instructions in this article, you must create this file. You will also need to create profile scripts for the various other profiles I reference in this article.** I don't know why Microsoft doesn't auto create the file for you, but that is the default behavior. Refer to this [Microsoft doc](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.1) for a good explainer on all things related to PowerShell profiles.
 
-Once the file is created, you can add code to the file. From that point forward, whenever a PowerShell session starts, it loads the code inside your profile script into memory. Adding information into your profile saves you the hassle of manually loading all of your various settings and preferences every time you use PowerShell.
+Once the file is created, you can add code to the file. From that moment on, any time a PowerShell session starts, it will load the code in your profile script into memory. By adding information to your PowerShell profile, you can avoid the hassle of manually loading settings and preferences every time you use it.
 
-You probably already know that if you create a function, you need to dot-source the file to load it into memory before you can use it. You could place the code for your functions directly into your profile, then your functions will be loaded automatically every time you launch a new PowerShell session. Another great use of a profile is to add aliases to drives and folders that you often use. For example, you can set aliases to common folders so you don't have to type the full path. The possibilities with profile customization are quite extensive.
+When creating a function, it is necessary to dot-source the file for it to be loaded into memory prior to usage. Placing the code of your functions directly into your profile auto-loads them in every new PowerShell session. Another useful way to use a profile is by adding aliases to frequently used drives and folders. As a case in point, you can establish aliases for popular directories, sparing you the effort of typing out the entire path. There are many possibilities for customizing your profile.
 
 ```PowerShell
 # Aliases to frequently used folders
@@ -67,9 +69,9 @@ $InputDir: "C:\Scripts\Input"
 
 ### The problem with PowerShell profiles
 
-PowerShell offers many ways to use profiles to cover many scenarios. Each user that starts PowerShell has their own profile script. But that's not it, there are more PowerShell profiles to consider! Profiles are not just based per user, there are also PowerShell profiles for the different versions of PowerShell. That means there are profiles available for legacy Windows PowerShell (PSv5.x) and the newer PowerShell core (PSv6.x / 7.x).
+PowerShell offers a range of profile choices to handle diverse scenarios. When starting PowerShell, every user has their own profile script. But wait, there are more PowerShell profiles you need to consider! PowerShell profiles are not limited to individual users; there are also profiles specific to different versions of PowerShell. Profiles exist for both legacy Windows PowerShell (PSv5.x) and the newer PowerShell core (PSv6.x).
 
-I work with both Windows PowerShell (i.e. PowerShell v5.x) AND PowerShell Core (PowerShell v6.x / v7.x). I use PSv7 over 90% of the time, but I still need to run v5 to handle the few bits of legacy code that are still incompatible with v6/v7 versions of PowerShell. Even though they are both PowerShell, they are different and that's why they each get a profile.
+I use both Windows PowerShell (PowerShell v5.x) and PowerShell Core (PowerShell v6.x/v7.x) for my work. Despite relying heavily on PSv7, there are still instances where I have to use v5 to handle incompatible legacy code. Although they are both PowerShell, they warrant separate profiles due to their differences.
 
 ```PowerShell
 # Separate Profile Paths for Windows PowerShell and PowerShell Core
@@ -83,13 +85,13 @@ $profile
 C:\Users\mkana\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
 ```
 
-Earlier I mentioned the idea of operating with the least set of privileges and multiple ID's. I am required use to different ID's at work for the different roles I fulfill. My standard domain user ID is for everyday non-administrative activities, while I handle the more important tasks with my admin credentials. I also use other one-off credentials for very specific tasks, but I spend most of my time using two IDs.
+Earlier, I talked about the idea of utilizing the least number of privileges and having multiple IDs for operation. I have to use separate IDs for my various roles at work. I rely on my standard domain user ID for everyday tasks, but I switch to my admin credentials for more critical responsibilities. I occasionally use other unique credentials for specific tasks, but I primarily use two IDs.
 
-Two versions of PowerShell means two profiles to manage, and two IDs also means two more profiles to manage. That means I have four potential PowerShell profiles to maintain and configure. Having that much choice is wonderful... until it isn't. Adding settings for profiles in multiple locations can be tedious and a burden.
+Having two versions of PowerShell means managing two profiles and two IDs means I will need to manage two more profiles. In the end, I'm stuck dealing with and personalizing four PowerShell profiles. Having such a wide range of choices is fantastic. At some point, I realized that juggling four profiles was a hassle. 
 
-You can imagine having four profiles to maintain could be confusing, but in reality there's more profiles that I can use then what I have mention so far. PowerShell has profiles that are per user, per application AND then there are shared profiles, which can be used for more than one user. The table below shows the location of the user and shared profiles.
+You can imagine having four profiles to maintain could be confusing, but in reality there are more profiles that I can use than what I have mentioned so far. PowerShell includes per user profiles, per application profiles, and shared profiles, which can be used by multiple users. The table below shows the location of the user and shared profiles.
 
-Keep in mind that this table reflects PowerShell Core only; the same options exist for Windows PowerShell. I hope your seeing that using multiple ID's with PowerShell can provide many choices for customization but can become overwhelming if you don't have a plan. This article is not going to cover every option available or how to configure those options. I am merely pointing out that profiles have many options and that if you're aware of how they work, you could get yourself confused quickly. The [Microsoft doc](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.1) on profiles and locations is one of the best resources available to dive in deeper on the myriad of options.
+Remember that this table reflects PowerShell Core only; the same options exist for Windows PowerShell. Using multiple IDs in PowerShell allows for customization but can be overwhelming without proper planning. This article will not cover every option available or how to configure those options. If you're familiar with how profiles work, the multitude of options can easily become overwhelming. The [Microsoft doc](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.1) on profiles and locations is one of the best resources available to dive in deeper on the myriad of options.
 
 
 | **Description**            | **Path**                                                     |
@@ -102,29 +104,29 @@ Keep in mind that this table reflects PowerShell Core only; the same options exi
 
 ## **How I handle multiple profiles**
 
-When I work with PowerShell, I like to have a certain set of information available to me. I decided it was worth the effort to not only customize my profile but also customize my PowerShell command prompt. I have [written extensively](__GHOST_URL__/customize-pscmdprompt/) about how I did this. That article is a thorough analysis on how I made a specialized PowerShell command prompt so that every time I work in PowerShell I have the information displayed the way I prefer. I encourage you to take some time and read that article; I wrote as a lead-in to this article.
+When I work with PowerShell, I like to have a certain set of information available to me. I decided it was worth the effort to not only customize my profile but also customize my PowerShell command prompt. I have [written extensively](https://www.commandline.ninja/customize-pscmdprompt/) about how I did this. That article is a thorough analysis of how I made a specialized PowerShell command prompt so that every time I work in PowerShell I have the information displayed the way I prefer. I encourage you to take some time and read that article; I wrote as a lead-in to this article.
 
-One thing I did not cover in that article was how I use the same profile for all users and all versions of PowerShell. In short, I have ONE PROFILE for PS5 and PS7 regardless if I am logged in as my standard user account or my admin account. As I outlined earlier, many PowerShell options are great. But in reality I want the same information to be available for all profiles except for variables that point to file paths that I commonly use.
+One thing I did not cover in that article was how I use the same profile for all users and all versions of PowerShell. In short, I have ONE PROFILE for PS5 and PS7 regardless if I am logged in as my standard user account or my admin account. As I outlined earlier, many PowerShell options are great. In actuality, I would like the same information to be accessible across all profiles, excluding the variables for file paths that could be unique to a particular profile.
 
-So how did I do it? I started by looking at the various profiles and locations offered by PowerShell and figured out which one might give me the most flexibility. Looking at the table above, you can see there are two variables to understand: users and hosts. "Users" refers to the users of a particular computer. "All users" means all user profiles on my workstation.
+How did I manage to do it? I looked at all the profiles and locations available in PowerShell and tried to figure out which one would give me the most flexibility. Take a look at the table above, and you'll notice two variables to understand: users and hosts. "Users" means the people using a specific computer. "All users" refers to every user profile on my computer.
 
-"Hosts" refers to the programs or software applications that can use PowerShell. I discussed how PS5x and PS6x/7x have each have their own profiles. The same concept extends to PowerShell ISE and VSCode. Each can also have their own PowerShell profiles. It just adds two more choices and takes me farther away from what I was looking to accomplish.
+The term "hosts" in this context refers to programs or software applications that can use PowerShell. I talked about how PS5x and PS6x/7x have their own profiles. This also goes for PowerShell ISE and VSCode. Each can also have their own PowerShell profiles. It just gives me two more options and takes me farther from my original goal.
 
-Looking through the profiles available, you'll see one choice is `ALL HOSTS, ALL USERS`. It uses one profile script for all users of the computer and all applications that interact with PowerShell. This is exactly what I was looking for: one profile for all things PowerShell! Well, almost what I was looking for. There's one caveat here... ALL HOSTS isn't exactly ALL HOSTS FOR ALL VERSIONS of PowerShell. Instead, `AllHosts` means all programs that use the PSv5 engine and as you can imagine there is also an `AllHosts` that uses the PSv7 engine. I made a graphical representation to help explain this concept:
+If you look at the profiles, you'll see the option 'ALL HOSTS, ALL USERS'. It uses one profile script for everyone on the computer and all the apps that use PowerShell. This is exactly what I was searching for: one profile for everything PowerShell! Well, almost what I was looking for. There's one caveat here... ALL HOSTS isn't exactly ALL HOSTS FOR ALL VERSIONS of PowerShell. Instead, `AllHosts` means all programs that use the PSv5 engine and there is also an `AllHosts` that uses the PSv7 engine. I made a graphical representation to help explain this concept:
 
 ![How the AllHosts,AllUsers profile works](/images/2021/One-PSProfile/AllHosts-AllUsers-2.jpg)
 
-The image above shows that there is one `AllHosts, All Users` profile for PSv5 and another `AllHosts, All Users` profile for PowerShell v7. All applications and user ID's interacting with the PowerShell v5 engine use the same profile script, and all applications and user IDs interacting with PowerShell v7 use another profile script. For my setup, this isn't EXACTLY what I wanted, but it's close. Using this setup, I went from four profiles (PSv5-MKANAKOS, PSV5-MKANAKOS-ADMIN, PSv7-MKANAKOS, and PSV7-MKANAKOS-ADMIN) to just two profiles (PSv5 and PSv7). But I felt I could optimize this setup further. I continued to hunt for a better solution. What I didn't know at the time was that I already knew how to solve this issue, I just didn't realize it.
+The image above shows that there is one `AllHosts, All Users` profile for PSv5 and another `AllHosts, All Users` profile for PowerShell v7. All applications and user ID's interacting with the PowerShell v5 engine use the same profile script, and all applications and user IDs interacting with PowerShell v7 use another profile script. For my setup, this isn't EXACTLY what I wanted, but it's close. Using this setup, I went from four profiles (PSv5-MKANAKOS, PSV5-MKANAKOS-ADMIN, PSv7-MKANAKOS, and PSV7-MKANAKOS-ADMIN) to just two profiles (PSv5 and PSv7). But I felt I could optimize this setup further. I continued to hunt for a better solution. Turns out, I actually knew how to fix this problem without even realizing it.
 
 ### Managing all users and hosts from one profile
 
-The piece of information that I didn't realize that would be useful to solve my dilemma was dot-sourcing. I spent some time looking at my profile configuration and one thing popped out to me: I could use my functions without a profile by dot-sourcing them and loading them into memory. Having mentioned dot-sourcing twice now, maybe there's someone reading this who is not sure what I mean by dot-sourcing.
+The info I didn't know I needed was dot-sourcing. I spent some time looking at my profile configuration and one thing popped out to me: I could use my functions without a profile by dot-sourcing them and loading them into memory. Having mentioned dot-sourcing twice now, maybe there's someone reading this who is not sure what I mean by dot-sourcing.
 
-[Dot-sourcing](https://mcpmag.com/articles/2017/02/02/exploring-dot-sourcing-in-powershell.aspx) is a concept in PowerShell that allows you to reference code defined in one script (Script A) from a second script (Script B). If I have my function (Script A) loaded in a directory called `C:\Scripts` , I can call that function from my second script (Script B) and load it by starting a line of code with a `.` and a space and then typing the location where the file is located. The line of code would look this this: `. c:\scripts\myPowerShellScript.ps1` . Using this concept I could accomplish my goal: one profile script for all All Hosts, All users, and all versions of PowerShell. Let's look at how I implemented this. Actually, before we do that, let's talk about one caveat: I skipped that can be important in some scenarios.
+[Dot-sourcing](https://mcpmag.com/articles/2017/02/02/exploring-dot-sourcing-in-powershell.aspx) is a concept in PowerShell that allows you to reference code defined in one script (Script A) from a second script (Script B). If I have my function (Script A) loaded in a directory called `C:\Scripts` , I can call that function from my second script (Script B) and load it by starting a line of code with a `.` and a space and then typing the location where the file is located. The line of code would look this this: `. c:\scripts\myPowerShellScript.ps1` . Using this concept, I could accomplish my goal: one profile script for all All Hosts, All users, and all versions of PowerShell. Let's look at how I implemented this. Actually, before we do that, let's talk about one caveat I skipped that can be important in some scenarios.
 
 If you SHARE a machine (or a VM), then the solution I have been outlining needs some modifications. If you work on a server, then maybe you don't want the same profile for ALL users. In that case, there is another profile called `All Hosts, Current User` which would be a better fit. This would keep profiles between users separate, which is probably more appropriate in a shared environment.
 
-The goal here is to educate and let you understand the tools available, and then you configure your environment to fit your needs. Now that we are aware of that one caveat, let's march forward to how I implemented one singular profile to manage all scenarios.
+The idea is to teach you about the tools and help you set up your environment to suit you. Now that we know about that one issue, let's move on to how I made one profile to handle it all.
 
 ## **Configuring your workstation to use one profile**
 
