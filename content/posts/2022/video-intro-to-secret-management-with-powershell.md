@@ -6,7 +6,7 @@ image: "/images/2022/Secret-Mgmt-Video-Intro/Lock-and-Chain.webp"
 slug: "video-intro-to-secret-management"
 tags: ['PowerShell', 'Secret Management']
 title: "Video Intro to Secret Management with PowerShell"
-
+featured: true
 ---
 
 
