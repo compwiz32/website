@@ -1,32 +1,29 @@
 ---
-categories: ["PowerShell", "Split-Path", "Get-Date", "Get-History", "Write-Host", "Write-Output"]
-date: 2021-01-20T15:10:00 +0300
-
+date: 2021-01-20
 draft: false
-image: "/images/2021/01/WindowsTerminal.jpg"
+image: "/images/2021/Customize-PowerShell-Prompt/WindowsTerminal-Header.jpg"
 slug: "customize-pscmdprompt"
-description: "Learn how to customize your PowerShell cmd prompt with useful data "
-tags: ["PowerShell", "Split-Path", "Get-Date", "Get-History", "Write-Host", "Write-Output"]
+description: "Learn how to customize your PowerShell command prompt with useful data!"
+tags: ["PowerShell","Windows Terminal"]
 title: "How to customize your PowerShell command prompt"
-
+featured: true
 ---
-
 
 The command prompt that is presented on screen when you start PowerShell can be customized to your preferences. Many pieces of information can be added to the command prompt display to make it more useful. I recently invested some time to customize my command prompt with what I believe to be useful pieces of information.
 
-I would like to share with you how I customized my command prompt to display information such as the current folder and execution of the last command that was run. You can implement my customizations as is or you can create your own. Follow along and I will show you how I did it, then you will know how to make changes on your own. If you want to head straight to the finished code, just browse to the end of this post. 
+I would like to share with you how I customized my command prompt to display information such as the current folder and execution of the last command that was run. You can implement my customizations as is or you can create your own. Follow along and I will show you how I did it, then you will know how to make changes on your own. If you want to head straight to the finished code, just browse to the end of this post.
 
-##  My Personal Preferences
+## My Personal Preferences
 
-Have your seen other community people present onscreen and you wondered how they got they command prompt to be so tricked out? Yeah, so did I... One day I decided I was going to figure out how to customize my command prompt to my liking. First thing I had to figure was, what did I want to see in my command prompt? 
+Have your seen other community people present onscreen and you wondered how they got they command prompt to be so tricked out? Yeah, so did I... One day I decided I was going to figure out how to customize my command prompt to my liking. First thing I had to figure was, what did I want to see in my command prompt?
 
 When I work on PowerShell scripts and commands, I have found there is a certain set of information that is beneficial for me to have at my fingertips. I like my PowerShell command prompt to give me information about my work environment. I customized my prompt so I don't have to try to remember what directory I am in or if I am running as administrator or not. Here's what my personalized command prompt looks like:
 
-![My-Cmd-Prompt](/images/2021/01/My-Cmd-Prompt.png)
+![My Terminal Prompt](/images/2021/Customize-Cmd-Prompt/My-Cmd-Prompt.png)
 
 There are six customizations in my command prompt that I will be covering. Let's go through the items and explain what they are.
 
-![My-Cmd-Prompt-by-Item-1](/images/2021/01/My-Cmd-Prompt-by-Item-1.png)
+![My Terminal Prompt by Item](/images/2021/Customize-Cmd-Prompt/My-Cmd-Prompt-by-Item-1.png)
 
 - **Item 1** displays if I am **"running as administrator"**. This is sometimes referred to as "Elevated" or not. It disappears for non-elevated users.
 
@@ -38,7 +35,7 @@ There are six customizations in my command prompt that I will be covering. Let's
 
 - **Item 5** is the **execution time (or runtime) of the last command**. It displays the elapsed time in seconds or minutes, depending on how long the last command ran.
 
-- **Item 6** shows the **full path my command prompt is at**. It shows the entire path. 
+- **Item 6** shows the **full path my command prompt is at**. It shows the entire path.
 
 I'm going to walk through each one of these items and show how each one is built. But before I can jump into the six items above, let's talk about what executes these settings.
 
@@ -46,7 +43,7 @@ I'm going to walk through each one of these items and show how each one is built
 
 The information that is displayed when you launch PowerShell is configured by a built-in function called "Prompt". You can customize your command prompt by creating your own function called "Prompt" and saving your desired settings inside that function. You then add your "Prompt" function to your PowerShell profile and then your settings supersede the built-in prompt function.
 
-The PowerShell profile is loaded every time you open a new command prompt and loads the code contained in the profile into memory. Once I cover all the individual pieces, I'll show how to configure your profile to run your customized prompt function. But first, let's get started going through the details of how to make the prompt look like my screenshot above. 
+The PowerShell profile is loaded every time you open a new command prompt and loads the code contained in the profile into memory. Once I cover all the individual pieces, I'll show how to configure your profile to run your customized prompt function. But first, let's get started going through the details of how to make the prompt look like my screenshot above.
 
 Some information needed to customize the command prompt can be a bit complex and difficult to understand at first glance. I'll do my best to try to explain the code, but don't get down if you struggle with some of these code snippets. I pulled some of the snippets directly from Microsoft documentation. They don't need any modification at all to be used. If you understand what they do at a higher level, then that is enough for you to use this code in your script.
 
@@ -60,7 +57,7 @@ The choice to elevate happens when you start the command prompt. If you start yo
 $IsAdmin: (New-Object Security.Principal.WindowsPrincipal ([Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)
 ```
 
-For all the code examples in this article, I save the results that I need to customize my command prompt to variables. I then assemble those variables later on with specific formatting to display the results as I wish. I am saving the result from the elevation query to a variable called `$IsAdmin` for later use. Also please note, that code snippet is the hardest bit of code to understand. they get easier to understand as we move farther along. 
+For all the code examples in this article, I save the results that I need to customize my command prompt to variables. I then assemble those variables later on with specific formatting to display the results as I wish. I am saving the result from the elevation query to a variable called `$IsAdmin` for later use. Also please note, that code snippet is the hardest bit of code to understand. they get easier to understand as we move farther along.
 
 ## Displaying the Current User
 
@@ -78,9 +75,9 @@ This snippet saves the current user of the console to a variable named `$CmdProm
 
 I like to know what folder I am in, but displaying the full folder path inside my command prompt is problematic if I am working deep inside a set of nested folders. If I display the whole path, then my cursor may move all the way over to the right-most part of the console. By the time I type my commands, the line may wrap and make it difficult to read. I prefer to know the current folder I am in at all times, but I don't need to know the whole path; just the folder name.
 
-PowerShell has an automatic variable called `$PWD`. This variable shows the complete path of the current directory. That path can be split apart using the `Split-Path` cmdlet. I can use the `-leaf` parameter to display only the current folder. In the example below, I have switched to my documents directory. 
+PowerShell has an automatic variable called `$PWD`. This variable shows the complete path of the current directory. That path can be split apart using the `Split-Path` cmdlet. I can use the `-leaf` parameter to display only the current folder. In the example below, I have switched to my documents directory.
 
-![Display-the-current-folder](/images/2021/01/Display-the-current-folder.png)
+![Display the current folder](/images/2021/Customize-Cmd-Prompt/Display-the-current-folder.png)
 
 You can see that `$PWD` displays the full path. When I use the `-leaf` switch, it gives me just what I want: the folder name. I am saving the result to a variable named `$CmdPromptCurrentFolder` for later use.
 
@@ -94,7 +91,7 @@ I often scroll back through my recent history to see commands I previously run. 
 
 When the timestamp tweak is applied, the result is that the history now has a timestamp for all my previous commands display right there on the screen as I scroll back through my history. You can see in the screenshot below that I executed examples for this article over the course of a few hours. The timestamp helps me understand the history of commands better.
 
-![Time-Stamp-History](/images/2021/01/Time-Stamp-History.png)
+![Time Stamp History](/images/2021/Customize-Cmd-Prompt/Time-Stamp-History.png)
 
 Creating a timestamp can be done by running `Get-Date` with some formatting syntax and returning the result to the screen.  I am saving the result to a variable called `$Date`. Later on, I'll show where to use the `$Date` variable in the output.
 
@@ -111,15 +108,17 @@ To get the last command, I query the history using `Get-History` and then instru
 ```PowerShell
  $LastCommand: Get-History -Count 1
 ```
+
 <br>
 
-The information available `Get-History` also includes how long a command took to run (execution time). If I run `Get-History` in PS7, I can use the duration property to show how long the last execution time was. But duration isn't an available property in PS5. I use PS5 and PS7, and I would like my code to work in both environments. 
+The information available `Get-History` also includes how long a command took to run (execution time). If I run `Get-History` in PS7, I can use the duration property to show how long the last execution time was. But duration isn't an available property in PS5. I use PS5 and PS7, and I would like my code to work in both environments.
 
 I can do some math to calculate duration and know that it will work in PS5 & PS7. Execution time is calculated by subtracting end time from the start time. Both of those values are included in the history for PS5 and PS7; you just need to know how to access the properties. I am saving the result displayed in seconds to a variable named `$RunTime` because that is the best value for most commands I run.
 
 ```PowerShell
 $RunTime: ($lastCommand.EndExecutionTime - $lastCommand.StartExecutionTime).TotalSeconds
 ```
+
 <br>
 
 Once the runtime is computed, we can customize the output. However, there is one unique scenario to deal with: The first time the console is launched. In that situation, there is no "last command". To account for that, I use an `if` loop to detect if there is a last command. If there is a last command, compute the run time. Otherwise do nothing. It might not be obvious in the code, but the `if` statement is testing true / false for `$lastcommand`. The command reads like this: "If `$lastcommand` exists (aka $true), calculate the value."
@@ -127,11 +126,12 @@ Once the runtime is computed, we can customize the output. However, there is one
 ```PowerShell
 if ($lastCommand) { $RunTime: ($lastCommand.EndExecutionTime - $lastCommand.StartExecutionTime).TotalSeconds }
 ```
+
 <br>
 
 Recall earlier I mentioned that occasionally I have commands that take multiple minutes to complete. At some point, seconds becomes cumbersome when trying to understand length of time. For example, 286 seconds isn't easily converted in our heads to 4 minutes and 46 seconds. But we can design some code to convert seconds to minutes for long running queries.
 
-In the syntax below, I am testing the total runtime. If it's greater than 60 seconds, the code converts the seconds to minutes and seconds. If it's not, then just display the time in seconds. 
+In the syntax below, I am testing the total runtime. If it's greater than 60 seconds, the code converts the seconds to minutes and seconds. If it's not, then just display the time in seconds.
 
 ```PowerShell
 if ($RunTime -ge 60) {
@@ -144,11 +144,12 @@ else {
     $ElapsedTime: -join (($ElapsedTime.ToString()), " sec")
 }
 ```
+
 <br>
 
-This block of code may seem a bit daunting at first, let me explain what is happening here. When I calculate the run time of the last command from the start and end exection times, I get the value in seconds. but when the value is over 60, I am asking PowerShell create a timespan, because I want to display the time differently for that scenario. 
+This block of code may seem a bit daunting at first, let me explain what is happening here. When I calculate the run time of the last command from the start and end execution times, I get the value in seconds. but when the value is over 60, I am asking PowerShell create a timespan, because I want to display the time differently for that scenario.
 
-My goal is to be able to display the time in minutes and seconds. Since I start with seconds, I need to convert seconds to minutes and seconds and a timespan object does the work for me. 
+My goal is to be able to display the time in minutes and seconds. Since I start with seconds, I need to convert seconds to minutes and seconds and a timespan object does the work for me.
 
 ```PowerShell
 $ts
@@ -166,6 +167,7 @@ TotalSeconds      : 61.0119692
 TotalMilliseconds : 61011.9692
 
 ```
+
 <br>
 
 However, what I want to display is a string of text that prints the time on the screen, not actual time output. I have to convert the timespan to a string.
@@ -173,28 +175,30 @@ However, what I want to display is a string of text that prints the time on the 
 ```PowerShell
  $ts.ToString()
 00:01:01.0119692
-
 ```
+
 <br>
 
-Now I have a string version of the time. But I only want minutes and seconds. I can get just the minutes and seconds by going one step further. 
+Now I have a string version of the time. But I only want minutes and seconds. I can get just the minutes and seconds by going one step further.
 
 ```PowerShell
 $ts.ToString("mm\:ss")
 01:01
 
 ```
+
 <br>
 
-Now I have the time in minutes in seconds as a string. But I am still not done. I want to final output to look like this: `[01 min 01 sec]` . To do that, I need to split apart the time value into separate variables so I can append text in between. That happens with this line. 
+Now I have the time in minutes in seconds as a string. But I am still not done. I want to final output to look like this: `[01 min 01 sec]` . To do that, I need to split apart the time value into separate variables so I can append text in between. That happens with this line.
 
 ```PowerShell
 $min, $sec: ($ts.ToString("mm\:ss")).Split(":")
 
 ```
+
 <br>
 
-The line above splits the time output `01:01` into to two variables called `$min` and `$sec` . I can do that in one line by using the `.split` property and specify what to split on `.Split(":")`. PowerShell then deposits the two values into the two variables I specified. Now that I have two variables, I am using a `-join` statement to join the variables and some text to produce the output I desire `[01 min 01 sec]` . It seems like alot of code for a simple result, but I think the effort is worth the result.
+The line above splits the time output `01:01` into to two variables called `$min` and `$sec` . I can do that in one line by using the `.split` property and specify what to split on `.Split(":")`. PowerShell then deposits the two values into the two variables I specified. Now that I have two variables, I am using a `-join` statement to join the variables and some text to produce the output I desire `[01 min 01 sec]` . It seems like a bunch of code for a simple result, but I think the effort is worth the result.
 
 ```PowerShell
 if ($RunTime -ge 60) {
@@ -204,13 +208,12 @@ if ($RunTime -ge 60) {
 }
 ```
 
-
 ## Displaying the full folder path in the Title Bar
 
 Earlier I mentioned that I only wanted the current folder name I am working in to be displayed in my PS command prompt. However, I also realize the value of seeing the whole path. That's why I stuck the full path in the title bar of the window to use as a reference that is out of the way but easy to find when I need it. You may prefer something different. The title bar has its own built-in variable  `$host.ui.RawUI.WindowTitle` , I simply have to set it to my preference. I have added the words "Current Folder: " and the `$pwd` variable.
 
 ```powershell
-$host.ui.RawUI.WindowTitle: "Current Folder: $pwd"	
+$host.ui.RawUI.WindowTitle: "Current Folder: $pwd"
 ```
 
 ## Bringing it all together
@@ -231,11 +234,11 @@ Write-Host "[$elapsedTime] " -NoNewline -ForegroundColor Green
 return "> "
 ```
 
-Many articles you read will say how terrible it is to use the `Write-Host` cmdlet for displaying data. This is because when you use `Write-Host`, the data is displayed on the screen and can't be reused. In our script, we're only using the data for display, so `Write-Host` or its newer version `Write-Output` is acceptable to use. That block of code is probably a bit confusing, so let's walk through each line and explain what is happening. 
+Many articles you read will say how terrible it is to use the `Write-Host` cmdlet for displaying data. This is because when you use `Write-Host`, the data is displayed on the screen and can't be reused. In our script, we're only using the data for display, so `Write-Host` or its newer version `Write-Output` is acceptable to use. That block of code is probably a bit confusing, so let's walk through each line and explain what is happening.
 
-I am starting the formatting with a return of a blank line, this provides a little visual break from any previous commands. Then it is followed up with the formatting for the "elevated" info. 
+I am starting the formatting with a return of a blank line, this provides a little visual break from any previous commands. Then it is followed up with the formatting for the "elevated" info.
 
-If the command prompted is elevated, then it will display the word "Elevated" with a red background. If not elevated, then nothing is displayed. This is controlled by the if/else statement. I use the `-NoNewLine` parameter at the end because I want to display the bits of information next to each other on the same line. 
+If the command prompted is elevated, then it will display the word "Elevated" with a red background. If not elevated, then nothing is displayed. This is controlled by the if/else statement. I use the `-NoNewLine` parameter at the end because I want to display the bits of information next to each other on the same line.
 
 ```powershell
 Write-Host ""
@@ -248,41 +251,79 @@ Next is the formatting for displaying the current user info. I added the text "U
 
 ```powershell
 Write-Host " USER:$($CmdPromptUser.Name.split("\")[1]) " -BackgroundColor DarkBlue -ForegroundColor White -NoNewline
-```
+
+
 <br>
 
 The next line displays the current folder. I spent a long time trying different color combinations and settled on Grey. I have added in some slashes to make the output look like a folder path. Once again, `-NoNewLine` is used to prevent a line break. By using `-NoNewLine` on this line of code along with the two previous lines, I have kept the Red, Blue and Grey blocks of text on one line.
 
-```powershell
+```PowerShell
 Write-Host ".\$CmdPromptCurrentFolder\ "  -ForegroundColor White -BackgroundColor DarkGray -NoNewline
 ```
+
 <br>
 
+The last bit of information on the first line of text is the timestamp. This time I do not use the `-NoNewLine` property because I now want to start a new line after displaying the `$date` variable. Remember that I formatted the date to my preference when I saved the variable.
 
-The last bit of information on the first line of text is the timestamp. This time I do not use the `-NoNewLine` property because I now want to start a new line after displaying the `$date` variable. Remember that I formatted the date to my preference when I saved the variable. 
-
-```powershell
+```PowerShell
 Write-Host " $date " -ForegroundColor White
 ```
+
 <br>
 
-The last piece of information being displayed is the `$ElapsedTime` variable. I added some simple formatting with brackets around the variable to make the output standout on the line. The last line starts with `return` and then displays the **>** symbol. The word `return` is a built-in function that tells the computer to exit the function. This is necessary so we can type at the command prompt and have it process the text as cmdlets and not as part of our function. 
+The last piece of information being displayed is the `$ElapsedTime` variable. I added some simple formatting with brackets around the variable to make the output standout on the line. The last line starts with `return` and then displays the **>** symbol. The word `return` is a built-in function that tells the computer to exit the function. This is necessary so we can type at the command prompt and have it process the text as cmdlets and not as part of our function.
 
-```powershell
+```PowerShell
 Write-Host "[$elapsedTime] " -NoNewline -ForegroundColor Green
 return "> "
 ```
+
 <br>
 
-That covers all the individual pieces of the console customizations I used to configure the console prompt as I wish. The full script is listed below. You can add the script to your profile and when you launch PowerShell, you should have a customized command prompt.  
+That covers all the individual pieces of the console customizations I used to configure the console prompt as I wish. The full script is listed below. You can add the script to your profile and when you launch PowerShell, you should have a customized command prompt.
 
-If you're reading this post in a RSS reader, then you may not see the script listed at the bottom of article in your feed. The script is an embedded link to a github gist. If you can't see the script, then visit the [post](__GHOST_URL__/customize-pscmdprompt) on my website and the script will be listed at the bottom. 
+If you're reading this post in a RSS reader, then you may not see the script listed at the bottom of article in your feed. The script is an embedded link to a github gist. If you can't see the script, then visit the [post](https://commandline.ninja/customize-pscmdprompt) on my website and the script will be listed at the bottom.
 
-If you want to see how I implemented this across multiple profiles, then take a look at the [follow-up article](https://networkadm.in/configure-one-powershell-profile-for-many-users) which dives into where to save the code and how to have one customized profile for all users AND for BOTH PowerShell5 and PowerShell7. It walks you though the setup process in great detail.
+If you want to see how I implemented this across multiple profiles, then take a look at the [follow-up article](https://commandline.ninja/configure-one-powershell-profile-for-many-users) which dives into where to save the code and how to have one customized profile for all users AND for BOTH PowerShell5 and PowerShell7. It walks you though the setup process in great detail.
 
-Thanks for reading, I'd love to know what you think. Leave me a message in the comment section at the bottom of the page.
+```PowerShell
+function prompt {
 
-<script src="https://gist.github.com/compwiz32/cde6f25f9a813e45884df61fec71cc72.js"></script>
+    #Assign Windows Title Text
+    $host.ui.RawUI.WindowTitle = "Current Folder: $pwd"
 
+    #Configure current user, current folder and date outputs
+    $CmdPromptCurrentFolder = Split-Path -Path $pwd -Leaf
+    $CmdPromptUser = [Security.Principal.WindowsIdentity]::GetCurrent();
+    $Date = Get-Date -Format 'dddd hh:mm:ss tt'
 
+    # Test for Admin / Elevated
+    $IsAdmin = (New-Object Security.Principal.WindowsPrincipal ([Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)
 
+    #Calculate execution time of last cmd and convert to milliseconds, seconds or minutes
+    $LastCommand = Get-History -Count 1
+    if ($lastCommand) { $RunTime = ($lastCommand.EndExecutionTime - $lastCommand.StartExecutionTime).TotalSeconds }
+
+    if ($RunTime -ge 60) {
+        $ts = [timespan]::fromseconds($RunTime)
+        $min, $sec = ($ts.ToString("mm\:ss")).Split(":")
+        $ElapsedTime = -join ($min, " min ", $sec, " sec")
+    }
+    else {
+        $ElapsedTime = [math]::Round(($RunTime), 2)
+        $ElapsedTime = -join (($ElapsedTime.ToString()), " sec")
+    }
+
+    #Decorate the CMD Prompt
+    Write-Host ""
+    Write-host ($(if ($IsAdmin) { 'Elevated ' } else { '' })) -BackgroundColor DarkRed -ForegroundColor White -NoNewline
+    Write-Host " USER:$($CmdPromptUser.Name.split("\")[1]) " -BackgroundColor DarkBlue -ForegroundColor White -NoNewline
+    If ($CmdPromptCurrentFolder -like "*:*")
+        {Write-Host " $CmdPromptCurrentFolder "  -ForegroundColor White -BackgroundColor DarkGray -NoNewline}
+        else {Write-Host ".\$CmdPromptCurrentFolder\ "  -ForegroundColor White -BackgroundColor DarkGray -NoNewline}
+
+    Write-Host " $date " -ForegroundColor White
+    Write-Host "[$elapsedTime] " -NoNewline -ForegroundColor Green
+    return "> "
+} #end prompt function
+```
