@@ -157,7 +157,8 @@ paginate = 6
     link = "https://mvp.microsoft.com/en-us/PublicProfile/5004073"
 
   [[params.social]]
-    name = "logo-mastodon"
+    icon = "ion-text"
+    name = "Mastodon"
     link = "https://fosstodon.org/@mikekanakos"
 
   [[params.social]]
@@ -166,7 +167,7 @@ paginate = 6
     link = "https://www.youtube.com/channel/UCb3EZh_i45GYHeNdTddjt6w"
 
   [[params.social]]
-    icon = "ion-icon-people"
+    icon = "ion-contacts"
     name = "Meetup"
     link = "https://www.meetup.com/Research-Triangle-PowerShell-Users-Group/"
 
