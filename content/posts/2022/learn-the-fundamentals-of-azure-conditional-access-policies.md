@@ -1,5 +1,5 @@
 ---
-date: 2022-02-22 13:10:00 +0300
+date: 2022-02-22
 description: Learn how AzureAD Conditional Access policies can control multi-factor authentication SSO attempts to the Azure cloud.
 draft: false
 authors: [admin]

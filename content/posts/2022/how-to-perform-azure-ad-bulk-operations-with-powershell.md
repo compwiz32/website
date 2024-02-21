@@ -1,6 +1,6 @@
 ---
 categories: ["Azure", "PowerShell"]
-date: 2022-02-07 13:00:00 +0300
+date: 2022-02-07
 description: "When you need to make changes in bulk, PowerShell is the optimal choice for large-scale modifications."
 draft: false
 authors: [admin]

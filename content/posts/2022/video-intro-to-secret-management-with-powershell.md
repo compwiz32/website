@@ -1,5 +1,5 @@
 ---
-date: 2022-01-03 15:00:00 +0300
+date: 2022-01-03
 description: "Learn how to use the Secret Management module from Microsoft to securely manage your passwords and secrets. This demo covers the basics of installation and usage, along with some information on using the Secret Management module with Azure KeyVault."
 draft: false
 image: "/images/2022/Secret-Mgmt-Video-Intro/Lock-and-Chain.webp"
@@ -7,6 +7,7 @@ slug: "video-intro-to-secret-management"
 tags: ['PowerShell', 'Secret Management']
 title: "Video Intro to Secret Management with PowerShell"
 featured: true
+authors: [admin]
 ---
 
 

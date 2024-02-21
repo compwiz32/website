@@ -115,7 +115,7 @@ paginate = 6
     tag = "Azure"
 
   [[params.tag]]
-    tag = "Active Directory2"
+    tag = "Active Directory"
 
   [[params.tag]]
     tag = "Community"

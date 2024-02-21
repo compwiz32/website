@@ -6,6 +6,7 @@ authors: [admin]
 image: '/images/2022/Use-PowerShell-Find-Svcs/Get-Service.jpg'
 tags: [PowerShell, Windows Services, CIM-WMI]
 featured: true
+authors: [admin]
 ---
 
 Article Contents:

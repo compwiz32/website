@@ -1,5 +1,6 @@
 ---
-date: 2022-02-02 13:00:00 +0300
+authors: [admin]
+date: 2022-02-02
 description: "Azure DevOps is a great option to consider for use as an on-prem task scheduler for your Windows Servers."
 draft: false
 image: /images/2022/AZDevOps-Video-Intro/introducing-azure-devops.webp

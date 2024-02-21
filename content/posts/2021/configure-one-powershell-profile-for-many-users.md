@@ -7,6 +7,7 @@ description: "Learn how to use one PowerShell profile script for multiple users 
 tags: ["PowerShell", "PowerShell Profiles"]
 title: "Configure one PowerShell profile for many users"
 featured: true
+authors: [admin]
 ---
 
 
@@ -87,7 +88,7 @@ C:\Users\mkana\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
 
 Earlier, I talked about the idea of utilizing the least number of privileges and having multiple IDs for operation. I have to use separate IDs for my various roles at work. I rely on my standard domain user ID for everyday tasks, but I switch to my admin credentials for more critical responsibilities. I occasionally use other unique credentials for specific tasks, but I primarily use two IDs.
 
-Having two versions of PowerShell means managing two profiles and two IDs means I will need to manage two more profiles. In the end, I'm stuck dealing with and personalizing four PowerShell profiles. Having such a wide range of choices is fantastic. At some point, I realized that juggling four profiles was a hassle. 
+Having two versions of PowerShell means managing two profiles and two IDs means I will need to manage two more profiles. In the end, I'm stuck dealing with and personalizing four PowerShell profiles. Having such a wide range of choices is fantastic. At some point, I realized that juggling four profiles was a hassle.
 
 You can imagine having four profiles to maintain could be confusing, but in reality there are more profiles that I can use than what I have mentioned so far. PowerShell includes per user profiles, per application profiles, and shared profiles, which can be used by multiple users. The table below shows the location of the user and shared profiles.
 

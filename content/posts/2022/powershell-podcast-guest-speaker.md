@@ -1,14 +1,14 @@
-+++
+---
 categories = ["Community", "PowerShell"]
-date = 2022-04-04T13:15:00Z
+date = 2022-04-04
 description = ""
 draft = false
 slug = "powershell-podcast-guest-speaker"
 summary = "I discuss community involvement, sharing your code, & being ok with the code you write on the PowerShell Podcast!"
 tags = ["Community", "PowerShell"]
 title = "Talking about community involvement on the new PowerShell Podcast"
-
-+++
+authors: [admin]
+---
 
 
 {{< figure src="__GHOST_URL__/content/images/2022/04/PowerShell-Podcast-Jordan_and_Andrew_z4rr2c_300x300-2.jpg" >}}

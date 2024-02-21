@@ -1,5 +1,5 @@
 ---
-date: 2022-04-20 13:10:00 +0300
+date: 2022-04-20
 description: "The PowerShell devs have added new tools and functionality that makes your life easier in PowerShell. Let me show how to use these new toys!"
 draft: false
 image: '/images/2022/Four-PowerShell-Addons/Windows-Terminal.webp'
