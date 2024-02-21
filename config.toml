@@ -157,7 +157,7 @@ paginate = 6
     link = "https://mvp.microsoft.com/en-us/PublicProfile/5004073"
 
   [[params.social]]
-    icon = "ion-logo-mastodon"
+    icon = "logo-mastodon"
     name = "logo-mastodon"
     link = "https://fosstodon.org/@mikekanakos"
 
