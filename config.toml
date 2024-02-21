@@ -153,12 +153,12 @@ paginate = 6
 
   [[params.social]]
     icon = "ion-icon-star"
-    name = "Microsoft MVP Profile"
+    name = "Star"
     link = "https://mvp.microsoft.com/en-us/PublicProfile/5004073"
 
   [[params.social]]
     icon = "ion-logo-mastodon"
-    name = "Mastodon"
+    name = "logo-mastodon"
     link = "https://fosstodon.org/@mikekanakos"
 
   [[params.social]]
