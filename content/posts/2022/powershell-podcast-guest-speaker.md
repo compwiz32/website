@@ -1,12 +1,10 @@
 ---
-categories = ["Community", "PowerShell"]
-date = 2022-04-04
-description = ""
-draft = false
-slug = "powershell-podcast-guest-speaker"
-summary = "I discuss community involvement, sharing your code, & being ok with the code you write on the PowerShell Podcast!"
-tags = ["Community", "PowerShell"]
-title = "Talking about community involvement on the new PowerShell Podcast"
+date: 2022-04-04
+description: I discuss community involvement, sharing your code, & being ok with the code you write on the PowerShell Podcast!
+draft: false
+slug: powershell-podcast-guest-speaker
+tags: [Community, PowerShell]
+title: Talking about community involvement on the new PowerShell Podcast
 authors: [admin]
 ---
 
