@@ -29,7 +29,7 @@
 
           <div class="section__info">
             <div class="section__head">
-              <h2 class="section__title"><a href="{{ "/tags/" | relLangURL }}{{ .tag | urlize }}" class="section__link">{{ humanize .tag | safeHTML }}</a></h2>
+              <h2 class="section__title"><a href="{{ "/tags/" | relLangURL }}{{ .tag | urlize }}" class="section__link">{{ .tag | safeHTML }}</a></h2>
               {{ if lt $number_posts $tags_range }}
               <a class="button" href="{{ "/tags/" | relLangURL }}{{ .tag | urlize }}">View all <i class="ion ion-ios-arrow-forward"></i></a>
               {{ else }}

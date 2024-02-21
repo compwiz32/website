@@ -156,10 +156,7 @@ paginate = 6
     name = "YouTube"
     link = "https://www.youtube.com/channel/UCb3EZh_i45GYHeNdTddjt6w"
 
-  [[params.social]]
-    icon = "ion-contacts"
-    name = "Meetup"
-    link = "https://www.meetup.com/Research-Triangle-PowerShell-Users-Group/"
+ # MK - You added social icons in widget-info.html file - see lines 26-27. You did this because this theme is built to v4 icons. The method in other file is for v5 icons.
 
 
   # Example of adding a new link to the footer section:
