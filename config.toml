@@ -152,7 +152,7 @@ paginate = 6
     link = "https://github.com/compwiz32"
 
   [[params.social]]
-    icon = "ion-logo-microsoft"
+    icon = "ion-logo-windows"
     name = "Microsoft"
     link = "https://mvp.microsoft.com/en-us/PublicProfile/5004073"
 
