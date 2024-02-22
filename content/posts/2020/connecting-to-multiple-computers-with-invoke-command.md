@@ -3,7 +3,7 @@ date: 2020-01-13
 title: Connecting to multiple computers with Invoke-Command
 draft: false
 authors: [admin]
-image: /images/2020/Connect-Multiple-Computers-Invoke-Command/roadways-compressed.jpg
+image: /images/2020/Connect-Multiple-Computers-Invoke-Command/roadways-compressed.webp
 slug: connecting-to-multiple-computers-with-invoke-command
 description: Learn how to connect to multiple computers from PowerShell with my guide on PowerShell Remoting and Invoke-Command.
 tags: [PowerShell, 'PowerShell Remoting']
@@ -88,7 +88,6 @@ $svrs: "svr01","svr02","svr03","svr04","svr05"
 Now I can use that variable in my syntax like so:
 
 ```PowerShell
-
 PS C:\ $results: invoke-command $svrs -ScriptBlock {get-date}  -Credential $MKAdmin
 
 PS C:\> $results | Select-Object PSComputerName, Date
@@ -126,6 +125,6 @@ This was a brief introduction on how to get started connecting to a remote compu
 
 ## Want more content on PowerShell Remoting?
 
-Head over to the [Jump Starts](__GHOST_URL__/tag/jumpstarts/) section on my website for more articles on how to work with and configure PowerShell remoting.
+Head over to the [Jump Starts](https://commandline.ninja/tags/jumpstarts/) section on my website for more articles on how to work with and configure PowerShell remoting.
 
 Cover Photo Credit: Denys Nevozhai on Unsplash
