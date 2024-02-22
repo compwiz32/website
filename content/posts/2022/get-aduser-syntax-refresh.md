@@ -3,7 +3,7 @@ date: 2022-04-11
 title: Get-ADUser Syntax and Examples Post Refresh
 draft: false
 authors: [admin]
-image: /images/2022/update-unsplash.jpg
+image: /images/2022/Get-ADUser-Refresh/update-unsplash.jpg
 slug: get-aduser-syntax-and-examples-post-refresh
 description: Explore Enhanced Examples of Extracting Data from Active Directory with Get-ADUser!
 tags: [PowerShell, 'Active Directory']
