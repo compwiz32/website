@@ -2,7 +2,7 @@
 date: 2018-05-14
 title: Get-ADUser - Cmdlet Syntax and Examples
 draft: false
-authors: [admin]
+authors: [mike]
 image: /images/2018/Get-aduser/get-aduser-header.webp
 slug: get-aduser-syntax-and-examples
 description: Follow this handy guide to learn how to pull the user data you need from Active Directory.
