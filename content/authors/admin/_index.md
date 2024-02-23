@@ -10,4 +10,4 @@ github: https://github.com/compwiz32
 mastodon: https://fosstodon.org/@mikekanakos
 rtpsug: https://www.meetup.com/research-triangle-powershell-users-group
 ---
-Mike Kanakos, a 3x Microsoft MVP, has over 25 years of expertise in PowerShell, Microsoft Server, Active Directory, and Azure technologies.
+Mike Kanakos, a 3x Microsoft MVP, has 25 years of experience and specializes in writing about PowerShell, Microsoft Server, Active Directory, and Azure technologies.
