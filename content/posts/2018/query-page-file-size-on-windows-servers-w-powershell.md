@@ -1,5 +1,6 @@
 ---
 date: 2018-08-30
+authors: [admin]
 description: Learn how to query the pagefile info of a computer via PowerShell along with sizing guidelines for page files on servers
 draft: false
 image: /images/2018/Query-Pagefile/Balloons.webp
