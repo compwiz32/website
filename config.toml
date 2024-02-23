@@ -84,8 +84,8 @@ paginate = 6
 
 
 [params]
-  logo = "/images/WebsiteLogo-Round.png" # You can add own logo. For example "/images/logo.png".
-  logo_dark = "/images/WebsiteLogo-Round.png"
+  logo = "/images/WebsiteLogo-Round.webp" # You can add own logo. For example "/images/logo.png".
+  logo_dark = "/images/WebsiteLogo-Round.webp"
   description = "CommandLine Ninja is the online home of Mike Kanakos!"
   color_scheme = "auto" # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
