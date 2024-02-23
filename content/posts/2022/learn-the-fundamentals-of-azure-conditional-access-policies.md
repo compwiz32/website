@@ -2,7 +2,7 @@
 date: 2022-02-22
 description: Learn how AzureAD Conditional Access policies can control multi-factor authentication SSO attempts to the Azure cloud.
 draft: false
-authors: [admin]
+authors: [mike]
 image: /images/2022/Conditional-Access-Policy-Fundamentals/Checkpoint.jpg
 tags: [Azure]
 title: "Learn the fundamentals of Azure AD Conditional Access policies"

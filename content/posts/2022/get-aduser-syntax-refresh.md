@@ -2,7 +2,7 @@
 date: 2022-04-11
 title: Get-ADUser Syntax and Examples Post Refresh
 draft: false
-authors: [admin]
+authors: [mike]
 image: /images/2022/Get-ADUser-Refresh/update-unsplash.jpg
 slug: get-aduser-syntax-and-examples-post-refresh
 description: Explore even more examples of pulling data from Active Directory with Get-ADUser!

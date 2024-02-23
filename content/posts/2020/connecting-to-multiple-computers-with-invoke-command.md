@@ -2,7 +2,7 @@
 date: 2020-01-13
 title: Connecting to multiple computers with Invoke-Command
 draft: false
-authors: [admin]
+authors: [mike]
 image: /images/2020/Connect-Multiple-Computers-Invoke-Command/roadways-compressed.webp
 slug: connecting-to-multiple-computers-with-invoke-command
 description: Learn how to connect to multiple computers from PowerShell with my guide on PowerShell Remoting and Invoke-Command.

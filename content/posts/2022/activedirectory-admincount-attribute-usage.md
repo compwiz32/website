@@ -3,7 +3,7 @@ tags: ["Active Directory", "PowerShell"]
 date: 2022-03-03
 description: "Learn what the AdminCount value in Active Directory is used for, its purpose, and how to set it correctly."
 draft: false
-authors: [admin]
+authors: [mike]
 image: '/images/2022/AD-Admin-Count/AdminCount-Header.jpg'
 slug: "activedirectory-admincount-attribute-usage"
 title: "Learn to adjust the AdminCount attribute for protected accounts"

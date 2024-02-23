@@ -7,7 +7,7 @@ slug: "video-intro-to-secret-management"
 tags: ['PowerShell', 'Secret Management']
 title: "Video Intro to Secret Management with PowerShell"
 featured: true
-authors: [admin]
+authors: [mike]
 ---
 
 

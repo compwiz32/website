@@ -5,7 +5,7 @@ draft: false
 slug: powershell-podcast-guest-speaker
 tags: [Community, PowerShell]
 title: Talking about community involvement on the new PowerShell Podcast
-authors: [admin]
+authors: [mike]
 ---
 
 

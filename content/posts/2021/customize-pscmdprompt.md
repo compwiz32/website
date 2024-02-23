@@ -7,7 +7,7 @@ description: "Learn how to customize your PowerShell command prompt with useful 
 tags: ["PowerShell","Windows Terminal"]
 title: "How to customize your PowerShell command prompt"
 featured: true
-authors: [admin]
+authors: [mike]
 ---
 
 The command prompt that is presented on screen when you start PowerShell can be customized to your preferences. Many pieces of information can be added to the command prompt display to make it more useful. I recently invested some time to customize my command prompt with what I believe to be useful pieces of information.

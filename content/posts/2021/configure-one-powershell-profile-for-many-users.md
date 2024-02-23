@@ -7,7 +7,7 @@ description: "Learn how to use one PowerShell profile script for multiple users 
 tags: ["PowerShell", "PowerShell Profiles"]
 title: "Configure one PowerShell profile for many users"
 featured: true
-authors: [admin]
+authors: [mike]
 ---
 
 

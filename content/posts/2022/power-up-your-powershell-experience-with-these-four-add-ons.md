@@ -6,7 +6,7 @@ image: '/images/2022/Four-PowerShell-Addons/Windows-Terminal.webp'
 slug: "PowerShell-Addons"
 tags: [PowerShell, PSReadLine, PSStyle]
 title: "Power Up your PowerShell experience with these four add-ons"
-authors: [admin]
+authors: [mike]
 ---
 
 
