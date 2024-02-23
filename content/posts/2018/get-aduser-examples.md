@@ -39,7 +39,7 @@ Exporting results to a file
 
 The Get-ADUser cmdlet gets a user object or performs a search to retrieve multiple user objects.
 
-The Identity parameter specifies the Active Directory user to get. You can identify a user by its distinguished name (DN), GUID, security identifier (SID), Security Accounts Manager (SAM) account name or name. You can also set the parameter to a user object variable, such as $<localUserObject> or pass a user object through the pipeline to the Identity parameter.
+The Identity parameter specifies the Active Directory user to get. You can identify a user by its distinguished name (DN), GUID, security identifier (SID), Security Accounts Manager (SAM) account name or name. You can also set the parameter to a user object variable, such as `$<localUserObject>` or pass a user object through the pipeline to the Identity parameter.
 SEARCHING FOR USERS
 
 To search for and retrieve multiple users, use the Filter or LDAPFilter parameters. The Filter parameter uses the PowerShell Expression Language to write query strings for Active Directory.
