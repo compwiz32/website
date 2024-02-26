@@ -162,17 +162,12 @@ If you haven't already transitioned to using `Get-CIMInstance` when querying WMI
 
 `Get-WMIObject` doesn't work on newer versions of Windows (Windows 10, 11, Server2016, Server2019 & Server 2022)
 
-I discuss the differences between CIM and WMI at length in my article on [How to secure PowerShell Remoting in a Windows Domain](https://www.networkadm.in/securing-powershell/)</p>
+I discuss the differences between CIM and WMI at length in my article on [How to secure PowerShell Remoting in a Windows Domain](https://commnadline.ninja/securing-powershell/)</p>
 </div>
 
 </body>
 </html>
 
-
-
-
->
-> ###  .*
 
 The lookup I need to perform for CIM is:
 
