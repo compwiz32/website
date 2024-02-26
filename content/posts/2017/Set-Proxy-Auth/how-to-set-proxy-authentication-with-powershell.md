@@ -4,7 +4,7 @@ description: "Configure a PowerShell session use an authenticated web proxy, suc
 tags: [PowerShell]
 date: 2017-10-11
 authors: [mike]
-image: /images/2019/01/castles-fence-love-symbol-39495.jpg
+image: /images/2017/Set-Proxy-Auth/castles-fence-love-symbol-39495.jpg
 slug: "how-to-set-proxy-authentication-with-powershell"
 draft: false
 ---
