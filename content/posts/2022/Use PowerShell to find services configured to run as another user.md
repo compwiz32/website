@@ -137,8 +137,27 @@ Houston, we have a problem!
 
 We'll need to consider using some other method of retrieving the relevant information in order to complete this request. Let's see what's available from WMI/CIM.
 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Callout Box Example</title>
+<style>
+.callout {
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-left: 6px solid #2196F3;
+}
+</style>
+</head>
+<body>
 
-<div class='callout-left full'><h3>A note about CIM and WMI</h3><p>I love CIM and you should learn to love it as well. CIM and WMI are the same thing, but you access CIM using the newer Get-CIMInstance cmdlet instead of Get-WMIObject. It's the newer, more modern version of WMI but uses PS remoting (aka WinRM) and falls back to WMI in most cases if CIM fails. It's like the best of both worlds! Your network team will love CIM over WMI because it uses standard ports instead of a range of ports like WMI uses!</p><p>    If you haven't already transitioned to using Get-CIMInstance when querying WMI, then you need to use Get-CIMInstance as your default method, instead of Get-WMIObject . Get-WMIObject` doesn't work on newer versions of Windows (Windows 10, 11, Server2016, Server2019 &amp; Server 2022)</p><p>    I discuss the differences between CIM and WMI at length in my article on How to secure PowerShell Remoting in a Windows Domain .</p></div>
+<div class="callout">
+  <p>This is a callout box. You can put any content here.</p>
+</div>
+
+</body>
+</html>
 
 
 
