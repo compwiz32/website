@@ -1,6 +1,6 @@
 ---
 title: "Get-ADOrganizationalUnit - Cmdlet Syntax and Examples"
-tags: ["Active-Directory", PowerShell]
+tags: ["active directory", PowerShell]
 date: 2018-05-05T05:06:15Z
 authors: [mike]
 draft: false
