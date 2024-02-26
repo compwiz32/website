@@ -153,7 +153,16 @@ We'll need to consider using some other method of retrieving the relevant inform
 <body>
 
 <div class="callout">
-  <p>This is a callout box. You can put any content here.</p>
+  <p>A note about CIM and WMI
+
+I love CIM and you should learn to love it as well. CIM and WMI are the same thing, but you access CIM using the newer `Get-CIMInstance` cmdlet instead of `Get-WMIObject`. It's the newer, more modern version of WMI but uses PS remoting (aka WinRM) and falls back to WMI in most cases if CIM fails.
+It's like the best of both worlds! Your network team will love CIM over WMI because it uses standard ports instead of a range of ports like WMI uses!
+
+If you haven't already transitioned to using `Get-CIMInstance` when querying WMI, then you need to use `Get-CIMInstance` as your default method, instead of `Get-WMIObject` .
+
+`Get-WMIObject` doesn't work on newer versions of Windows (Windows 10, 11, Server2016, Server2019 & Server 2022)
+
+I discuss the differences between CIM and WMI at length in my article on [How to secure PowerShell Remoting in a Windows Domain](https://www.networkadm.in/securing-powershell/)</p>
 </div>
 
 </body>
@@ -163,16 +172,7 @@ We'll need to consider using some other method of retrieving the relevant inform
 
 
 >
-> ### A note about CIM and WMI
->
-> *I love CIM and you should learn to love it as well. CIM and WMI are the same thing, but you access CIM using the newer `Get-CIMInstance` cmdlet instead of `Get-WMIObject`. It's the newer, more modern version of WMI but uses PS remoting (aka WinRM) and falls back to WMI in most cases if CIM fails.
-It's like the best of both worlds! Your network team will love CIM over WMI because it uses standard ports instead of a range of ports like WMI uses!
->
-> If you haven't already transitioned to using `Get-CIMInstance` when querying WMI, then you need to use `Get-CIMInstance` as your default method, instead of `Get-WMIObject` .
->`
-> `Get-WMIObject` doesn't work on newer versions of Windows (Windows 10, 11, Server2016, Server2019 & Server 2022)
->
-> I discuss the differences between CIM and WMI at length in my article on [How to secure PowerShell Remoting in a Windows Domain](https://www.networkadm.in/securing-powershell/) .*
+> ###  .*
 
 The lookup I need to perform for CIM is:
 
