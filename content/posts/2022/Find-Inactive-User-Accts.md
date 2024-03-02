@@ -145,6 +145,8 @@ Our search found multiple properties that show date/time logon information. One 
 </body>
 </html>
 
+<br>
+
 Notice how the delayed replication information could affect our query. The *LastLogonTimeStamp* is actually two days behind in this example. Every time a user interactively logs in, touches a network file share, or performs other activities they are authenticated, and that data is stored in Active Directory. However, our DC's could be overwhelmed in a large environment if they replicated logon time stamps EVERY TIME someone touched something on the network. Microsoft solves this problem by keeping multiple sets of logon information. Some of the logon information is accurate but not replicated, and some logon information replicates, but only occasionally.
 
 For our requirements, we don't need the EXACT logon time stamp. We only need to find accounts that haven't been used in awhile. Any value works, as long as the value is greater than 90 days. If we use my logon dates as an example, the time queried could be 11/11 or 11/13 depending on the value we use.
@@ -202,6 +204,7 @@ This code retrieves all users who haven't logged in over 90 days. We save the da
 </body>
 </html>
 
+<br>
 
 ```PowerShell
 $date = (get-date).AddDays(-90)
@@ -214,7 +217,6 @@ $paramhash = @{
 $SelectProps =            'Name','LastLogonDate','Enabled','DistinguishedName'
 
 $InactiveUsers = Get-Aduser @paramhash | Select-Object $SelectProps
-
 ```
 
 ```PowerShell
