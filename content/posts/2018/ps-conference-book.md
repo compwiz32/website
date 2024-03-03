@@ -3,13 +3,11 @@ title: "I'm published!"
 date: 2018-07-17
 authors: [mike]
 draft: false
-image: "/images/2018/ps-conf-book/psconfbook-cover2.webp"
+image: "/images/2018/ps-conf-book/header-image.webp"
 slug: "ps-conference-book"
-description: "The book is authored by over 30 different contributors who are subject matter experts in different areas and all (100%) of the royalties from "The PowerShell Conference Book" are automatically donated to the OnRamp Scholarship program through the "Leanpub for Causes" program."
+description: "The PowerShell Conference Book features contributions from over 30 experts in different fields, with all royalties benefiting the OnRamp Scholarship program."
 tags: ["PowerShell", "Active Directory", "Community"]
-
 ---
-
 
 Many of you may be wondering where I have been for the past few months. I had been regularly posting content once or twice a week but then things slowed down to a trickle and eventually to a full stop...
 
