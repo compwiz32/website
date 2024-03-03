@@ -150,7 +150,7 @@ If you already understand how a cmdlet works, then just seeing some examples of 
 
 I love the help cmdlet. As I mentioned earlier, I use it every single day and I encourage you to do the same. However, I don't love the help cmdlet when using a machine for the first time. That's because the included help in PowerShell contains only the absolute minimum information on a cmdlet. Nothing is more frustrating for me then running `Help` and getting back a skeleton help file. The solution for this is simple: run `Update-Help` and let PowerShell get the latest help files for all the installed modules on your machine from the internet. Updating help files takes about three minutes to complete and should be done at least once a quarter to keep your help files up to date.
 
-![Update-Help](/images/2019/12/2019-12-02_00-04-21.gif)
+![Update-Help](/images/2019/First-Five-Commands/Update-help.gif)
 
 ### 3. Get-Command
 
