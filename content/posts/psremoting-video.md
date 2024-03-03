@@ -3,7 +3,7 @@ title: "Video: Configuring PowerShell Remoting security & logging"
 date: 2019-11-11
 authors: [mike]
 draft: false
-image: "/images/2019/Video-Remoting/Intro-Screencap.jpg"
+image: "/images/2019/Video-Remoting/Intro-Screencap.webp"
 slug: "psremoting-video"
 description: "Remoting in PowerShell unfairly gets a bad rap in the security world.  When done right; PowerShell remoting is equal to SSH. "
 tags: ["PowerShell","PowerShell Remoting"]
