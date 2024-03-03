@@ -4,7 +4,7 @@ tags: [PowerShell]
 date: 2020-07-15
 authors: [mike]
 draft: false
-image: "/images/2020/Get-PCUptime/get-pcuptime.webp"
+image: "/images/2020/Get-PCUptime/clocks.jpg"
 slug: "find-out-how-long-that-pc-has-been-running-with-get-uptime"
 description: "Get-PCUptime is a PowerShell tool built to get the up-time from multiple computers quickly and display the results."
 ---
@@ -319,6 +319,6 @@ function Get-PCUptime {
 
 Here's what it looks like in use:
 
-![Get-PCInfo-in-Action](/images/2020/Get-PCUptime/getpcuptime.webp)
+![Get-PCInfo-in-Action](/images/2020/Get-PCUptime/get-pcuptime.webp)
 
 You can find a copy of this code in my [GitHub repo](https://github.com/compwiz32/PowerShell). The repo contains all tools I create and you are welcome to download them and use as you wish. I will include this function in a Tools module that I will blog about and share online via my repo. I'll be blogging about I how built some other tools in the module and also finally how I built the module in upcoming posts.
