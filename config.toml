@@ -106,7 +106,7 @@ paginate = 6
     number_columns = 3 # You can specify the number of columns from 1-4 for large screen resolution. By default, the theme uses three columns grid.
 
   [[params.tag]]
-    tag = "Jumpstarts"
+    tag = "Jump Starts"
 
   [[params.tag]]
     tag = "PowerShell"

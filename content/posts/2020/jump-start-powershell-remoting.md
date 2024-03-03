@@ -3,7 +3,7 @@ date: 2020-01-13
 title: "Jump Start: PowerShell Remoting"
 authors: [mike]
 draft: false
-tags: [JumpStarts, 'PowerShell Remoting',PowerShell]
+tags: [Jumpstarts, 'PowerShell Remoting',PowerShell]
 image: /images/2020/Jumpstart-Remoting/BartSimpson-Remoting.jpg
 slug: jump-start-powershell-remoting
 description: "Get up to speed quickly on all aspects of PowerShell remoting, logging and security with easy to follow articles and guides"
