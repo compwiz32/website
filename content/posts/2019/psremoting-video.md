@@ -3,7 +3,7 @@ title: "Video: Configuring PowerShell Remoting security & logging"
 date: 2019-11-11
 authors: [mike]
 draft: false
-image: "/images/2019/Vdeo-Remoting/Intro-Screencap.jpg"
+image: "/images/2019/Video-Remoting/Intro-Screencap.jpg"
 slug: "psremoting-video"
 description: "Remoting in PowerShell unfairly gets a bad rap in the security world.  When done right; PowerShell remoting is equal to SSH. "
 tags: ["PowerShell","PowerShell Remoting"]
@@ -15,7 +15,7 @@ Today I am sharing with you the [link](https://youtu.be/rvg8FNFkpco) to the reco
 
 I believe that remoting in PowerShell unfairly gets a bad rap in the security world and the truth is that when done right; PowerShell remoting is equal to SSH. The problem is that Microsoft and Windows get a bad rap because most people assume Windows is not secure.
 
-I invite you to watch the video and take notes. If you have questions, please reach out to me via the comments here or via the contact information posted int he video. Also, you can more links on this website that discuss remoting in detail.
+I invite you to watch the video and take notes. If you have questions, please reach out to me via the comments here or via the contact information posted in the video. Also, you can more links on this website that discuss remoting in detail.
 
 You can refer to these articles I have written for more information:
 
