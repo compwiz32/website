@@ -55,7 +55,7 @@ The highlighting can be useful when searching across multiple files at once. Her
 
 The highlighting of the matched text is a small change that makes a big impact.
 
-There are many ways to do the same searches with existing Select-String parameters like `-CaseSensitive`, `-NotMatch`, `-Quiet` adnd others. I won't review those parameters because they are not new, but keep in mind you can get creative with the paramteres and the highlighting will reflect differently for all those results.
+There are many ways to do the same searches with existing Select-String parameters like `-CaseSensitive`, `-NotMatch`, `-Quiet` and others. I won't review those parameters because they are not new, but keep in mind you can get creative with the parameters and the highlighting will reflect differently for all those results.
 
 Now I am sure you can imagine what the `-noemphasis` parameter does. If we perform the same search and add that parameter, we get the same results without highlighting.
 
