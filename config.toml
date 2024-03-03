@@ -17,7 +17,7 @@ paginate = 6
 
   [[menu.main]]
     name = "Articles"
-    url = "/posts/"
+    url = "/blog/"
     weight = 2
 
   [[menu.main]]
