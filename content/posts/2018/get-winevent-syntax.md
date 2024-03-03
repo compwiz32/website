@@ -7,7 +7,6 @@ image: /images/2018/Get-WinEvent/Get-WinEvent.webp
 slug: "get-winevent-syntax"
 description: "cmdlet syntax and real-world usage examples showing how to use the Get-WinEvent cmdlet"
 tags: [PowerShell, 'Event Logs']
-
 ---
 
 ## SYNOPSIS
