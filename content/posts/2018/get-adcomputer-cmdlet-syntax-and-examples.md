@@ -5,7 +5,7 @@ authors: [mike]
 draft: false
 image: /images/2018/Get-ADComputer/Get-ADComputer.webp
 slug: get-adcomputer-cmdlet-syntax-and-examples
-tags: [Active-Directory, PowerShell]
+tags: ['Active Directory', PowerShell]
 ---
 
 ## SYNOPSIS
