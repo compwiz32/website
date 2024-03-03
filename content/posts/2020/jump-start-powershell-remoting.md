@@ -4,7 +4,7 @@ title: "Jump Start: PowerShell Remoting"
 authors: [mike]
 draft: false
 tags: [JumpStarts, 'PowerShell Remoting',PowerShell]
-image: /images/2020/Jumpstart-Remoting/BartSimpson-Remoting.jpg
+image: /images/2020/Jumpstart-Remoting/BartSimpson-Remoting.webp
 slug: jump-start-powershell-remoting
 description: "Get up to speed quickly on all aspects of PowerShell remoting, logging and security with easy to follow articles and guides"
 
@@ -16,7 +16,7 @@ PowerShell remoting is a method you can use to connect securely to many machines
 Here's a collection of content I have created on PowerShell remoting that you can use to learn how to configure and use PowerShell remoting:
 <br>
 
-## [Connecting to multiple computers with Invoke-Command](https://www.commandline.ninja/connecting-to-multiple-computers-with-invoke-command/)
+### [Connecting to multiple computers with Invoke-Command](https://www.commandline.ninja/connecting-to-multiple-computers-with-invoke-command/)
 
 This article will get you started with how to connect to multiple computers from a PowerShell command prompt. Topics include connecting with Enter-PSSession, Invoke-Command and how to save and organize results.
 <br>
