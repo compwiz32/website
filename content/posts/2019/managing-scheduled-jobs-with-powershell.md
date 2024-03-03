@@ -3,7 +3,7 @@ title: "Managing Scheduled Jobs with PowerShell"
 date: 2019-10-28
 authors: [mike]
 draft: false
-image: "/images/2019/manage-Scheduled-Jobs/Task-Master.jpg"
+image: "/images/2019/manage-Scheduled-Jobs/Task-Master.webp"
 slug: "managing-scheduled-jobs-with-powershell"
 description: "Learn how to manage PowerShell scheduled jobs. Learn the benefits of managing scheduled jobs from the command line."
 tags: ["PowerShell"]
