@@ -14,4 +14,4 @@ Last week I was fortunate to have attended the PowerShell Summit in Bellevue, Wa
 Being that this was my first time attending, I honestly wasn't sure what to expect. Read about my experience over at the [4sysops website](https://4sysops.com/archives/powershell-summit-2018-recap/) .
 
 Click the link to go to the article:
-https://4sysops.com/archives/powershell-summit-2018-recap/
+<https://4sysops.com/archives/powershell-summit-2018-recap/>
