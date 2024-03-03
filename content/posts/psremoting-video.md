@@ -19,8 +19,8 @@ I invite you to watch the video and take notes. If you have questions, please re
 
 You can refer to these articles I have written for more information:
 
-* [How to secure PowerShell Remoting in a Windows Domain](https://www.commandline.ninja/securing-powershell/)
-* [WMI vs CIM: What's the Difference?](https://www.commandline.ninja/wmi-vs-cim-whats-the-difference/)
+* [How to secure PowerShell Remoting in a Windows Domain](https://commandline.ninja/posts/securing-powershell/)
+* [WMI vs CIM: What's the Difference?](https://commandline.ninja/posts/wmi-vs-cim-whats-the-difference/)
 
 I have also written about this topic in the PowerShell conference Book volume 2 which will be released in the Fall of 2019.
 

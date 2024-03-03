@@ -162,7 +162,7 @@ If you haven't already transitioned to using `Get-CIMInstance` when querying WMI
 
 `Get-WMIObject` doesn't work on newer versions of Windows (Windows 10, 11, Server2016, Server2019 & Server 2022)
 
-I discuss the differences between CIM and WMI at length in my article on [How to secure PowerShell Remoting in a Windows Domain](https://commandline.ninja/securing-powershell/)</p>
+I discuss the differences between CIM and WMI at length in my article on [How to secure PowerShell Remoting in a Windows Domain](https://commandline.ninja/posts/securing-powershell/)</p>
 </div>
 
 </body>
@@ -250,7 +250,7 @@ I have three servers I am going to query: DC01, DC02, and AZBuild01. There are m
 
 The syntax for PowerShell Remoting is dead simple to use. The cmdlet we'll use is `Invoke-Command` (or ICM alias). We could have used `Enter-PSSession` to connect to each server interactively. Instead, `Invoke-Command` will connect to up to 32 computers in one shot in the background. It will retrieve the information I ask for and return the data to me in a formatted output.
 
-> If you're not familiar with how to use `Invoke-Command`, visit my [Jump Start: PowerShell Remoting Article](https://www.networkadm.in/jump-start-powershell-remoting/) for a refresher on all the different methods available to connect and the right syntax to use.
+> If you're not familiar with how to use `Invoke-Command`, visit my [Jump Start: PowerShell Remoting Article](https://commandline.ninja/posts/jump-start-powershell-remoting/) for a refresher on all the different methods available to connect and the right syntax to use.
 
 The syntax is the cmdlet name, the computer name and then the script block. The script block is where you place the actual lookup you would like to have performed on each computer.
 
