@@ -4,7 +4,7 @@ date: 2020-03-10
 authors: [mike]
 description: "Learn about the new improvements to Error Handling and Error Messages in PowerShell 7"
 draft: false
-image: "/images/2020/Error-Handling-PS7/errorhandling-header.jpg"
+image: "/images/2020/Error-Handling-PS7/errorhandling-header.webp"
 slug: "error-handling-in-powershell-7-with-get-error-and-errorview"
 tags: [PowerShell]
 ---
