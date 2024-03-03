@@ -3,7 +3,7 @@ title: "10 ways anyone can easily contribute to the PowerShell community"
 date: 2018-11-19
 authors: [mike]
 draft: false
-image: "/images/2018/Contribute-Community.jpg"
+image: "/images/2018/Contribute-Community/fist-bump.jpg"
 slug: "how-anyone-can-easily-contribute-to-the-powershell-community"
 description: "Here are 10 ways that ANYONE can start contributing to the PowerShell community immediately. "
 tags: ["PowerShell", "Community"]
