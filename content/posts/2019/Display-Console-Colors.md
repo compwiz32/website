@@ -3,7 +3,7 @@ title: 'Easily Display Console Colors'
 date: 2019-07-24
 authors: [mike]
 draft: false
-image: /images/2018/Get-WinEvent/Get-WinEvent.webp
+image: /images/2019/View-Console-Colors/Colored-Boxes.webp
 slug: "easily-display-powershell-console-colors"
 description: "Show all the available console colors for you to compare and choose your favorites!"
 tags: [PowerShell]
