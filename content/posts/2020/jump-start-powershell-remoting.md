@@ -16,7 +16,8 @@ PowerShell remoting is a method you can use to connect securely to many machines
 Here's a collection of content I have created on PowerShell remoting that you can use to learn how to configure and use PowerShell remoting:
 <br>
 
-###[Connecting to multiple computers with Invoke-Command](__GHOST_URL__/connecting-to-multiple-computers-with-invoke-command/)
+## [Connecting to multiple computers with Invoke-Command](https://commandline.ninja/connecting-to-multiple-computers-with-invoke-command/)
+
 This article will get you started with how to connect to multiple computers from a PowerShell command prompt. Topics include connecting with Enter-PSSession, Invoke-Command and how to save and organize results.
 <br>
 
