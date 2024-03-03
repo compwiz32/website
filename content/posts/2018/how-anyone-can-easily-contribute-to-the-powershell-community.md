@@ -3,7 +3,7 @@ title: "10 ways anyone can easily contribute to the PowerShell community"
 date: 2018-11-19
 authors: [mike]
 draft: false
-image: "/images/2018/Contribute-Community/fist-bump.jpg"
+image: "/images/2018/Contribute-Community/fistbump.jpg"
 slug: "how-anyone-can-easily-contribute-to-the-powershell-community"
 description: "Here are 10 ways that ANYONE can start contributing to the PowerShell community immediately. "
 tags: ["PowerShell", "Community"]
@@ -35,6 +35,8 @@ So enough about myself, let's get down to business. Here are 10 ways that ANYONE
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thanks Mike! Appreciated! 😀</p>&mdash; François-Xavier Cat (@LazyWinAdm) <a href="https://twitter.com/LazyWinAdm/status/1064207705093492736?ref_src=twsrc%5Etfw">November 18, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<br>
 
 2. **Join a user group**
 
