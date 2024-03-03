@@ -105,7 +105,7 @@ The `-simplematch` parameter instructs PowerShell to not use REGEX for this sear
 Select-String -Path "$PSHOME\en-US\*.txt" -Pattern '\?' -simplematch
 ```
 
-![simplematch-search-result](/images/2020/Select-String-Whats-New/simplematch-searchresult.png)
+![simplematch-search-result](/images/2020/Select-String-Whats-New/simplesearch-searchresult.png)
 
 This is an important concept to understand because REGEX has special characters that LOOK like regular characters but PRODUCE different results in searches. The `-simplematch` parameter allows for a way to do a search with the literate value of a character rather than REGEX value of that character.
 
