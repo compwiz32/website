@@ -76,6 +76,7 @@ paginate = 6
   #   url = "/featured/"
   #   weight = 5
 
+
   # Call to action button
   [params.cta_button]
     enable = true
@@ -212,3 +213,7 @@ paginate = 6
   codeFences = true
   guessSyntax = true
   noClasses = false
+
+[permalinks]
+  [permalinks.page]
+    posts = '/posts/:filename'
