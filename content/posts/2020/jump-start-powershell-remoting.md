@@ -16,7 +16,7 @@ PowerShell remoting is a method you can use to connect securely to many machines
 Here's a collection of content I have created on PowerShell remoting that you can use to learn how to configure and use PowerShell remoting:
 <br>
 
-### [Connecting to multiple computers with Invoke-Command](https://www.commandline.ninja/connecting-to-multiple-computers-with-invoke-command/)
+### [Connecting to multiple computers with Invoke-Command](https://www.commandline.ninja/posts/2020/connecting-to-multiple-computers-with-invoke-command/)
 
 This article will get you started with how to connect to multiple computers from a PowerShell command prompt. Topics include connecting with Enter-PSSession, Invoke-Command and how to save and organize results.
 <br>
@@ -36,11 +36,11 @@ When you need to run PowerShell commands against a large set of computers with t
 Sometimes running remote code with the PowerShell cmdlet Invoke-Command can take a long time to run—and not for any reason having to do with your code itself. Connecting to older computers means that long bits of code take longer to run. Computers on the other side of slow WAN links will always be slower in responding than something close and well connected.
 <br>
 
-### [How to secure PowerShell Remoting in a Windows Domain](__GHOST_URL__/securing-powershell/)
+### [How to secure PowerShell Remoting in a Windows Domain](https://www.commandline.ninja/posts/2020//2018/securing-powershell/)
 
 This is a reference guide I originally built for myself that I thought would be useful for others when trying to figure out how to secure PowerShell remoting or at least answer the questions someone may be asked from management or security teams in a corporate environment. It's deep dive on logging and security options and what they mean.
 <br>
 
-### [Video: Configuring PowerShell Remoting Security & Logging](__GHOST_URL__/psremoting-video/)
+### [Video: Configuring PowerShell Remoting Security & Logging](https://www.commandline.ninja/posts/posts/2019/psremoting-video/)
 
 A recent presentation I gave on configuring PowerShell remoting security and logging for my user user group. This talk focused on how to properly setup remoting security and logging options. I talk briefly about how remoting works with some simple examples of what a real-world remoting connection looks like.

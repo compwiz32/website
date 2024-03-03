@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-baseURL = "https://clninja.netlify.app/"
+baseURL = "https://commandline.ninja/"
 languageCode = "en-us"
 title = "Command Line Ninja"
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
