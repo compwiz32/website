@@ -24,5 +24,3 @@ Jobs do not send any results to the console. Instead, the results of the PowerSh
 Scheduled jobs are jobs that are scheduled to run at a pre-determined date and time, either once or on a repetitive schedule. Scheduled Jobs are the PowerShell equivalent of scheduled tasks but better. Scheduled Jobs are managed from the command line and scheduled tasks are managed from the GUI. The management portion of scheduled jobs relates to enabling, disabling, and removing scheduled jobs and getting the job results for completed jobs.
 
 Head over to the [4sysops website](https://4sysops.com/archives/managing-powershell-scheduled-jobs/) for the rest of this [article](https://4sysops.com/archives/managing-powershell-scheduled-jobs/)!
-
-Please let me know what you think in the comments below or at the 4sysops website.  Your feedback and comments are always welcome!
