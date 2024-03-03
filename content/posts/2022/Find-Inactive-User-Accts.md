@@ -30,6 +30,8 @@ tags: [Active-Directory, PowerShell]
 </body>
 </html>
 
+<br>
+
 Active Directory is a directory service that maintains information about users, computers and related objects. It is a database of relational information that needs periodic maintenance to remain useful and relevant. A directory will have accounts no longer used. Finding those accounts in Active Directory is not as easy as it sounds at first glance. Let's walk through finding inactive user accounts and automating removing them.
 
 ## Define search criteria
@@ -111,6 +113,8 @@ Your results may vary based on what your Active Directory domain functional leve
 
 </body>
 </html>
+
+<br>
 
 PowerShell shows the actual value for the tick that represents the date/time. The ticks are converted to a more time-date  friendly format in AD Users and Computers or AD Administrative Center.
 
