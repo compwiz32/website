@@ -3,7 +3,7 @@ title: "Building a better Group Policy backup with PowerShell"
 date: 2019-01-18T23:26:02Z
 authors: [mike]
 draft: false
-image: "/images/2019/Build-a-better-backup/old-school-tapes.webp"
+image: "/images/2019/Build-a-better-GPO-backup/old-school-tapes.webp"
 slug: "building-a-better-group-policy-backup-with-powershell"
 description: "How I built a better Group Policy backup tool using PowerShell than what is possible with the built-in cmdlets from Microsoft"
 tags: ["PowerShell", "Group Policy"]
