@@ -1,6 +1,6 @@
 ---
 title: "Get-CIMInstance Vs Get-WMIObject: What's The Difference?"
-description: "PowerShell provides two similar management interfaces for accessing data on a computer: WMI and CIM. What's the difference between these management interfaces? Which one should you use, and why?"
+description: "PowerShell has two ways to access computer data: WMI and CIM. Let me explain why you should only use CIM."
 date: 2022-03-16
 authors: [mike]
 draft: false

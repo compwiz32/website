@@ -6,6 +6,7 @@ draft: false
 image: /images/2018/Get-ADComputer/Get-ADComputer.webp
 slug: get-adcomputer-cmdlet-syntax-and-examples
 tags: ['Active Directory', PowerShell]
+description: "Let's check out some common searches you can do with the Get-ADComputer cmdlet, and a few cool tricks too."
 ---
 
 ## SYNOPSIS

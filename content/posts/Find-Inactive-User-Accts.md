@@ -6,6 +6,7 @@ draft: false
 image: /images/2022/Find-Inactive-User-Accounts/Find-Inactive-User-Accts-Header.jpg
 slug: find-inactive-user-accounts-in-your-domain
 tags: [Active-Directory, PowerShell]
+description: "Learn how to identify and automatically remove inactive user accounts in Active Directory."
 ---
 
 <html lang="en">

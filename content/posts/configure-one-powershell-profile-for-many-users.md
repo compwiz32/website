@@ -20,7 +20,7 @@ But what if you don't feel like customizing every profile? Imagine you have a pr
 - [Article Contents](#article-contents)
 - [A primer on PowerShell profiles](#a-primer-on-powershell-profiles)
   - [The problem with PowerShell profiles](#the-problem-with-powershell-profiles)
-- [**How I handle multiple profiles**](#how-i-handle-multiple-profiles)
+  - [How I handle multiple profiles](#how-i-handle-multiple-profiles)
   - [Managing all users and hosts from one profile](#managing-all-users-and-hosts-from-one-profile)
 - [**Configuring your workstation to use one profile**](#configuring-your-workstation-to-use-one-profile)
 
@@ -94,7 +94,6 @@ You can imagine having four profiles to maintain could be confusing, but in real
 
 Remember that this table reflects PowerShell Core only; the same options exist for Windows PowerShell. Using multiple IDs in PowerShell allows for customization but can be overwhelming without proper planning. This article will not cover every option available or how to configure those options. If you're familiar with how profiles work, the multitude of options can easily become overwhelming. The [Microsoft doc](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.1) on profiles and locations is one of the best resources available to dive in deeper on the myriad of options.
 
-
 | **Description**            | **Path**                                                     |
 | :------------------------- | ------------------------------------------------------------ |
 | All Users, All Hosts       | $PSHOME\Profile.ps1                                          |
@@ -102,8 +101,7 @@ Remember that this table reflects PowerShell Core only; the same options exist f
 | Current User, All Hosts    | $Home\[My ]Documents\PowerShell\Profile.ps1                  |
 | Current user, Current Host   | $Home\[My ]Documents\PowerShell\ Microsoft.PowerShell_profile.ps1 |
 
-
-## **How I handle multiple profiles**
+### How I handle multiple profiles
 
 When I work with PowerShell, I like to have a certain set of information available to me. I decided it was worth the effort to not only customize my profile but also customize my PowerShell command prompt. I have [written extensively](https://www.commandline.ninja/posts/customize-pscmdprompt/) about how I did this. That article is a thorough analysis of how I made a specialized PowerShell command prompt so that every time I work in PowerShell I have the information displayed the way I prefer. I encourage you to take some time and read that article; I wrote as a lead-in to this article.
 
@@ -132,8 +130,6 @@ The idea is to teach you about the tools and help you set up your environment to
 ## **Configuring your workstation to use one profile**
 
 Dot-sourcing is a method you can use to load scripts from other locations. But maybe you're not clear how this helps with the multiple profile problem. Remember, I am using the `AllHosts, AllUsers` profile script location. That means we have two versions of our profile to consider:
-
-
 
 ```PowerShell
 # Locations of AllHosts,AllUsers profile scripts

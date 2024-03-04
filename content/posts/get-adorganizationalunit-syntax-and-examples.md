@@ -6,6 +6,7 @@ authors: [mike]
 draft: false
 image: /images/2018/Get-ADOrganizationalUnit/Get-ADOrganizationalUnit-header.webp
 slug: get-adorganizationalunit-syntax-and-examples
+description: "Learn common searches you can do with the Get-ADOrganizationalUnit cmdlet."
 
 ---
 
@@ -20,6 +21,7 @@ None
 <br>
 
 ## DESCRIPTION
+
 The `Get-ADOrganizational` unit cmdlet gets an organizational unit object or performs a search to retrieve multiple organizational units.
 
 The `Identity` parameter specifies the Active Directory organizational unit to retrieve. You can identify an organizational unit by its distinguished name (DN) or GUID. You can also set the parameter to an organizational unit object variable, such as $<localOrganizationalunitObject> or pass an organizational unit object through the pipeline to the Identity parameter.

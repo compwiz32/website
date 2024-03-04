@@ -1,6 +1,6 @@
 ---
 date: 2022-01-03
-description: "Learn how to use the Secret Management module from Microsoft to securely manage your passwords and secrets. This demo covers the basics of installation and usage, along with some information on using the Secret Management module with Azure KeyVault."
+description: "Learn the secure way to manage your passwords and secrets with Microsoft's Secret Management module."
 draft: false
 image: "/images/2022/Secret-Mgmt-Video-Intro/Lock-and-Chain.webp"
 slug: "video-intro-to-secret-management"
@@ -9,7 +9,6 @@ title: "Video Intro to Secret Management with PowerShell"
 featured: true
 authors: [mike]
 ---
-
 
 Storing and accessing secrets with PowerShell used to pose a challenge. Until 2021, there was no easy, convenient solution for creating and storing secrets. Microsoft's [Secret Management module](https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretManagement/), released in early 2021, has made life much easier. The module simplifies creating, storing, and recalling secrets by providing easy-to-use commands.
 
