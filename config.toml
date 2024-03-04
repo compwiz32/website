@@ -212,3 +212,6 @@ paginate = 6
   codeFences = true
   guessSyntax = true
   noClasses = false
+
+[permalinks]
+posts = ":filename"
