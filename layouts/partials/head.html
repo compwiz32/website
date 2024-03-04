@@ -3,6 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">
+  <script defer src="https://eu.umami.is/script.js" data-website-id="61b5caaf-9f62-459e-8adc-51d365ed8e40"></script>
 
   <title>{{ if not .IsHome }}{{ .Title }}{{ .Params.name }} | {{ end }}{{ .Site.Title }}</title>
   <meta name="description" content="{{if .IsHome}}{{ .Site.Params.description }}{{else}}{{ .Description }}{{end}}">
@@ -58,6 +59,6 @@
   <style>{{ .Content | safeCSS }}</style>
   {{ end }}
 
-  <script defer src="https://eu.umami.is/script.js" data-website-id="61b5caaf-9f62-459e-8adc-51d365ed8e40"></script>
+
 
 </head>
