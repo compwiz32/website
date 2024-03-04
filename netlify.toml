@@ -29,3 +29,7 @@ to = "/display-console-colors"
 [[redirects]]
 from = "/jumpstart-learning-resources-for-powershell/"
 to = "/powershell-learning-resources/"
+
+[[redirects]]
+from = "/psindex"
+to = "/tags"
