@@ -44,7 +44,7 @@ ii *.log
 
 ```
 
-![Opening multiple files at once](/images/2020/10/Qe5WJCNcU3.png)
+![Opening multiple files at once](/images/2020/Invoke-Item/Screencap1.png)
 
 ### Opening Multiple Files using the -include parameter
 
@@ -54,7 +54,7 @@ The cmdlet has an `-include` parameter that you can use to in combination with t
 
 I have designed a very simple demo to show how it could work. For this demo, I have a created a bunch of dummy log files in c:\temp. The log files highlighted have a naming pattern of *ApplicationName-DayOfMonth-TimeOfDay* . For example, one log is named "IISlog-2020-10-10_14_22.log". It's an IIS log from Oct 10th and the time created is 14:22 or 2:22 PM. Again, this is a file I created for demonstration; it has no data inside it.
 
-![Log Files in a folder](/images/2020/10/H23AKW3rWo.png)
+![Log Files in a folder](/images/2020/Invoke-Item/Screencap2.png)
 
 Looking at the log files, you'll notice there are there three sets of logs: IIS, System and Security logs. For each of those logs, there are logs for multiple days. This what a typical log directory could look like.
 
@@ -65,7 +65,7 @@ Invoke-Item -path C:\temp\*.log -Include "*2020-10-10*"
 
 ```
 
-![Results of a filtered Invoke-Item lookup](/images/2020/10/YIguGHqWLe.png)
+![Results of a filtered Invoke-Item lookup](/images/2020/Invoke-Item/Screencap3.png)
 
 ### Opening Multiple Files using the -exclude parameter
 
@@ -102,7 +102,7 @@ Invoke-Item -path C:\temp\*.log -exclude "Test*"
 
 The result is that nine files match the pattern. It then opens the files all at once.
 
-![Files that don't match the exclude pattern](/images/2020/10/9SZow2zgnG.png)
+![Files that don't match the exclude pattern](/images/2020/Invoke-Item/Screencap4.png)
 
 ### Opening Aliases
 
@@ -126,7 +126,7 @@ ii $pwd
 
 ```
 
-![Opening a file path from an alias](/images/2020/10/xoTkxhMt9z.png)
+![Opening a file path from an alias](/images/2020/Invoke-Item/Screencap5.png)
 
 This can be a great time saver if you have a handful of variables you create in your PowerShell profile for commonly used folders on your machine or another machine.
 
