@@ -4,3 +4,8 @@
 
 [build.environment]
   HUGO_VERSION = "0.110.0"
+
+
+[[redirects]]
+from = "/find-inactive-user-accounts-in-your-domain"
+to = "/find-inactive-user-accts"
