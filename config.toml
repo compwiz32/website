@@ -2,7 +2,7 @@
 # General Site Settings
 baseURL = "https://commandline.ninja/"
 languageCode = "en-us"
-title = "Command Line Ninja"
+title = "Command Line Ninja: Learn PowerShell. Automate Tasks."
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 paginate = 6
 
