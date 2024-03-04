@@ -12,7 +12,7 @@ This website is where I share the tips and tricks I've learned to tackle hard ta
 
 At work, I'm in charge of a global team that creates automation tools for both on-premises and cloud technologies like AzureAD, Exchange, Server Management, and core Active Directory tech. I discuss the issues I face at work and share solutions to common problems sysadmins and automation engineers come across in their daily routines.
 
-Besides blogging, I'm highly involved in the PowerShell community. I'm a 4-time Microsoft MVP and I love sharing ideas, knowledge, and technical solutions with the community whenever I can. I'm part of the leadership team for the Research Triangle PowerShell user group. Our group is the biggest and most active PowerShell group in the world! We're a group of 3500 members who meet twice a month to chat and exchange ideas with fellow community members.
+Besides blogging, I'm highly involved in the PowerShell community. I'm a 3-time Microsoft MVP and I love sharing ideas, knowledge, and technical solutions with the community whenever I can. I'm part of the leadership team for the Research Triangle PowerShell user group. Our group is the biggest and most active PowerShell group in the world! We're a group of 3500 members who meet twice a month to chat and exchange ideas with fellow community members.
 
 Also, I'm a board member for the DevOps Collective and their website, PowerShell.org. We're all about getting people excited about PowerShell through community events. Every year, we organize the PowerShell Summit in Bellevue, WA.
 
