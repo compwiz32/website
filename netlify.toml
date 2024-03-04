@@ -25,3 +25,7 @@ to = "/tags"
 [[redirects]]
 from = "/easily-display-powershell-console-colors"
 to = "/display-console-colors"
+
+[[redirects]]
+from = "/jumpstart-learning-resources-for-powershell/"
+to = "/powershell-learning-resources/"
