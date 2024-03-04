@@ -9,3 +9,11 @@
 [[redirects]]
 from = "/find-inactive-user-accounts-in-your-domain"
 to = "/find-inactive-user-accts"
+
+[[redirects]]
+from = "use-powershell-to-find-windows-svcs-configured-to-run-as-another-user"
+to = "/use-powershell-to-find-services-configured-to-run-as-another-user"
+
+[[redirects]]
+from = "/get-aduser-syntax-and-examples-post-refresh/"
+to = "get-aduser-syantax-and-examples"
