@@ -171,9 +171,9 @@ Get a weekly summary of new content by subscribing to my newsletter. Zero spam g
 ---
 
 ---
-📣 Want to stay in the loop? 📧
+🔥 Get notified when I post new content!
 <br>
 
-Get a weekly summary of new content by subscribing to my newsletter. Zero spam guaranteed :poop: and I will never sell or share your contact info, ever. [Join the list](https://ninja.us12.list-manage.com/subscribe/post?u=853cb8a4144060de5d07daf26&amp;id=e8ed3301da) now!
+Subscribe to receive a weekly summary email of new blog posts. Zero spam guaranteed and your contact information will never be sold or shared. [Join the list](https://ninja.us12.list-manage.com/subscribe/post?u=853cb8a4144060de5d07daf26&amp;id=e8ed3301da) now!
 
 ---
