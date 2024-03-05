@@ -41,6 +41,7 @@ However, attempting to access the mentioned location will reveal an empty folder
 ![Profile script is missing from user profile](/images/2021/One-PSProfile/Missing-Profile-Script.png)
 
 You can create the script file in several ways.
+
 - You can browse to the folder and create an empty .ps1 file.
 -You can also use PowerShell to create a blank file for you.
 
@@ -70,9 +71,9 @@ $InputDir: "C:\Scripts\Input"
 
 ### The problem with PowerShell profiles
 
-PowerShell offers a range of profile choices to handle diverse scenarios. When starting PowerShell, every user has their own profile script. But wait, there are more PowerShell profiles you need to consider! PowerShell profiles are not limited to individual users; there are also profiles specific to different versions of PowerShell. Profiles exist for both legacy Windows PowerShell (PSv5.x) and the newer PowerShell core (PSv6.x).
+PowerShell offers a range of profile choices to handle diverse scenarios. When starting PowerShell, every user has their own profile script. But wait, there are more PowerShell profiles you need to consider! PowerShell profiles are not limited to individual users; there are also profiles specific to different versions of PowerShell. Profiles exist for both legacy Windows PowerShell (v5.x) and the newer PowerShell core (v6.x).
 
-I use both Windows PowerShell (PowerShell v5.x) and PowerShell Core (PowerShell v6.x/v7.x) for my work. Despite relying heavily on PSv7, there are still instances where I have to use v5 to handle incompatible legacy code. Although they are both PowerShell, they warrant separate profiles due to their differences.
+I use both Windows PowerShell (PowerShell v5.x) and PowerShell Core (PowerShell v6.x/v7.x) for my work. Despite relying heavily on PowerShell 7.x, there are still instances where I have to use v5 to handle incompatible legacy code. Although they are both PowerShell, they warrant separate profiles due to their differences.
 
 ```PowerShell
 # Separate Profile Paths for Windows PowerShell and PowerShell Core
@@ -111,11 +112,11 @@ How did I manage to do it? I looked at all the profiles and locations available 
 
 The term "hosts" in this context refers to programs or software applications that can use PowerShell. I talked about how PS5x and PS6x/7x have their own profiles. This also goes for PowerShell ISE and VSCode. Each can also have their own PowerShell profiles. It just gives me two more options and takes me farther from my original goal.
 
-If you look at the profiles, you'll see the option 'ALL HOSTS, ALL USERS'. It uses one profile script for everyone on the computer and all the apps that use PowerShell. This is exactly what I was searching for: one profile for everything PowerShell! Well, almost what I was looking for. There's one caveat here... ALL HOSTS isn't exactly ALL HOSTS FOR ALL VERSIONS of PowerShell. Instead, `AllHosts` means all programs that use the PSv5 engine and there is also an `AllHosts` that uses the PSv7 engine. I made a graphical representation to help explain this concept:
+If you look at the profiles, you'll see the option 'ALL HOSTS, ALL USERS'. It uses one profile script for everyone on the computer and all the apps that use PowerShell. This is exactly what I was searching for: one profile for everything PowerShell! Well, almost what I was looking for. There's one caveat here... ALL HOSTS isn't exactly ALL HOSTS FOR ALL VERSIONS of PowerShell. Instead, `AllHosts` means all programs that use the PSv5 engine and there is also an `AllHosts` that uses the PowerShell 7.x engine. I made a graphical representation to help explain this concept:
 
 ![How the AllHosts,AllUsers profile works](/images/2021/One-PSProfile/AllHosts-AllUsers-2.jpg)
 
-The image above shows that there is one `AllHosts, All Users` profile for PSv5 and another `AllHosts, All Users` profile for PowerShell v7. All applications and user ID's interacting with the PowerShell v5 engine use the same profile script, and all applications and user IDs interacting with PowerShell v7 use another profile script. For my setup, this isn't EXACTLY what I wanted, but it's close. Using this setup, I went from four profiles (PSv5-MKANAKOS, PSV5-MKANAKOS-ADMIN, PSv7-MKANAKOS, and PSV7-MKANAKOS-ADMIN) to just two profiles (PSv5 and PSv7). But I felt I could optimize this setup further. I continued to hunt for a better solution. Turns out, I actually knew how to fix this problem without even realizing it.
+The image above shows that there is one `AllHosts, All Users` profile for PowerShell 5.x and another `AllHosts, All Users` profile for PowerShell v7. All applications and user ID's interacting with the PowerShell v5 engine use the same profile script, and all applications and user IDs interacting with PowerShell v7 use another profile script. For my setup, this isn't EXACTLY what I wanted, but it's close. Using this setup, I went from four profiles (PowerShell 5.x-MKANAKOS, PowerShell 5.x-MKANAKOS-ADMIN, PowerShell 7.x-MKANAKOS, and PowerShell 7.x-MKANAKOS-ADMIN) to just two profiles (v5 and v7). But I felt I could optimize this setup further. I continued to hunt for a better solution. Turns out, I actually knew how to fix this problem without even realizing it.
 
 ### Managing all users and hosts from one profile
 
@@ -149,11 +150,11 @@ So what does that look like? I created a profile script called `PSProfileConfig.
 
 If you don't use GitHub repos, then you could make a folder at the root of your C drive or maybe on your D drive if you have one. For example, I could have done the same thing by saving the file to a directory like `C:\Scripts` or something similar. A network location could work as well, but you want to make sure it is accessible at all times. You could even use a USB stick or portable SSD if you wanted to.
 
-I have all my profile configs inside my `PSProfileConfig.ps1` script. All I need to do to access it is go to the `$PROFILE.AllUsersAllHosts` location for each of my PowerShell environments (PSv5 and PSv7) and dot-source to the file I just mentioned. A graphic representation on my setup looks like this:
+I have all my profile configs inside my `PSProfileConfig.ps1` script. All I need to do to access it is go to the `$PROFILE.AllUsersAllHosts` location for each of my PowerShell environments (PowerShell 5.x and PowerShell 7.x) and dot-source to the file I just mentioned. A graphic representation on my setup looks like this:
 
 ![One Profile configuration for all Hosts, All Users](/images/2021/One-PSProfile/OneProfile-Common-Location-Body.png)
 
-My PSv5 and V7 profile scripts only have only one line contained within the files:
+My PowerShell 5.x and V7 profile scripts only have only one line contained within the files:
 
 ```PowerShell
 # The only line contained in my AllHosts, Allusers profile scripts
@@ -161,4 +162,10 @@ My PSv5 and V7 profile scripts only have only one line contained within the file
 . C:\GitRepos\Powershell\Profile\PSProfileConfig.ps1
 ```
 
-When I fire up my PowerShell command prompt in either PowerShell v5 or PowerShell v7, they both point to the `PSProfileConfig.ps1` file and load those configs into memory! The result is that I have gone from having to manage possibly four or more profiles down to just one. My profile script sits in a location accessible by all user ID's and since I am using GitHub, it saves a copy of the script in the GitHub cloud for safe keeping. I have turned the chaos of managing multiple profile locations into a simple, easy to manage solution.My hope is that going through this explainer of how script profiles work and some of the choices has made it a little more understandable for you.
+When I fire up my PowerShell command prompt in either PowerShell v5 or PowerShell v7, they both point to the `PSProfileConfig.ps1` file and load those configs into memory! The result is that I have gone from having to manage possibly four or more profiles down to just one. My profile script sits in a location accessible by all user ID's and since I am using GitHub, it saves a copy of the script in the GitHub cloud for safe keeping. I have turned the chaos of managing multiple profile locations into a simple, easy to manage solution. My hope is that going through this explainer of how script profiles work and some of the choices has made it a little more understandable for you.
+
+---
+🔥 Want to stay in the loop?
+Get a weekly summary of new content by subscribing to my newsletter. Zero spam guaranteed and I will never sell or share your contact info, ever. [Join the list](https://ninja.us12.list-manage.com/subscribe/post?u=853cb8a4144060de5d07daf26&amp;id=e8ed3301da) now!
+
+---
