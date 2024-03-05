@@ -2,7 +2,7 @@
 # General Site Settings
 baseURL = "https://commandline.ninja/"
 languageCode = "en-us"
-title = "Command Line Ninja: Learn PowerShell. Automate Tasks."
+title = "Commandline Ninja: Learn PowerShell. Automate Tasks."
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 paginate = 6
 
@@ -181,7 +181,7 @@ paginate = 6
   #-------------------------------
   # Contact Settings
   [params.contact]
-    email = "https://formspree.io/f/mpzgabkd" # Add your form_id
+    email = "mpzgabkd" # Add your form_id
 
     # NOTE
     # Danto comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
