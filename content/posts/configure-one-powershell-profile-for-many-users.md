@@ -169,3 +169,12 @@ When I fire up my PowerShell command prompt in either PowerShell v5 or PowerShel
 Get a weekly summary of new content by subscribing to my newsletter. Zero spam guaranteed and I will never sell or share your contact info, ever. [Join the list](https://ninja.us12.list-manage.com/subscribe/post?u=853cb8a4144060de5d07daf26&amp;id=e8ed3301da) now!
 
 ---
+
+---
+:mega: Want to stay in the loop? :email:
+
+<br>
+
+Get a weekly summary of new content by subscribing to my newsletter. Zero spam guaranteed :poop: and I will never sell or share your contact info, ever. [Join the list](https://ninja.us12.list-manage.com/subscribe/post?u=853cb8a4144060de5d07daf26&amp;id=e8ed3301da) now!
+
+---
