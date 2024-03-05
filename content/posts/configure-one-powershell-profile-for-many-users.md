@@ -164,16 +164,9 @@ My PowerShell 5.x and V7 profile scripts only have only one line contained withi
 
 When I fire up my PowerShell command prompt in either PowerShell v5 or PowerShell v7, they both point to the `PSProfileConfig.ps1` file and load those configs into memory! The result is that I have gone from having to manage possibly four or more profiles down to just one. My profile script sits in a location accessible by all user ID's and since I am using GitHub, it saves a copy of the script in the GitHub cloud for safe keeping. I have turned the chaos of managing multiple profile locations into a simple, easy to manage solution. My hope is that going through this explainer of how script profiles work and some of the choices has made it a little more understandable for you.
 
----
-🔥 Want to stay in the loop?
-Get a weekly summary of new content by subscribing to my newsletter. Zero spam guaranteed and I will never sell or share your contact info, ever. [Join the list](https://ninja.us12.list-manage.com/subscribe/post?u=853cb8a4144060de5d07daf26&amp;id=e8ed3301da) now!
 
 ---
-
----
-🔥 Get notified when I post new content!
-<br>
-
-Subscribe to receive a weekly summary email of new blog posts. Zero spam guaranteed and your contact information will never be sold or shared. [Join the list](https://ninja.us12.list-manage.com/subscribe/post?u=853cb8a4144060de5d07daf26&amp;id=e8ed3301da) now!
+🔥 Get notified when I post new content! Receive a weekly summary email of new blog posts.
+Zero spam guaranteed and your contact information will never be sold or shared. [Join the list](https://ninja.us12.list-manage.com/subscribe/post?u=853cb8a4144060de5d07daf26&amp;id=e8ed3301da) now!
 
 ---
