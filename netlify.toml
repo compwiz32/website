@@ -33,3 +33,7 @@ to = "/powershell-learning-resources/"
 [[redirects]]
 from = "/psindex"
 to = "/tags"
+
+[[redirects]]
+from = "/:context/amp"
+to = "/:context"

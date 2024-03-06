@@ -3,7 +3,7 @@
 baseURL = "https://commandline.ninja/"
 languageCode = "en-us"
 title = "Commandline Ninja: Learn PowerShell. Automate Tasks."
-googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
+googleAnalytics = "G-2TFYMVYCFE" # Add your identifier. For example UA-99631805-1.
 paginate = 6
 
 
