@@ -26,7 +26,7 @@ A quick google search led me to this great article:
 The article quotes [Wikipedia](https://en.wikipedia.org/wiki/Interrupt) for a proper definition of *System Interrupts*:
 > An interrupt alerts the processor to a high-priority condition requiring the interruption of the current code the processor is executing. The processor responds by suspending its current activities, saving its state, and executing a function called an interrupt handler to deal with the event.
 
-The article goes on to suggest that using two tools would allow me to see if I had a faulty driver. The first tool they suggested was [DPC Latency Checker](https://www.thesycon.de/eng/latency_check.shtml) which I have used before. It's a great tool, but I didn't think I was going to get my answer from that tool, instead, I would have only confirmed if I had a latency issue. However, I sort of made that assumption already, so I decided to skip ahead and try the second tool: [LatencyMon](https://www.resplendence.com/downloads)
+The article goes on to suggest that using two tools would allow me to see if I had a faulty driver. The first tool they suggested was [DPC Latency Checker](https://www.softpedia.com/get/System/System-Info/DPC-Latency-Checker.shtml) which I have used before. It's a great tool, but I didn't think I was going to get my answer from that tool, instead, I would have only confirmed if I had a latency issue. However, I sort of made that assumption already, so I decided to skip ahead and try the second tool: [LatencyMon](https://www.resplendence.com/downloads)
 
 I grabbed the tool, did a quick install and waited for the results.
 
