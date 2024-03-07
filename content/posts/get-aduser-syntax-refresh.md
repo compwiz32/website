@@ -17,6 +17,6 @@ The refreshed blog post is just under 3000 words and contains 15 different Get-A
 
 You can find the post here:
 
-https://www.commandline.ninja/posts/get-aduser-syntax-and-examples/
+https://www.commandline.ninja/get-aduser-syntax-and-examples/
 
 Thanks for reading!

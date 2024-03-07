@@ -283,9 +283,9 @@ return "> "
 
 That covers all the individual pieces of the console customizations I used to configure the console prompt as I wish. The full script is listed below. You can add the script to your profile and when you launch PowerShell, you should have a customized command prompt.
 
-If you're reading this post in a RSS reader, then you may not see the script listed at the bottom of article in your feed. The script is an embedded link to a github gist. If you can't see the script, then visit the [post](https://commandline.ninja/posts/customize-pscmdprompt) on my website and the script will be listed at the bottom.
+If you're reading this post in a RSS reader, then you may not see the script listed at the bottom of article in your feed. The script is an embedded link to a github gist. If you can't see the script, then visit the [post](https://commandline.ninja/customize-pscmdprompt) on my website and the script will be listed at the bottom.
 
-If you want to see how I implemented this across multiple profiles, then take a look at the [follow-up article](https://commandline.ninja/posts/configure-one-powershell-profile-for-many-users) which dives into where to save the code and how to have one customized profile for all users AND for BOTH PowerShell5 and PowerShell7. It walks you though the setup process in great detail.
+If you want to see how I implemented this across multiple profiles, then take a look at the [follow-up article](https://commandline.ninja/configure-one-powershell-profile-for-many-users) which dives into where to save the code and how to have one customized profile for all users AND for BOTH PowerShell5 and PowerShell7. It walks you though the setup process in great detail.
 
 ```PowerShell
 function prompt {

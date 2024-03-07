@@ -17,7 +17,7 @@ PowerShell Remoting allows you to connect to multiple computers on your network 
 
 Remoting allows data to move between machines via encrypted, authenticated sessions. To successfully connect to a remote machine, ports 5985 and 5986 must be open and the WinRM service must be running. The user attempting to connect needs to be an administrator on the remote machine or a member of the Remote Management Users group unless a special configuration is in place.
 
-Today I will be focusing on how to connect to remote machines. However, there are many configuration items for PS-Remoting that you can configure to limit and control connections and log all the activity. I have written previously about PowerShell remoting configuration options [here](https://commandline.ninja/posts/securing-powershell/) and recorded a video presentation on the topic here [here](https://commandline.ninja/posts/psremoting-video/). You can read up on remoting by typing `Help About_Remoting` in your PowerShell cmd prompt.
+Today I will be focusing on how to connect to remote machines. However, there are many configuration items for PS-Remoting that you can configure to limit and control connections and log all the activity. I have written previously about PowerShell remoting configuration options [here](https://commandline.ninja/securing-powershell/) and recorded a video presentation on the topic here [here](https://commandline.ninja/psremoting-video/). You can read up on remoting by typing `Help About_Remoting` in your PowerShell command prompt.
 
 ## Create an Interactive Remote Session
 
@@ -37,7 +37,7 @@ Running remote PowerShell commands works the same as if you were running them on
 
 ![Running-commands-on-remote-PC](/images/2020/Connect-Multiple-Computers-Invoke-Command/Running-commands-on-remote-PC.png)
 
-But this method of connecting has one significant downside: your PowerShell cmd prompt can only connect to one computer interactively at a time. This may work for some quick data gathering but it doesn't allow for an admin to execute commands against a large number of computers at the same time.
+But this method of connecting has one significant downside: your PowerShell command prompt can only connect to one computer interactively at a time. This may work for some quick data gathering but it doesn't allow for an admin to execute commands against a large number of computers at the same time.
 
 ## Invoke-Command
 

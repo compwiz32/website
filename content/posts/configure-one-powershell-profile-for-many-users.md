@@ -22,7 +22,7 @@ But what if you don't feel like customizing every profile? Imagine you have a pr
   - [The problem with PowerShell profiles](#the-problem-with-powershell-profiles)
   - [How I handle multiple profiles](#how-i-handle-multiple-profiles)
   - [Managing all users and hosts from one profile](#managing-all-users-and-hosts-from-one-profile)
-- [**Configuring your workstation to use one profile**](#configuring-your-workstation-to-use-one-profile)
+- [Configuring your workstation to use one profile](#configuring-your-workstation-to-use-one-profile)
 
 ## A primer on PowerShell profiles
 
@@ -104,7 +104,7 @@ Remember that this table reflects PowerShell Core only; the same options exist f
 
 ### How I handle multiple profiles
 
-When I work with PowerShell, I like to have a certain set of information available to me. I decided it was worth the effort to not only customize my profile but also customize my PowerShell command prompt. I have [written extensively](https://www.commandline.ninja/posts/customize-pscmdprompt/) about how I did this. That article is a thorough analysis of how I made a specialized PowerShell command prompt so that every time I work in PowerShell I have the information displayed the way I prefer. I encourage you to take some time and read that article; I wrote as a lead-in to this article.
+When I work with PowerShell, I like to have a certain set of information available to me. I decided it was worth the effort to not only customize my profile but also customize my PowerShell command prompt. I have [written extensively](https://www.commandline.ninja/customize-pscmdprompt/) about how I did this. That article is a thorough analysis of how I made a specialized PowerShell command prompt so that every time I work in PowerShell I have the information displayed the way I prefer. I encourage you to take some time and read that article; I wrote as a lead-in to this article.
 
 One thing I did not cover in that article was how I use the same profile for all users and all versions of PowerShell. In short, I have ONE PROFILE for PS5 and PS7 regardless if I am logged in as my standard user account or my admin account. As I outlined earlier, many PowerShell options are great. In actuality, I would like the same information to be accessible across all profiles, excluding the variables for file paths that could be unique to a particular profile.
 
@@ -128,7 +128,7 @@ If you SHARE a machine (or a VM), then the solution I have been outlining needs 
 
 The idea is to teach you about the tools and help you set up your environment to suit you. Now that we know about that one issue, let's move on to how I made one profile to handle it all.
 
-## **Configuring your workstation to use one profile**
+## Configuring your workstation to use one profile
 
 Dot-sourcing is a method you can use to load scripts from other locations. But maybe you're not clear how this helps with the multiple profile problem. Remember, I am using the `AllHosts, AllUsers` profile script location. That means we have two versions of our profile to consider:
 
