@@ -1,5 +1,5 @@
 ---
-title: 'Get-ADComputer - Cmdlet Syntax and Real World Examples'
+title: 'Get-ADComputer - Cmdlet Syntax and Examples'
 date: 2018-04-30
 authors: [mike]
 draft: false
