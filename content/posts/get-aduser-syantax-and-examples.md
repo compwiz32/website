@@ -150,7 +150,7 @@ Get-ADUser -Identity BGoodmand -Properties *
 
 This command syntax will list ALL properties for the account BGoodman and the list will scroll all 100+ properties that are available until it reaches the end of the list. I did not display the output since it is over 100 lines long.
 
-You can see the full list of default and extended properties on the [Microsoft website](https://social.technet.microsoft.com/wiki/contents/articles/12037.active directory-get-aduser-default-and-extended-properties.aspx?WT.mc_id=CDM-MVP-5004073&ref=commandline.ninja).
+You can see the full list of default and extended properties on the [Microsoft website](https://social.technet.microsoft.com/wiki/contents/articles/12037.active-directory-get-aduser-default-and-extended-properties.aspx?WT.mc_id=CDM-MVP-5004073).
 
 ### Specifying property output with Select-Object
 
