@@ -18,8 +18,8 @@ tags: [PowerShell, Jumpstarts]
 .callout {
   padding: 20px;
   background-color: #E4F5FD;
-  border-left: 6px solid #2196F3</a>
-  border-right: 6px solid #2196F3</a>
+  border-left: 6px solid #2196F3;
+  border-right: 6px solid #2196F3;
 }
 </style>
 </head>
