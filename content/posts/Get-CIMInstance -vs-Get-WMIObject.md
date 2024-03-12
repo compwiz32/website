@@ -6,36 +6,27 @@ authors: [mike]
 draft: false
 image: /images/2022/CIM-vs-WMI/CIM-vs-WMI-Header.webp
 slug: get-ciminstance-vs-get-wmiobject
-tags: [PowerShell, Jumpstarts]
+tags: [PowerShell, Jumpstarts, CIM-WMI]
 ---
 
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Callout Card</title>
-    <style>
-        .callout {
-            padding: 20px;
-            background-color: #6bbae9;
-            color: white;
-            border-radius: 5px;
-            display: flex;
-            align-items: center;
-        }
-        .callout .emoji {
-            font-size: 24px;
-            margin-right: 10px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Callout Box Example</title>
+<style>
+.callout {
+  padding: 20px;
+  background-color: #E4F5FD;
+  border-left: 6px solid #2196F3;
+  border-right: 6px solid #2196F3;
+  display:flex;
+  align-items:center;
+}
+</style>
 </head>
 <body>
-    <div class="callout">
-        <span class="emoji">💡</span>
-        <p>I wrote this article for the  <a href="https://www.ipswitch.com/blog/get-ciminstance-vs-get-wmiobject-whats-the-difference">IPSwitch website</a> in Oct 2019. I am posting it here for archival purposes. I have reformatted it for readability and grammar.</p>
-    </div>
-</body>
-</html>
+
 
 <br>
 
