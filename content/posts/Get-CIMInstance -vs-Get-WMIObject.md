@@ -31,8 +31,8 @@ tags: [PowerShell, Jumpstarts, CIM-WMI]
 <body>
 
 <div class="callout">
-    <div class="emoji">&#x1F604;</div>
-  <p>&#x1F6A8; I wrote this article for the  <a href="https://www.ipswitch.com/blog/get-ciminstance-vs-get-wmiobject-whats-the-difference">IPSwitch website</a> in Oct 2019. I am posting it here for archival purposes. I have reformatted it for readability and grammar.</p>
+    <div class="emoji">&#x1F6A8;</div>
+  <p>I wrote this article for the  <a href="https://www.ipswitch.com/blog/get-ciminstance-vs-get-wmiobject-whats-the-difference">IPSwitch website</a> in Oct 2019. I am posting it here for archival purposes. I have reformatted it for readability and grammar.</p>
 </div>
 
 </body>
