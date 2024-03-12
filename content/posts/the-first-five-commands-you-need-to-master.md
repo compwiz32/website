@@ -6,7 +6,7 @@ draft: false
 image: "/images/2019/First-Five-Commands/Study-time.webp"
 slug: "the-first-five-commands-you-need-to-master"
 description: "These five commands will help you master the advanced features of PowerShell. "
-tags: ["PowerShell"]
+tags: [PowerShell, Jumpstarts]
 ---
 
 Getting started with PowerShell is easy. In fact, it's easy enough for some people that they just dive in and start using it every day with little formal knowledge. At some point though, everyone needs a little help. The PowerShell console has a rich set of cmdlets and built-in help that can be useful for learning how to use the PowerShell language correctly.
