@@ -6,6 +6,7 @@ authors: [mike]
 draft: false
 image: /images/2022/CIM-vs-WMI/CIM-vs-WMI-Header.webp
 slug: get-ciminstance-vs-get-wmiobject
+tags: [PowerShell, Jumpstarts]
 ---
 
 <html lang="en">
@@ -29,6 +30,8 @@ slug: get-ciminstance-vs-get-wmiobject
 </div>
 </body>
 </html>
+
+<br>
 
 PowerShell provides two similar management interfaces for accessing data on a computer: WMI and CIM.
 
