@@ -17,8 +17,9 @@ tags: [PowerShell, Jumpstarts]
 <style>
 .callout {
   padding: 20px;
-  background-color: #f3f3f3;
-  border-left: 6px solid #2196F3;<a href="https://www.example.com">Click here to visit Example Website</a>
+  background-color: #E4F5FD;
+  border-left: 6px solid #2196F3</a>
+  border-right: 6px solid #2196F3</a>
 }
 </style>
 </head>
