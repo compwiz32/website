@@ -16,8 +16,8 @@ tags: [PowerShell, Jumpstarts]
     <title>Callout Card</title>
     <style>
         .callout {
-            padding: 15px;
-            background-color: #3498db;
+            padding: 20px;
+            background-color: #6bbae9;
             color: white;
             border-radius: 5px;
             display: flex;
@@ -32,16 +32,8 @@ tags: [PowerShell, Jumpstarts]
 <body>
     <div class="callout">
         <span class="emoji">💡</span>
-        <p>callout card with a blue background and a light bulb emoji on the left side.</p>
+        <p>I wrote this article for the  <a href="https://www.ipswitch.com/blog/get-ciminstance-vs-get-wmiobject-whats-the-difference">IPSwitch website</a> in Oct 2019. I am posting it here for archival purposes. I have reformatted it for readability and grammar.</p>
     </div>
-</body>
-</html>
-<div class="callout">
-
-
-  <p>I wrote this article for the  <a href="https://www.ipswitch.com/blog/get-ciminstance-vs-get-wmiobject-whats-the-difference">IPSwitch website</a> in Oct 2019. I am posting it here for archival purposes. I have reformatted it for readability and grammar.
-.</p>
-</div>
 </body>
 </html>
 
