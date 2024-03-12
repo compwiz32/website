@@ -345,7 +345,7 @@ Sddl   : O:S-1-5-21-2814075624-155296687-348844592-1001G:S-1-5-21-2814075624-155
 
 ### 5: Get-ExecutionPolicy
 
-PowerShell has policies built-in that control what can be run. These policies are known as *Execution Policies* and their purpose is to control how PowerShell loads configuration files and runs scripts. They are often thought of as security measures but thats not their intended purpose.
+PowerShell has policies built-in that control what can be run. These policies are known as *Execution Policies* and their purpose is to control how PowerShell loads configuration files and runs scripts. They are often thought of as security measures but that's not their intended purpose.
 
 Execution polices are used to configure rules or conditions for when scripts can be run. Doing this allows a person to set an execution policy and prevent themselves from executing something unintentionally. They're not thought of as security policies because they are easily bypassed or changed. Think of them as preferences.
 

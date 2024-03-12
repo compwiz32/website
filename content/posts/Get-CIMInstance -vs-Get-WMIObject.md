@@ -8,6 +8,30 @@ image: /images/2022/CIM-vs-WMI/CIM-vs-WMI-Header.webp
 slug: get-ciminstance-vs-get-wmiobject
 ---
 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Callout Box Example</title>
+<style>
+.callout {
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-left: 6px solid #2196F3;
+}
+</style>
+</head>
+<body>
+
+<div class="callout">
+  <p>I wrote this article for the [IPSwitch website](https://www.ipswitch.com/blog/get-ciminstance-vs-get-wmiobject-whats-the-difference) in Oct 2019. I am posting it here for archival purposes. I have reformatted it for readability and grammar.
+.</p>
+</div>
+
+</body>
+</html>
+
+
 > I wrote this article for the [IPSwitch website](https://www.ipswitch.com/blog/get-ciminstance-vs-get-wmiobject-whats-the-difference) in Oct 2019. I am posting it here for archival purposes. I have reformatted it for readability and grammar.
 
 PowerShell provides two similar management interfaces for accessing data on a computer: WMI and CIM.
