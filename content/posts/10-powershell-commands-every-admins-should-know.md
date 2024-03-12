@@ -1,11 +1,11 @@
 ---
 title: '10 PowerShell commands every admin should know'
 slug: '10-powershell-commands-every-admin-should-know'
-description: 'To get started with PowerShell, these ten commands provide a solid foundation.'
-date: '2017-06-18'
+description: To get started with PowerShell, these ten commands provide a solid foundation.'
+date: 2017-06-18
 authors: [mike]
-image: '/images/2017/10-commands-admins-should-know/CheckList.webp'
-tags: '[PowerShell, Jumpstarts]'
+image: /images/2017/10-commands-admins-should-know/CheckList.webp
+tags: [PowerShell, Jumpstarts]
 draft: false
 ---
 
