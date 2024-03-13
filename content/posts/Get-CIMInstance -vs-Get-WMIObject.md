@@ -17,39 +17,6 @@ tags: [PowerShell, Jumpstarts, CIM-WMI]
 <style>
 .callout {
   padding: 20px;
-  background-color: #E4F5FD;
-  border-left: 6px solid #2196F3;
-  display: flex;
-  align-items: center;
-}
-.emoji {
-            font-size: 48px;
-            margin-right: 10px;
-        }
-</style>
-</head>
-<body>
-
-<div class="callout">
-    <div class="emoji">&#x1F680;</div>
-  <p>I wrote this article for the  <a href="https://www.ipswitch.com/blog/get-ciminstance-vs-get-wmiobject-whats-the-difference">IPSwitch website</a> in Oct 2019. I am posting it here for archival purposes. I have reformatted it for readability and grammar.</p>
-</div>
-
-</body>
-</html>
-
-
-<br>
-
-
-
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Callout Box Example</title>
-<style>
-.callout {
-  padding: 20px;
   background-color: #E6F6E8;
   border-left: 6px solid #2196F3;
   display: flex;
@@ -70,6 +37,8 @@ tags: [PowerShell, Jumpstarts, CIM-WMI]
 
 </body>
 </html>
+
+<br>
 
 PowerShell provides two similar management interfaces for accessing data on a computer: WMI and CIM.
 
