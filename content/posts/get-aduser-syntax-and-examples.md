@@ -4,7 +4,7 @@ title: Get-ADUser - Cmdlet Syntax and Examples
 draft: false
 authors: [mike]
 image: /images/2018/Get-aduser/get-aduser-header.webp
-slug: "get-aduser-syntax-and-examples"
+slug: get-aduser-syntax-and-examples
 description: Follow this handy guide to learn how to pull the user data you need from Active Directory.
 tags: [PowerShell, 'Active Directory']
 ---
@@ -14,33 +14,35 @@ tags: [PowerShell, 'Active Directory']
 
 I will walk you through the PowerShell code needed to do some common queries of Active Directory using `Get-ADUser`. Then I will follow that up with some queries that you may wish to do, but the syntax to run those queries could be trickier to master. Follow along and let's review the basics and then we will build on the basics to do more complex searches.
 
+**TABLE OF CONTENTS**
 
-TABLE OF CONTENTS
-CMDLET DESCRIPTION
-SEARCHING FOR USERS
-CMDLET SYNTAX VIA HELP
-CODE EXAMPLES
-Querying a user account
-Adding a property to a query
-Get all properties for a user
-Specifying property output with Select-Object
-Using wild card matching with Select-Object
-Querying an employee's direct reports
-Querying the Manager property
-Querying the password and login info for a user
-Getting All users from Active Directory using the -filter property
-Using -filter to find account matches
-Using -filter to find address matches
-Searching users in a specific Active Directory OU
-Searching for accounts by account creation date
-Exporting results to a file
+[CMDLET DESCRIPTION](#CMDLET DESCRIPTION)
+[SEARCHING FOR USERS](#SEARCHING FOR USERS)
+[CMDLET SYNTAX VIA HELP](#CMDLET SYNTAX VIA HELP)
+[CODE EXAMPLES](#CODE EXAMPLES)
+
+- [Querying a user account](#Querying a user account)
+- [Adding a property to a query](#Adding a property to a query)
+- [Get all properties for a user](#Get all properties for a user)
+- [Specifying property output with Select-Object](#Specifying property output with Select-Object)
+- [Using wild card matching with Select-Object]
+- [Querying an employee's direct reports](#Querying an employee's direct reports)
+- [Querying the Manager property](#Querying the Manager property)
+- [Querying the password and login info for a user](#Querying the password and login info for a user)
+- [Getting All users from Active Directory using the -filter property](#Getting All users from Active Directory using the -filter property)
+- [Using -filter to find account matches](#Using -filter to find account matches)
+- [Using -filter to find address matches](#Using -filter to find address matches)
+- [Searching users in a specific Active Directory OU](#Searching users in a specific Active Directory OU)
+- [Searching for accounts by account creation date](#Searching for accounts by account creation date)
+- [Exporting results to a file](#Exporting results to a file)
 
 ## CMDLET DESCRIPTION
 
 The Get-ADUser cmdlet gets a user object or performs a search to retrieve multiple user objects.
 
 The Identity parameter specifies the Active Directory user to get. You can identify a user by its distinguished name (DN), GUID, security identifier (SID), Security Accounts Manager (SAM) account name or name. You can also set the parameter to a user object variable, such as `$<localUserObject>` or pass a user object through the pipeline to the Identity parameter.
-SEARCHING FOR USERS
+
+## SEARCHING FOR USERS
 
 To search for and retrieve multiple users, use the Filter or LDAPFilter parameters. The Filter parameter uses the PowerShell Expression Language to write query strings for Active Directory.
 
@@ -99,7 +101,7 @@ Get-ADUser
 
 ## CODE EXAMPLES
 
-You can also see some of the included examples of PowerShell syntax by typing Help Get-ADuser -examples
+You can also see some of the included examples of PowerShell syntax by typing Help Get-ADUser -examples
 
 I am going to skip the built-in examples that are included and jump into some of my own examples to share with you that I think cover all the major points.
 Querying a user account
@@ -207,7 +209,7 @@ SmartcardLogonRequired : False
 ### Querying an employee's direct reports
 
 How about all the people who are direct reports of a particular user?
-Active Directory keeps a hierarchial relationship between accounts that we can use to generate a simple organization reporting chain.
+Active Directory keeps a hierarchical relationship between accounts that we can use to generate a simple organization reporting chain.
 
 ```PowerShell
 get-aduser criley -prop directreports
@@ -443,5 +445,3 @@ get-aduser -filter * -properties Created |
 ```
 
 I hope all of these examples help you to achieve the results you need. I am always available of you have questions about these examples or one you might know of that is represented here.
-
-Thanks for reading!
