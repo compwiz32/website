@@ -16,25 +16,20 @@ I will walk you through the PowerShell code needed to do some common queries of 
 
 **TABLE OF CONTENTS**
 
-[CMDLET DESCRIPTION](#CMDLET DESCRIPTION)
-[SEARCHING FOR USERS](#SEARCHING FOR USERS)
-[CMDLET SYNTAX VIA HELP](#CMDLET SYNTAX VIA HELP)
-[CODE EXAMPLES](#CODE EXAMPLES)
-
-- [Querying a user account](#Querying a user account)
-- [Adding a property to a query](#Adding a property to a query)
-- [Get all properties for a user](#Get all properties for a user)
-- [Specifying property output with Select-Object](#Specifying property output with Select-Object)
-- [Using wild card matching with Select-Object]
-- [Querying an employee's direct reports](#Querying an employee's direct reports)
-- [Querying the Manager property](#Querying the Manager property)
-- [Querying the password and login info for a user](#Querying the password and login info for a user)
-- [Getting All users from Active Directory using the -filter property](#Getting All users from Active Directory using the -filter property)
-- [Using -filter to find account matches](#Using -filter to find account matches)
-- [Using -filter to find address matches](#Using -filter to find address matches)
-- [Searching users in a specific Active Directory OU](#Searching users in a specific Active Directory OU)
-- [Searching for accounts by account creation date](#Searching for accounts by account creation date)
-- [Exporting results to a file](#Exporting results to a file)
+- [CMDLET DESCRIPTION](#cmdlet-description)
+- [SEARCHING FOR USERS](#searching-for-users)
+- [CMDLET SYNTAX VIA HELP](#cmdlet-syntax-via-help)
+- [CODE EXAMPLES](#code-examples)
+  - [Adding a property to a query](#adding-a-property-to-a-query)
+  - [Specifying property output with Select-Object](#specifying-property-output-with-select-object)
+  - [Using wild card matching with Select-Object](#using-wild-card-matching-with-select-object)
+  - [Querying an employee's direct reports](#querying-an-employees-direct-reports)
+  - [Querying the Manager property](#querying-the-manager-property)
+  - [Getting All users from Active Directory using the -filter property](#getting-all-users-from-active-directory-using-the--filter-property)
+  - [Using -filter to find account matches](#using--filter-to-find-account-matches)
+  - [Using -filter to find address matches](#using--filter-to-find-address-matches)
+  - [Searching for accounts by account creation date](#searching-for-accounts-by-account-creation-date)
+  - [Exporting results to a file](#exporting-results-to-a-file)
 
 ## CMDLET DESCRIPTION
 
