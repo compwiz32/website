@@ -9,6 +9,21 @@ description: "These five commands will help you master the advanced features of 
 tags: [PowerShell, Jumpstarts]
 ---
 
+**TABLE OF CONTENTS**
+
+- [1. Get-Help](#1-get-help)
+- [2. Update-Help](#2-update-help)
+- [3. Get-Command](#3-get-command)
+- [4. Get-Member](#4-get-member)
+- [5: Get-ExecutionPolicy](#5-get-executionpolicy)
+- [Bonus Commands to Master](#bonus-commands-to-master)
+- [6 - Set-ExecutionPolicy](#6---set-executionpolicy)
+- [7 - About\_ Files](#7---about_-files)
+- [Conclusion](#conclusion)
+
+
+
+
 Getting started with PowerShell is easy. In fact, it's easy enough for some people that they just dive in and start using it every day with little formal knowledge. At some point though, everyone needs a little help. The PowerShell console has a rich set of cmdlets and built-in help that can be useful for learning how to use the PowerShell language correctly.
 
 There are five cmdlets that you can use to get knowledge and understanding of your working environment. These cmdlets will help you find the information you need when you get stuck or want to know more information about PowerShell syntax and commands. Each one has a unique function and serves a different purpose. These five cmdlets will help you master the advanced features of PowerShell. Let's dive in and see what each cmdlet does and why it's so important to know.
@@ -19,7 +34,7 @@ There are five cmdlets that you can use to get knowledge and understanding of yo
 - Get-Member
 - Update-Help
 
-### 1. Get-Help
+## 1. Get-Help
 
 When you need help in PowerShell, `Get-Help` is where you should look first. This cmdlet will give you information on any cmdlet you want more information about. Using this cmdlet is simple; just type `Get-Help` and the name of a cmdlet and hit enter. Every cmdlet included in PowerShell includes a detailed help file that shows the full cmdlet syntax and detailed information on all the different parameters and examples of how to use each cmdlet. Let's look at the help file for the `Get-Item` cmdlet.
 
@@ -146,13 +161,13 @@ SYNOPSIS
 
 If you already understand how a cmdlet works, then just seeing some examples of how it is used may be enough. My second favorite way to run `Help` is to get the help file in a separate standalone window. If I type `Help Get-Item -ShowWindow` then PowerShell will pop up the help into a new window that I can use and keep open as a reference while I run more commands.
 
-### 2. Update-Help
+## 2. Update-Help
 
 I love the help cmdlet. As I mentioned earlier, I use it every single day and I encourage you to do the same. However, I don't love the help cmdlet when using a machine for the first time. That's because the included help in PowerShell contains only the absolute minimum information on a cmdlet. Nothing is more frustrating for me then running `Help` and getting back a skeleton help file. The solution for this is simple: run `Update-Help` and let PowerShell get the latest help files for all the installed modules on your machine from the internet. Updating help files takes about three minutes to complete and should be done at least once a quarter to keep your help files up to date.
 
 ![Update-Help](/images/2019/First-Five-Commands/Update-help.gif)
 
-### 3. Get-Command
+## 3. Get-Command
 
 `Get-Help` is great if you know what command you need help for, but what if you don't know what command you want to run? What if you want to see the commands that MIGHT be what you are looking for? `Get-Command` helps you find commands that you may want to use but may not be sure of the cmdlet name.
 
@@ -234,7 +249,7 @@ Get-Command -Noun *item*
 Get-Command *item*
 ```
 
-### 4. Get-Member
+## 4. Get-Member
 
 One of the core concepts about PowerShell is the notion of "everything is an object". This means that everything returned in PowerShell has properties that contain more information and information about itself. If I was searching for Windows services that are installed, I would get a list of the services. In addition to the names, PowerShell also knows more information about each service. It knows if each service is running or stopped, and if the services are set to auto-start along with many more pieces of information.
 
@@ -343,7 +358,7 @@ Sddl   : O:S-1-5-21-2814075624-155296687-348844592-1001G:S-1-5-21-2814075624-155
          1-2814075624-155296687-348844592-1001)
 ```
 
-### 5: Get-ExecutionPolicy
+## 5: Get-ExecutionPolicy
 
 PowerShell has policies built-in that control what can be run. These policies are known as *Execution Policies* and their purpose is to control how PowerShell loads configuration files and runs scripts. They are often thought of as security measures but that's not their intended purpose.
 
@@ -362,7 +377,7 @@ There are seven execution policies available: _Allsigned, Bypass, Default, Remot
 
 We have covered our original five cmdlets. Here's some bonus information on two more cmdlets you also should master. These two cmdlets are extensions of earlier topics. One cmdlet works alongside another cmdlet and the other offers up more information on bigger topics related to PowerShell.
 
-### 6 - Set-ExecutionPolicy
+## 6 - Set-ExecutionPolicy
 
 `Set-ExecutionPolicy` is the related command to `Get-ExecutionPolicy`. The former sets policy and the latter lists the current policy. This is one of the first things I check when I am working on a machine I am not familiar with. My default execution policy setting that I use is *Remote Signed*. Configuring a session is simple.
 
@@ -377,7 +392,7 @@ described in the About_Execution_Policies help topic at https:/go.microsoft.com/
 
 ```
 
-### 7 - About_ Files
+## 7 - About_ Files
 
 PowerShell includes information not just on syntax and help for individual cmdlets, but also for more generalized concepts. These generalized help files can be found by looking for help on About_*topic* and contain more information then an individual cmdlet help file. Below is a partial result from a search I performed on About*. The total number of About_ files will vary based on what modules you have installed. My machine has 160 *About_* files installed and they cover a large range of topics. Their purpose is to get you broad knowledge on a topic. Take a look at the myriad of topics you can read about.
 
@@ -465,7 +480,7 @@ LONG DESCRIPTION
         The current scope. The local scope can be the global
 ```
 
-### Conclusion
+## Conclusion
 
 Mastering these seven cmdlets will help you be able to learn more about PowerShell and your current environment configuration anytime you need additional help. These cmdlets can be used many different ways to return just the right amount of information needed to help you solve your issue.
 

@@ -40,6 +40,14 @@ tags: [PowerShell, Jumpstarts, CIM-WMI]
 
 <br>
 
+**TABLE OF CONTENTS**
+
+- [A history lesson on WMI and CMI](#a-history-lesson-on-wmi-and-cmi)
+- [WMI and CIM Network requirements](#wmi-and-cim-network-requirements)
+- [What's in a name?](#whats-in-a-name)
+- [Which one should you use](#which-one-should-you-use)
+
+
 PowerShell provides two similar management interfaces for accessing data on a computer: WMI and CIM.
 
 Sysadmins have been using WMI for years, and then Microsoft gave us data access via CIM with the rollout of PowerShell v3.0. What's the difference between these management interfaces? Which one should you use, and why?

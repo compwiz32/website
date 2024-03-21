@@ -33,6 +33,14 @@ description: "Learn how to identify and automatically remove inactive user accou
 
 <br>
 
+**TABLE OF CONTENTS**
+
+- [Define search criteria](#define-search-criteria)
+- [Find account inactivity properties](#find-account-inactivity-properties)
+- [Logon attributes explained](#logon-attributes-explained)
+- [Building the Automation](#building-the-automation)
+- [Wrapping it all up](#wrapping-it-all-up)
+
 Active Directory is a directory service that maintains information about users, computers and related objects. It is a database of relational information that needs periodic maintenance to remain useful and relevant. A directory will have accounts no longer used. Finding those accounts in Active Directory is not as easy as it sounds at first glance. Let's walk through finding inactive user accounts and automating removing them.
 
 ## Define search criteria

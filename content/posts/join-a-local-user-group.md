@@ -9,6 +9,13 @@ tags: ["PowerShell", "Community"]
 draft: false
 ---
 
+**TABLE OF CONTENTS**
+
+- [What the heck is a user group?](#what-the-heck-is-a-user-group)
+- [What happens at these meetings?](#what-happens-at-these-meetings)
+- [What is the purpose?](#what-is-the-purpose)
+- [The hardest part is starting](#the-hardest-part-is-starting)
+- [Summary](#summary)
 
 For the past year, I've been regularly attending monthly meetings at my local PowerShell user group in Raleigh. Recently, I had the chance to attend a SQL users group in the area where they discussed a topic specific to PowerShell. I thought I'd share my experiences and encourage you to get involved in local user groups.
 

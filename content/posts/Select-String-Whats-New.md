@@ -9,6 +9,13 @@ slug: "select-string-powershell7"
 description: "Discover the new parameters available in Select-String in PowerShell7."
 ---
 
+**TABLE OF CONTENTS**
+
+- [-culture parameter](#-culture-parameter)
+- [-noemphasis parameter](#-noemphasis-parameter)
+- [-raw parameter](#-raw-parameter)
+- [-simplematch parameter](#-simplematch-parameter)
+
 Select-String is one of those commands that either you use it often or not much at all. There doesn't seem to be a middle of the road for Select-String. I don't get called upon to use it that often, but when I do, it usually saves my bacon at work. The most typical use case for me is for searching flat log files for patterns of text or for all entries of a particular phrase across a bunch of files.
 
 The release of PowerShell7 has brought many features and some great new cmdlets. Select-String received some minor but powerful updates as well in the new release. The updates to Select-String are less "WOW" and more like, "Oh yeah, that's a useful addition." For someone who uses Select-String all the time, these updates are probably super helpful. But if you only occasionally use Select-String, then you may not even notice the new bits available when using this cmdlet.

@@ -9,6 +9,14 @@ description: "cmdlet syntax and real-world usage examples showing how to use the
 tags: [PowerShell, 'Event Logs']
 ---
 
+**TABLE OF CONTENTS**
+
+- [SYNOPSIS](#synopsis)
+- [DESCRIPTION](#description)
+- [SYNTAX](#syntax)
+- [REAL-WORLD EXAMPLES](#real-world-examples)
+
+
 ## SYNOPSIS
 
 Gets events from event logs and event tracing log files on local and remote computers.

@@ -8,6 +8,18 @@ tags: [jumpstarts, PowerShell]
 featured: true
 ---
 
+**TABLE OF CONTENTS**
+
+- [If you like to learn from books](#if-you-like-to-learn-from-books)
+- [If you like to learn from videos](#if-you-like-to-learn-from-videos)
+- [If you like to read blogs](#if-you-like-to-read-blogs)
+- [If you like to take part with others](#if-you-like-to-take-part-with-others)
+- [If you like to learn from doing](#if-you-like-to-learn-from-doing)
+- [When it's time to write code](#when-its-time-to-write-code)
+- [One last resource...](#one-last-resource)
+
+
+
 Newcomers to PowerShell and automation often ask me: Where can I find great resources to learn PowerShell?
 
 There are a multitude of answers to that question. Some individuals favor books, while others lean towards blogs, videos, or interactive tools. I've compiled a list of resources you can use as a reference to learn and practice PowerShell.

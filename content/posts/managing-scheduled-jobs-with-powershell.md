@@ -9,6 +9,11 @@ description: "Learn how to manage PowerShell scheduled jobs. Learn the benefits 
 tags: ["PowerShell"]
 ---
 
+**TABLE OF CONTENTS**
+
+- [What Are Jobs](#what-are-jobs)
+- [What are Scheduled Jobs](#what-are-scheduled-jobs)
+
 I'd like to walk you through how to manage PowerShell scheduled jobs. The concept of PowerShell jobs is not familiar territory for many PowerShell users. At first glance, the benefits of running any kind of job from the command line may not be obvious. This [article](https://4sysops.com/archives/managing-powershell-scheduled-jobs/), which I wrote for the [4sysops website](https://4sysops.com/archives/managing-powershell-scheduled-jobs/) peels back the covers on managing scheduled jobs and the benefits that come with them.
 
 The write-up focuses on managing existing jobs and scheduled jobs. If you are unfamiliar with the basics of creating PowerShell jobs, then I suggest you read [PowerShell Background Job Basics](https://4sysops.com/archives/powershell-background-job-basics/) by Tim Warner. From there, you should also read my primer on scheduled jobs [Create PowerShell scheduled jobs](https://4sysops.com/archives/create-powershell-scheduled-jobs/) to get you up to speed on creating Scheduled Jobs.

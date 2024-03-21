@@ -7,9 +7,16 @@ tags: [Jumpstarts, 'PowerShell Remoting',PowerShell]
 image: /images/2020/Jumpstart-Remoting/BartSimpson-Remoting.jpg
 slug: jump-start-powershell-remoting
 description: "Get up to speed quickly on all aspects of PowerShell remoting, logging and security with easy to follow articles and guides"
-
-
 ---
+
+**TABLE OF CONTENTS**
+
+- [Connecting to multiple computers with Invoke-Command](#connecting-to-multiple-computers-with-invoke-command)
+- [Invoke-Command: Connecting to computers requiring different credentials](#invoke-command-connecting-to-computers-requiring-different-credentials)
+- [Invoke-Command: Dealing with offline computers](#invoke-command-dealing-with-offline-computers)
+- [Invoke-Command: Compensating for slow responding computers](#invoke-command-compensating-for-slow-responding-computers)
+- [How to secure PowerShell Remoting in a Windows Domain](#how-to-secure-powershell-remoting-in-a-windows-domain)
+- [Video: Configuring PowerShell Remoting Security \& Logging](#video-configuring-powershell-remoting-security--logging)
 
 PowerShell remoting is a method you can use to connect securely to many machines with very little effort. Using remoting, a user can quickly query information or deploy a change to multiple computers without ever having to login via a GUI or RDP.
 

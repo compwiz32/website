@@ -7,10 +7,20 @@ image: /images/2018/Secure-PowerShell/door-green-closed-lock.webp
 slug: "securing-powershell"
 description: "PowerShell remoting is safe by default, but you can enhance its security. Read on to discover the key points."
 tags: [PowerShell, 'PowerShell Remoting']
-
-
 ---
 
+**TABLE OF CONTENTS**
+
+- [Security \& Authentication](#security--authentication)
+- [Certificate-Based Authentication](#certificate-based-authentication)
+- [Firewall Settings](#firewall-settings)
+- [Limiting Connections](#limiting-connections)
+- [Logging](#logging)
+  - [Module Logging](#module-logging)
+  - [Script Block Logging](#script-block-logging)
+- [Transcription](#transcription)
+- [Conclusion](#conclusion)
+- [My Recommendations](#my-recommendations)
 
 PowerShell is an awesomely powerful tool for configuring, managing and controlling your environment. Out of the box, PowerShell remoting is very secure but there are enhancements you can make to increase security.
 
@@ -27,7 +37,7 @@ One big caveat before I begin: There are different settings that can be put in p
 
 Lets' get started!
 
-### Security & Authentication
+## Security & Authentication
 
 PowerShell was designed from the start with security in mind. The default method of authentication out of the box is Kerberos. Connections between the two computers in a domain will use Kerberos for initial authentication and fall back to NTLM for workgroup computers. You can change these default settings and actually lower the authentication settings, but I would not recommend that.
 
@@ -46,13 +56,13 @@ The main difference between these remote connection methods is what protocol is 
 
 By default, PowerShell Remoting relies on WinRM to make connections to other machines unless a WMI call is being made. WinRM (and WMI) only allow connections from members of the Administrators group. If you have a handle on who has admin access to your servers and desktops, then you're off to a great start in securing your PS remoting environment. PS remote sessions are launched under the user's context, so all operating system access controls applied to individual users and groups continue to apply to them while connected over PowerShell remoting.
 
-### Certificate-Based Authentication
+## Certificate-Based Authentication
 
 When you authenticate with Kerberos to a remote PC, you are verifying that you are who you say you are. However, neither you or the remote node can verify if the either computer is who they say they are. Certificate-Based Authentication solves this problem through the use of certificates and the SSL authentication protocol. Using SSL certificates, the authenticity of the remote computer can be proven as well as the the machine initiating the connection. Without SSL, a computer can spoof a name and trick the other side into thinking they are connected to a different computer by falsely building confidence that the spoofed computer is one they can trust. This scenario I have described is simple example of how the first half of a man-in-the-middle attack is crafted.
 
 In order for you to enable Certificate-Based Authentication, you must have a certificate infrastructure in place and each server must have a certificate issued by the the Certificate Authority. You could also build the infrastructure if it doesn't exist but this is not a trivial task. These requirements make Certificate-Based Authentication tough to put in place if you don't already have that infrastructure setup beforehand and a deep understanding of how certificates work.
 
-### Firewall Settings
+## Firewall Settings
 
 PowerShell Remoting (and WinRM) listen on the following ports:
 
@@ -67,7 +77,7 @@ WinRM runs as a service under the Network Service account and spawns isolated pr
 
 Up until now, we have been discussing authentication and firewall settings. Hopefully, it's clear that there isn't much that you need to do to improve your security for these two areas but now we're going to start to discuss some areas where you do have some real options that can increase the security of your PowerShell remoting environment.
 
-### Limiting Connections
+## Limiting Connections
 
 Out of the box, every Windows computer on your network can make a connection to any other computer on that network if the user connecting has the rights and there is a network path available between the two nodes. **One very easy way to beef up the security of your organization is to limit which machines can start a remote connection.** For example, let's assume you are an admin of a computer network that has 500 computers. Of those 500 computers, let's say you manage 20 servers and that you have an IT support staff of 10 people. You could argue that there are approximately 470 computers that will probably never INITIATE a remote PowerShell connection attempt (500 PC's - 20 servers - 10 IT admins). If you shut off the ability to make remote PowerShell connections for those 470 computers, you just reduce your PowerShell attack surface by 94%!
 
@@ -113,7 +123,7 @@ Script block logging events are recorded in Event ID # 4104. Script blocks excee
 
 Enabling script block logging will capture all activity, not just blocks considered suspicious by the PowerShell process. Script block logging generates fewer events than module logging but the volume still can be considerable.
 
-### Transcription
+## Transcription
 
 **Transcription creates a unique record of every PowerShell session**, **including all input and output, exactly as it appears in the session.**
 
@@ -123,13 +133,13 @@ PowerShell transcripts are automatically named to prevent collisions, with names
 
 I like the idea of turning on transcription and sending those logs to a file share. The logs are simple text files and are easy to read and scan at a glance if necessary. Also, since they're just text files, they are very efficient to store and can be compressed and archived without much effort. You can setup transcription to write transcripts to a remote, write-only network share. Machines would dump log data there but only a handful of people could remove those logs.
 
-### Conclusion
+## Conclusion
 
 I have walked you through many of the options available for PowerShell Remoting. The take away from this article hopefully is that you realize that, by default, PowerShell authentication is strong. However, detailed logging is not enabled by default. PowerShell only logs connection attempts in its default config, but there is the ability to log in great detail everything that occurs within a PowerShell session. The downside here is that turning on logging has an impact on machine performance and disk space and you will have to figure out for yourself what the best mix is for your org.
 
 Enabling script block logging and transcription will record most activity while minimizing the amount of log data generated. At a minimum, transcription logging should be enabled, in order to identify commands run and code that was executed.
 
-### My Recommendations
+## My Recommendations
 
 Follow these recommendations and you will have a very strong security posture with respect to running PowerShell in your organization:
 

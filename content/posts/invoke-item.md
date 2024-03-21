@@ -9,6 +9,16 @@ description: "Invoke-Item is a cmdlet that is not used frequently in PowerShell.
 tags: ["PowerShell"]
 ---
 
+**TABLE OF CONTENTS**
+
+- [Opening Files and Folders](#opening-files-and-folders)
+- [Opening Multiple Files of the Same Type](#opening-multiple-files-of-the-same-type)
+- [Opening Multiple Files using the -include parameter](#opening-multiple-files-using-the--include-parameter)
+- [Opening Multiple Files using the -exclude parameter](#opening-multiple-files-using-the--exclude-parameter)
+- [Opening Aliases](#opening-aliases)
+- [Launching Files Immediately after Creation](#launching-files-immediately-after-creation)
+- [Conclusion](#conclusion)
+
 A few weeks ago I was browsing the [tips and tricks page](https://jdhitsolutions.com/blog/powershell-tips-tricks-and-advice/) on my good friend, Jeff Hicks' website and stumbled across a cmdlet I was not familiar with: `Invoke-Item`. His tips page included a one liner that stated:
 
 > Use Invoke-Item or its alias ii, to open a folder in Windows Explorer: `ii c:\windows`.

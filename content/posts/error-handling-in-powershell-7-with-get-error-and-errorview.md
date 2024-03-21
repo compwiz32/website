@@ -9,6 +9,13 @@ slug: "error-handling-in-powershell-7-with-get-error-and-errorview"
 tags: [PowerShell]
 ---
 
+**TABLE OF CONTENTS**
+
+- [Error Views](#error-views)
+- [Get-Error](#get-error)
+- [PowerShell 7 Blog Week](#powershell-7-blog-week)
+- [PowerShell 7 Blog Week Authors](#powershell-7-blog-week-authors)
+
 By now, I am sure you've heard the news: **PowerShell 7 is no longer a beta product and the latest release has reached GA (generally available) status**. In short, this means that Microsoft now considers PowerShell7 production ready! From this point forward you should begin to use PowerShell7 as your daily driver for all things PowerShell. Today I'd like to show you one aspect of PowerShell that is greatly improved: Error Handling and Error Messages.
 
 <br>

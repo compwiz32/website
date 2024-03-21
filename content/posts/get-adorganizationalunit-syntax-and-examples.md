@@ -10,6 +10,14 @@ description: "Learn common searches you can do with the Get-ADOrganizationalUnit
 
 ---
 
+**TABLE OF CONTENTS**
+
+- [SYNOPSIS](#synopsis)
+- [CMDLET ALIASES](#cmdlet-aliases)
+- [DESCRIPTION](#description)
+- [SYNTAX](#syntax)
+- [EXAMPLES](#examples)
+
 ## SYNOPSIS
 
 Gets one or more Active Directory organizational units.
