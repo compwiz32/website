@@ -11,7 +11,7 @@ draft: false
 
 Hey there PowerShell family!
 
-Today, I'm excited to share my latest article from [petri.com](https://petri.com), focusing on setting and managing Environment Variables with PowerShell. The article covers various capabilities of PowerShell, exploring key areas and scenarios that you should understand and master. Let's review the major topics covered.
+Today, I'm excited to share my latest article from [petri.com](https://petri.com), which discusses setting and managing Environment Variables with PowerShell. The article covers various capabilities of PowerShell, exploring key areas and scenarios that you should understand and master. Let's review the major topics covered.
 
 <html lang="en">
 <head>
@@ -37,9 +37,8 @@ Today, I'm excited to share my latest article from [petri.com](https://petri.com
     <div class="emoji">&#10071;</div>
   <p><b>So where is the rest of the article?</b>
   <br>
-   You might wonder why some articles like this one only have a sneak peek here. I write for a few websites, and they own the articles, so I can't post the full article here. But I can give you a summary of the article so you can check it out.
-
-   Unfortunately, you'll have to go to the publisher's site to read the full article. I wish I didn't have to send you away, but it's the easiest way for me to share all my stuff with you here.</p>
+   You might wonder why some articles like this one only have a sneak peek here. I write for a few websites, and they own the articles, so I can't post the full article here. But I can give you a summary of the article so you can check it out.</p>
+  </p>Unfortunately, you'll have to go to the publisher's site to read the full article. I wish I didn't have to send you away, but it's the easiest way for me to share all my stuff with you here.</p>
 </div>
 
 ## Introduction to Environment Variables
