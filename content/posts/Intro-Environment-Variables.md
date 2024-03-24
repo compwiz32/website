@@ -36,10 +36,10 @@ Today, I'm excited to share my latest article from Petri.com, focusing on settin
 
 <div class="callout">
     <div class="emoji">&#10071;</div>
-  <p>So where's the rest of the article?
+  <p><b>So where is the rest of the article?</b></p>
   <br>
 
-  I wrote this article for the <a href=https://petri.com> Petri website</a>. You can find the <a href=https://petri.com/powershell-set-environment-variable>full guide on how to set environment variables using PowerShell</a> at petri.com. I can only post a summary of the article here. I understand that it's not awesome to have to visit another website. </p>
+  <p>I wrote this article for the <a href=https://petri.com> Petri website</a>. You can find the <a href=https://petri.com/powershell-set-environment-variable>full guide on how to set environment variables using PowerShell</a> at petri.com. I can only post a summary of the article here. I understand that it's not awesome to have to visit another website. </p>
 </div>
 
 ## Introduction to Environment Variables
@@ -53,7 +53,7 @@ Today, I'm excited to share my latest article from Petri.com, focusing on settin
 ## Examples of how to access variables using PowerShell
 
 - A discussion about access methods, setting environment variables, adding new ones, and appending existing ones.
-- Examining the advantages and disadvantages of using Set-Item cmdlet versus [System.Environment].
+- Examining the advantages and disadvantages of using `Set-Item` cmdlet versus `[System.Environment]()` .NET class method.
 
 ## Permanence of Changes
 
