@@ -36,7 +36,7 @@ Today, I'm excited to share my latest article from Petri.com, focusing on settin
 
 <div class="callout">
     <div class="emoji">&#10071;</div>
-  <p><b>So where is the rest of the article?</b></p>
+  <p><b>So where is the rest of the article?</b>
   <br>
 
   <p>I wrote this article for the <a href=https://petri.com> Petri website</a>. You can find the <a href=https://petri.com/powershell-set-environment-variable>full guide on how to set environment variables using PowerShell</a> at petri.com. I can only post a summary of the article here. I understand that it's not awesome to have to visit another website. </p>
