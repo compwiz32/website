@@ -9,9 +9,8 @@ tags: ['Active Directory', PowerShell]
 description: "Let's check out some common searches you can do with the Get-ADComputer cmdlet, and a few cool tricks too."
 ---
 
-## TABLE OF CONTENTS
+**TABLE OF CONTENTS**
 
-- [TABLE OF CONTENTS](#table-of-contents)
 - [SYNOPSIS](#synopsis)
 - [DESCRIPTION](#description)
 - [SYNTAX](#syntax)
