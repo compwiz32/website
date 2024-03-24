@@ -67,4 +67,7 @@ Today, I'm excited to share my latest article from [petri.com](https://petri.com
   Unfortunately, you'll have to go to the publisher's site to read the full article. I wish I didn't have to send you away, but it's the easiest way for me to share all my stuff with you here.</p>
 </div>
 
-[Follow this Link](https://petri.com/powershell-set-environment-variable/) to read the full article.
+<br>
+<br>
+
+If you enjoyed this summary,  please [follow this link](https://petri.com/powershell-set-environment-variable/) to read the full article on the Petri website.
