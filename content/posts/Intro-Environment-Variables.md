@@ -2,7 +2,7 @@
 title: 'How to set and manage Environment Variables with PowerShell'
 slug: 'manage-environment-variables'
 description: 'Learn how to create and manage Environment Variables using PowerShell'
-date: '2024-03-19'
+date: '2024-03-24'
 authors: [mike]
 image: '/images/2024/Petri-Environment-Variables/Environment-Variables-Header.webp'
 tags: [PowerShell]
