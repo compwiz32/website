@@ -40,6 +40,5 @@ Being that this was my first time attending, I honestly wasn't sure what to expe
   <br>
    You might wonder why some articles like this one only have a sneak peek here. I write for a few websites, and they own the articles, so I can't post the full article here. But I can give you a summary of the article so you can check it out.
 
-   In order to read the full article, you'll have to go to the <a href="https://4sysops.com/archives/powershell-summit-2018-recap/">4sysops website.</a>
-  </p>
+   You'll have to go to the <a href="https://4sysops.com/archives/powershell-summit-2018-recap/">4sysops website.</a> to read the full article.</p>
 </div>
