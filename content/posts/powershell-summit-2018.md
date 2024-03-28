@@ -18,7 +18,7 @@ Being that this was my first time attending, I honestly wasn't sure what to expe
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Callout Box</title>
+<title>Summit 2018 Article explainer</title>
 <style>
 .callout {
   padding: 20px;
@@ -38,7 +38,9 @@ Being that this was my first time attending, I honestly wasn't sure what to expe
     <div class="emoji">&#10071;</div>
   <p><b>So where is the rest of the article?</b>
   <br>
+  <br>
    You might wonder why some articles like this one only have a sneak peek here. I write for a few websites, and they own the articles, so I can't post the full article here. But I can give you a summary of the article so you can check it out.
-
-   You'll have to go to the <a href="https://4sysops.com/archives/powershell-summit-2018-recap/">4sysops website.</a> to read the full article.</p>
+   <br>
+   <br>
+   You'll have to go to the <a href="https://4sysops.com/archives/powershell-summit-2018-recap/">4sysops website</a> to read the full article.</p>
 </div>
