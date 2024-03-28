@@ -1,11 +1,11 @@
 ---
 title: 'PS Summit 2018 Recap'
-slug: 'ps-summit-2018'
+slug: ps-summit-2018
 description: 'My thoughts on the PowerShell Summit and the future of PowerShell'
 date: '2018-04-28'
 authors: [mike]
 image: '/images/2018/PSHSummit-2018/PSHSummit2018.webp'
-tags: '[PowerShell, Community]'
+tags: [PowerShell, Community]
 draft: false
 ---
 
