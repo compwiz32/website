@@ -1,5 +1,5 @@
 ---
-title: "What's new with Select-String in PowerShell7?"
+title: "What's new with Select-String in PowerShell7"
 tags: [PowerShell]
 date: 2020-03-14
 authors: [mike]

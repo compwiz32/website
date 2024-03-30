@@ -141,7 +141,6 @@ We'll need to consider using some other method of retrieving the relevant inform
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Callout Box Example</title>
 <style>
 .callout {
   padding: 20px;

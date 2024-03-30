@@ -40,7 +40,6 @@ Today, I'm excited to share my latest article from [petri.com](https://petri.com
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Env Vars article explainer</title>
 <style>
 .callout {
   padding: 20px;
