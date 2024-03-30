@@ -13,7 +13,6 @@ description: "Learn how to identify and automatically remove inactive user accou
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Callout Box Example</title>
 <style>
 .callout {
   padding: 20px;

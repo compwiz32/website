@@ -21,7 +21,7 @@ to = "/get-aduser-syantax-and-examples"
 
 [[redirects]]
 from = "/select-string-powershell7/"
-to = "select-string-powershell7whats-new/"
+to = "select-string-whats-new/"
 
 [[redirects]]
 from = "/tag/*"
