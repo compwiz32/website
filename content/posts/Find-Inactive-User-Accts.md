@@ -104,7 +104,6 @@ Your results may vary based on what your Active Directory domain functional leve
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Callout Box Example</title>
 <style>
 .callout {
   padding: 20px;
@@ -137,7 +136,6 @@ Our search found multiple properties that show date/time logon information. One 
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Callout Box Example</title>
 <style>
 .callout {
   padding: 20px;
@@ -198,7 +196,6 @@ This code retrieves all users who haven't logged in over 90 days. We save the da
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Callout Box Example</title>
 <style>
 .callout {
   padding: 20px;
