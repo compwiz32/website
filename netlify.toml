@@ -18,6 +18,11 @@ to = "/use-powershell-to-find-services-configured-to-run-as-another-user"
 from = "/get-aduser-syntax-and-examples-post-refresh"
 to = "/get-aduser-syantax-and-examples"
 
+
+[[redirects]]
+from = "/select-string-powershell7/"
+to = "select-string-powershell7whats-new/"
+
 [[redirects]]
 from = "/tag/*"
 to = "/tags"
