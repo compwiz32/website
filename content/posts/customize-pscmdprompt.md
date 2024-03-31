@@ -22,6 +22,8 @@ authors: [mike]
 - [Displaying the full folder path in the Title Bar](#displaying-the-full-folder-path-in-the-title-bar)
 - [Bringing it all together](#bringing-it-all-together)
 
+<br>
+
 You can personalize the command prompt in PowerShell to suit your preferences. To enhance the usefulness of the command prompt display, many pieces of information can be incorporated. Recently, I customized my command prompt with information that I believe is helpful.
 
 I would like to share with you how I customized my command prompt to display information, such as the current folder and execution of the last command that was run. You can implement my customizations as is, or you can create your own. Follow along and I will show you how I did it, then you will know how to make changes on your own. If you want to head straight to the finished code, just browse to the end of this post.
