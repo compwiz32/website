@@ -10,6 +10,19 @@ featured: true
 authors: [mike]
 ---
 
+- [My PowerShell Prompt Preferences](#my-powershell-prompt-preferences)
+- [Customizing The Prompt function](#customizing-the-prompt-function)
+- [Detecting Run as Administrator](#detecting-run-as-administrator)
+- [Displaying the Current User](#displaying-the-current-user)
+- [Displaying the Current Folder](#displaying-the-current-folder)
+- [Creating a "timestamp" for commands](#creating-a-timestamp-for-commands)
+- [Querying how long the last command ran](#querying-how-long-the-last-command-ran)
+- [Displaying the full folder path in the Title Bar](#displaying-the-full-folder-path-in-the-title-bar)
+- [Bringing it all together](#bringing-it-all-together)
+
+<br>
+<br>
+
 You can personalize the command prompt in PowerShell to suit your preferences. To enhance the usefulness of the command prompt display, many pieces of information can be incorporated. Recently, I customized my command prompt with information that I believe is helpful.
 
 I would like to share with you how I customized my command prompt to display information, such as the current folder and execution of the last command that was run. You can implement my customizations as is, or you can create your own. Follow along and I will show you how I did it, then you will know how to make changes on your own. If you want to head straight to the finished code, just browse to the end of this post.
