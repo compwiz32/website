@@ -10,6 +10,8 @@ featured: true
 authors: [mike]
 ---
 
+**Article Contents:**
+
 - [My PowerShell Prompt Preferences](#my-powershell-prompt-preferences)
 - [Customizing The Prompt function](#customizing-the-prompt-function)
 - [Detecting Run as Administrator](#detecting-run-as-administrator)
