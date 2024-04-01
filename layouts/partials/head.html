@@ -5,7 +5,8 @@
   <link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">
   <script async src="https://analytics.umami.is/script.js" data-website-id="61b5caaf-9f62-459e-8adc-51d365ed8e40"></script>
 
-  <title>{{ if not .IsHome }}{{ .Title }}{{ .Params.name }} | {{ end }}{{ .Site.Title }}</title>
+  <!-- <title>{{ if not .IsHome }}{{ .Title }}{{ .Params.name }} | {{ end }}{{ .Site.Title }}</title> -->
+    <title>{{ if not .IsHome }}{{ .Title }}{{ .Params.name }}</title>
   <meta name="description" content="{{if .IsHome}}{{ .Site.Params.description }}{{else}}{{ .Description }}{{end}}">
 
   {{ with .OutputFormats.Get "rss" -}}

@@ -13,8 +13,8 @@ authors: [mike]
 **Article Contents:**
 
 - [My PowerShell Prompt Preferences](#my-powershell-prompt-preferences)
-- [Customizing The Prompt function](#customizing-the-prompt-function)
-- [Detecting Run as Administrator](#detecting-run-as-administrator)
+- [Customizing the Prompt function](#customizing-the-prompt-function)
+- [Detecting Run As Administrator](#detecting-run-as-administrator)
 - [Displaying the Current User](#displaying-the-current-user)
 - [Displaying the Current Folder](#displaying-the-current-folder)
 - [Creating a "timestamp" for commands](#creating-a-timestamp-for-commands)
@@ -56,7 +56,7 @@ If you prefer not to use the Windows Terminal, you can still use the built-in Po
 
 I'm going to walk through each one of these items and show how each one is built. But before I can jump into the six items above, let's talk about what executes these settings.
 
-## Customizing The Prompt function
+## Customizing the Prompt function
 
 The "Prompt" function configures the information displayed upon launching PowerShell. You can customize your command prompt by creating your own function called "Prompt" and saving your desired settings inside that function. You then add your "Prompt" function to your PowerShell profile and then your settings supersede the built-in prompt function.
 
@@ -64,7 +64,7 @@ The PowerShell profile is loaded every time you open a new command prompt and lo
 
 Some information needed to customize the command prompt can be complex and difficult to understand at first glance. I'll do my best to explain the code, but don't get down if you struggle with some of these code snippets. I pulled some snippets directly from the Microsoft documentation. They don't need any modification at all to be used. If you understand what they do at a higher level, then that is enough for you to use this code in your script.
 
-## Detecting Run as Administrator
+## Detecting Run As Administrator
 
 Looking back at the earlier screen cap, the first piece of information displayed in the command prompt is if the command prompt is running "elevated". Elevation of privileges is a concept where the logged-in user should run with the lowest set of privileges, and they elevate their privileges (rights) when they need to change the system. Microsoft controls elevating rights with User Access Control (aka UAC). If you want to change your local system from your PowerShell command prompt, then the PowerShell command prompt needs to be "elevated" (aka "Run As Administrator") in order to make changes.
 
