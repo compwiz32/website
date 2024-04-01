@@ -1,6 +1,6 @@
 ---
-title: Use PowerShell to find Windows services configured to run as another user
-description: Get-Service isn't enough to get Run as info. You'll need to consult CIM data and then combine the two data sources.
+title: 'PowerShell: Find Windows Services Running as Another User'
+description: 'Learn to fetch Windows service Run as details using CIM data with Get-Service.'
 date: 2022-02-14
 authors: [mike]
 image: '/images/2022/Use-PowerShell-Find-Svcs/Get-Service.jpg'

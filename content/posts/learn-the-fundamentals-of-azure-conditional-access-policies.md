@@ -5,7 +5,7 @@ draft: false
 authors: [mike]
 image: /images/2022/Conditional-Access-Policy-Fundamentals/Checkpoint.jpg
 tags: [Azure]
-title: "Learn the fundamentals of Azure AD Conditional Access policies"
+title: "Getting started with EntraID Conditional Access policies"
 slug: azure-conditional-access-policies-fundamentals
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Get-PCUptime: Find out how long computers have been running via PowerShell"
+title: "Monitor Multiple PCs' Uptime with Ease Using Get-PCUptime in PowerShell"
 tags: [PowerShell]
 date: 2020-07-15
 authors: [mike]

@@ -5,7 +5,7 @@ draft: false
 image: /images/2022/PowerShell-Podcast-Community/PowerShell-Podcast.jpg
 slug: powershell-podcast-guest-speaker
 tags: [Community, PowerShell]
-title: Talking about community involvement on the new PowerShell Podcast
+title: Talking about community on the new PowerShell Podcast
 authors: [mike]
 ---
 

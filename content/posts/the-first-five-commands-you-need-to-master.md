@@ -1,11 +1,11 @@
 ---
-title: "Getting Started with PowerShell: The First Five Commands You Need to Master"
+title: "PowerShell Basics: Top 5 Commands for Beginners"
 date: 2019-12-04T13:03:28Z
 authors: [mike]
 draft: false
 image: "/images/2019/First-Five-Commands/Study-time.webp"
 slug: "the-first-five-commands-you-need-to-master"
-description: "These five commands will help you master the advanced features of PowerShell. "
+description: "Master the advanced features of PowerShell with these five essential commands."
 tags: [PowerShell, Jumpstarts]
 ---
 

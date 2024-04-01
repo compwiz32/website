@@ -6,7 +6,7 @@ draft: false
 authors: [mike]
 image: '/images/2022/AD-Admin-Count/AdminCount-Header.jpg'
 slug: "activedirectory-admincount-attribute-usage"
-title: "Learn to adjust the AdminCount attribute for protected accounts"
+title: "Change the AdminCount attribute for protected accounts"
 ---
 
 Many admins often misunderstand or find the concept of [AdminCount](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/appendix-b--privileged-accounts-and-groups-in-active-directory/?WT.mc_id=CDM-MVP-5004073) in Active Directory unfamiliar. If you're interested in learning about its function, purpose, and proper configuration, look at my [TechTarget article](https://www.techtarget.com/searchwindowsserver/tutorial/Learn-to-adjust-the-AdminCount-attribute-in-protected-accounts).

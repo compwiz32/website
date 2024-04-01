@@ -1,12 +1,12 @@
 ---
-title: "10 ways anyone can easily contribute to the PowerShell community"
+title: "10 ways anyone can contribute to the PowerShell community"
 date: 2018-11-19
 authors: [mike]
 draft: false
 image: "/images/2018/Contribute-Community/fistbump.jpg"
 slug: "how-anyone-can-easily-contribute-to-the-powershell-community"
-description: "Here are 10 ways that ANYONE can start contributing to the PowerShell community immediately. "
-tags: ["PowerShell", "Community"]
+description: "Here are 10 ways that ANYONE can start contributing to the PowerShell community immediately."
+tags: [PowerShell, Community]
 ---
 
 One of the things that makes the PowerShell community so great is the willingness of others to help people succeed. Unlike other communities, there is no bitter in-fighting among members or outward competition to one-up the people who actively participate. You also don't have people outwardly flaming each other when they do not agree with your opinions. There is a genuine interest by most active members of the community for others to be successful and grow within the community.
