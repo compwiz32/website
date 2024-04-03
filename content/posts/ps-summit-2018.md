@@ -18,7 +18,6 @@ Being that this was my first time attending, I honestly wasn't sure what to expe
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Summit 2018 Article explainer</title>
 <style>
 .callout {
   padding: 20px;
