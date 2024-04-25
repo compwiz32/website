@@ -19,7 +19,7 @@ from = "/get-aduser-syntax-and-examples-post-refresh"
 to = "/get-aduser-syantax-and-examples"
 
 [[redirects]]
-from = "/get-aduser-syantax-and-examples/"
+from = "/get-aduser-syantax-and-examples"
 to = "/get-aduser-syantax-and-examples"
 
 [[redirects]]
