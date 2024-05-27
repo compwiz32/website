@@ -13,6 +13,11 @@ draft: false
 
 Test Post to see if previews work and if a javascript embed will be displayed.
 
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
 <script src="https://meiro-prod.fra1.digitaloceanspaces.com/iframeResizer.min.js"></script>
 <iframe id="meiro_8081374" src="https://go.meiro.cc/8081374" width="100%" frameborder="0"></iframe>
 <script>
@@ -21,3 +26,6 @@ Test Post to see if previews work and if a javascript embed will be displayed.
     heightCalculationMethod: 'grow',
   }, '#meiro_8081374');
 </script>
+
+</head>
+</html>
