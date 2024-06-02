@@ -1,7 +1,7 @@
 ---
-title: 'Article Title - Spaces are ok here'
-slug: 'iframetest'
-description: 'Article blurb which will appear in google - 120 chars max'
+title: 'PowerShell Parameters Code Challenge'
+slug: 'PowerShell-Params-CodeChallenge'
+description: 'Test your skills and knowledge of PowerShell parameters'
 date: '2024-05-28'
 authors: [mike]
 image: '/images/2024/Quiz-PWSHParams/PWSHParamsCover.webp'
@@ -22,17 +22,17 @@ As an added bonus, we are considering a monthly prize giveaway for the leaders o
 
 
 
-<!-- <script src="https://meiro-prod.fra1.digitaloceanspaces.com/iframeResizer.min.js"></script>
+<script src="https://meiro-prod.fra1.digitaloceanspaces.com/iframeResizer.min.js"></script>
 <iframe class="reframe-off" id="meiro_8081374" src="https://go.meiro.cc/8081374" width="100%" frameborder="0"></iframe>
 <script>
   iFrameResize({
     checkOrigin: false,
     heightCalculationMethod: 'grow',
   }, '#meiro_8081374');
-</script> -->
+</script>
 
 
-<iframe id="meiro_8081374" src="https://go.meiro.cc/8081374" width="100%" frameborder="0" scrolling="no"></iframe>
+<!-- <iframe id="meiro_8081374" src="https://go.meiro.cc/8081374" width="100%" frameborder="0" scrolling="no"></iframe>
 
 <script>
   const iframe = document.getElementById('meiro_8081374');
@@ -42,7 +42,7 @@ As an added bonus, we are considering a monthly prize giveaway for the leaders o
   }
 
   iframe.onload = adjustIframeHeight;
-</script>
+</script> -->
 
 
 
