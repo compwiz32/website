@@ -9,17 +9,17 @@ tags: [PowerShell, CodeChallenge]
 draft: false
 ---
 
+- [Challenge Intro](#challenge-intro)
+- [LeaderBoard](#leaderboard)
 
-Introducing Weekly Code Challenge Quizzes on CommandLine.ninja
 
-Welcome to the exciting new series of weekly code challenge quizzes on CommandLine.ninja! Get ready to test your skills and knowledge in PowerShell, cloud technologies, and common tools and modules related to PowerShell, Azure, and other associated technologies.
+## Challenge Intro
 
-Each week, we will bring you a new topic with two sets of quizzes - an easier version and a harder version. These quizzes will consist of 5-12 questions focusing on the weekly topic. Whether you are a beginner or an expert, there will be something for everyone.
+I'm excited to introduce a fresh addition to the CommandLine.ninja website! Get ready to challenge yourself and improve your PowerShell and automation skills, and maybe even pick up a few tips and tricks!
 
-After the new quiz topics are posted, we will have a leaderboard where you can see how you stack up against others. The leaderboard will be active for the week, allowing you to compete for the top spot. Challenge yourself, brush up on your skills, and have fun while doing it!
+Every week, I'll provide you with a different subject and two sets of quizzes - one easy and one difficult. The quizzes will comprise a series of questions that center on the weekly topic. No matter your skill level, there's something here for everyone. Each quiz will offer an optional leaderboard where you can see how you compare to other quiz participants. The leaderboard will be available only during the initial week of each quiz, and sharing your score on it is entirely voluntary.
 
-As an added bonus, we are considering a monthly prize giveaway for the leaders of the leaderboard. Stay tuned for more details on how you can participate and win exciting prizes. Get ready to level up your skills and join us in the weekly code challenge quizzes on CommandLine.ninja!
-
+For my first code challenge in PowerShell, I've chosen to center it around PowerShell parameters. Since this is my first coding challenge, I have intentionally made the quiz easy. Take the quiz and tell me what you think! If the quiz frame isn't appearing correctly in your browser, [follow this link](https://codechallenge.commandline.ninja/8081374) to open it in a new tab.
 
 
 <script src="https://meiro-prod.fra1.digitaloceanspaces.com/iframeResizer.min.js"></script>
@@ -32,18 +32,8 @@ As an added bonus, we are considering a monthly prize giveaway for the leaders o
 </script>
 
 
-<!-- <iframe id="meiro_8081374" src="https://go.meiro.cc/8081374" width="100%" frameborder="0" scrolling="no"></iframe>
+## LeaderBoard
 
-<script>
-  const iframe = document.getElementById('meiro_8081374');
-
-  function adjustIframeHeight() {
-    iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
-  }
-
-  iframe.onload = adjustIframeHeight;
-</script> -->
-
-
-
-and some more text
+Name | Score | Time to Complete
+-----|-------|-----------------
+TBA  | TBA   | TBA
