@@ -10,6 +10,7 @@ draft: false
 ---
 
 - [Challenge Intro](#challenge-intro)
+- [Code Challenge](#code-challenge)
 - [LeaderBoard](#leaderboard)
 
 
@@ -21,6 +22,8 @@ Every week, I'll provide you with a different subject and two sets of quizzes - 
 
 For my first code challenge in PowerShell, I've chosen to center it around PowerShell parameters. Since this is my first coding challenge, I have intentionally made the quiz easy. Take the quiz and tell me what you think! If the quiz frame isn't appearing correctly in your browser, [follow this link](https://codechallenge.commandline.ninja/8081374) to open it in a new tab.
 
+
+## Code Challenge
 
 <script src="https://meiro-prod.fra1.digitaloceanspaces.com/iframeResizer.min.js"></script>
 <iframe class="reframe-off" id="meiro_8081374" src="https://go.meiro.cc/8081374" width="100%" frameborder="0"></iframe>
