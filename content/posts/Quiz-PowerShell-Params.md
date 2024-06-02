@@ -21,7 +21,7 @@ I'm excited to introduce a fresh addition to the CommandLine.ninja website! Get 
 
 Every week, I'll provide you with a different subject and two sets of quizzes - one easy and one difficult. The quizzes will comprise a series of questions that center on the weekly topic. No matter your skill level, there's something here for everyone. Each quiz will offer an optional leaderboard where you can see how you compare to other quiz participants. The leaderboard will be available only during the initial week of each quiz, and sharing your score on it is entirely voluntary.
 
-For my first code challenge in PowerShell, I've chosen to center it around PowerShell parameters. Since this is my first coding challenge, I have intentionally made the quiz easy. Take the quiz and tell me what you think! If the quiz frame isn't appearing correctly in your browser, [follow this link](https://codechallenge.commandline.ninja/8081374) to open it in a new tab.
+For my first code challenge in PowerShell, I've chosen to center it around PowerShell parameters. Since this is my first coding challenge, I have intentionally made the quiz easy. Take the quiz and tell me what you think! If the quiz frame isn't appearing correctly in your browser, [follow this link](https://codechallenge.commandline.ninja/5791389) to open it in a new tab.
 
 
 ## Code Challenge - Easy
