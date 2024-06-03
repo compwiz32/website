@@ -38,7 +38,7 @@ For my first code challenge in PowerShell, I've chosen to start with a review of
 
 ## PowerShell Parameters Code Challenge - Expert Edition
 
-Alright let's tke it up a notch! There's some tough questions in this challenge! See if you can answer all 10 questions and become the Scripting Sorcerer Supreme! If the quiz frame isn't appearing correctly in your browser, [follow this link](https://codechallenge.commandline.ninja/1427013) to open it in a new tab.
+Let's crank it up a notch, shall we? This challenge has some tough questions to answer. Put your skills to the test and become the Scripting Sorcerer Supreme by answering all 10 questions. If the quiz frame isn't appearing correctly in your browser, [follow this link](https://codechallenge.commandline.ninja/1427013) to open it in a new tab.
 
 
 <script src="https://meiro-prod.fra1.digitaloceanspaces.com/iframeResizer.min.js"></script>
