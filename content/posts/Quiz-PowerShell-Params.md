@@ -11,7 +11,7 @@ draft: false
 
 - [Challenge Intro](#challenge-intro)
 - [PowerShell Parameters Code Challenge - Starter Edition:](#powershell-parameters-code-challenge---starter-edition)
-- [PowerShell Parameters Code Challenge - Expert Edition](#powershell-parameters-code-challenge---expert-edition)
+- [PowerShell Parameters Code Challenge - Expert Edition:](#powershell-parameters-code-challenge---expert-edition)
 - [LeaderBoard - PowerShell Parameters Starter Edition](#leaderboard---powershell-parameters-starter-edition)
 - [LeaderBoard - PowerShell Parameters Expert Edition](#leaderboard---powershell-parameters-expert-edition)
 
@@ -36,7 +36,7 @@ For my first code challenge in PowerShell, I've chosen to start with a review of
   }, '#meiro_5791389');
 </script>
 
-## PowerShell Parameters Code Challenge - Expert Edition
+## PowerShell Parameters Code Challenge - Expert Edition:
 
 Let's crank it up a notch, shall we? This challenge has some tough questions to answer. Put your skills to the test and become the Scripting Sorcerer Supreme by answering all 10 questions. If the quiz frame isn't appearing correctly in your browser, [follow this link](https://codechallenge.commandline.ninja/1427013) to open it in a new tab.
 
@@ -53,14 +53,15 @@ Let's crank it up a notch, shall we? This challenge has some tough questions to 
 
 ## LeaderBoard - PowerShell Parameters Starter Edition
 
-Name | Score | Time to Complete
------|-------|-----------------
-TBA  | TBA   | TBA
+Name        | Correct Answers | ElapsedTime Seconds
+------------|-----------------|--------------------
+juddmissile | 10              | 184
 
 
 ## LeaderBoard - PowerShell Parameters Expert Edition
 
-Name | Score | Time to Complete
------|-------|-----------------
-TBA  | TBA   | TBA
+Name        | Correct Answers | ElapsedTime Seconds
+------------|-----------------|--------------------
+Schlauge    | 10              | 190
+juddmissile | 9               | 160
 
