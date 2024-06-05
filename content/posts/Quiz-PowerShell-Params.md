@@ -53,6 +53,8 @@ Let's crank it up a notch, shall we? This challenge has some tough questions to 
 
 ## LeaderBoard - PowerShell Parameters Starter Edition
 
+Last Updated June 2 11:50 PM EST
+
 Name        | Correct Answers | ElapsedTime Seconds
 ------------|-----------------|--------------------
 juddmissile | 10              | 184
@@ -60,8 +62,20 @@ juddmissile | 10              | 184
 
 ## LeaderBoard - PowerShell Parameters Expert Edition
 
-Name        | Correct Answers | ElapsedTime Seconds
-------------|-----------------|--------------------
-Schlauge    | 10              | 190
-juddmissile | 9               | 160
+Last Updated: June 4 11:55 pm EST
 
+Name              | Correct Answers | Elapsed Time (Seconds)
+------------------|-----------------|-----------------------
+steviecoaster     | 10              | 055
+NotJudd           | 10              | 126
+Schlauge          | 10              | 190
+AleksandrK        | 10              | 239
+juddmissile       | 09              | 160
+Ashish Kumar Arya | 09              | 199
+Jeff Brown Tech   | 08              | 125
+Mariusz           | 08              | 206
+Dje               | 08              | 310
+Laurent           | 07              | 120
+Ravi              | 07              | 140
+Lili              | 07              | 184
+inngrid           | 06              | 119
