@@ -9,18 +9,19 @@ tags: [PowerShell, CodeChallenge]
 draft: false
 ---
 
-- [Challenge Intro](#challenge-intro)
+I'm excited to introduce a fresh addition to the CommandLine.ninja website! Get ready to challenge yourself and improve your PowerShell and automation skills, and maybe even pick up a few tips and tricks!
+
+Every week, I'll provide you with a different subject and two sets of quizzes - one easy and one difficult. The quizzes will comprise a series of questions that center on the weekly topic. No matter your skill level, there's something here for everyone. Each quiz will offer an optional leaderboard where you can see how you compare to other quiz participants. The leaderboard will be available only during the initial week of each quiz, and sharing your score on it is entirely voluntary.
+
+## Table of Contents
+- [Table of Contents](#table-of-contents)
 - [PowerShell Parameters Code Challenge - Starter Edition:](#powershell-parameters-code-challenge---starter-edition)
 - [PowerShell Parameters Code Challenge - Expert Edition:](#powershell-parameters-code-challenge---expert-edition)
 - [LeaderBoard - PowerShell Parameters Starter Edition](#leaderboard---powershell-parameters-starter-edition)
 - [LeaderBoard - PowerShell Parameters Expert Edition](#leaderboard---powershell-parameters-expert-edition)
 
 
-## Challenge Intro
 
-I'm excited to introduce a fresh addition to the CommandLine.ninja website! Get ready to challenge yourself and improve your PowerShell and automation skills, and maybe even pick up a few tips and tricks!
-
-Every week, I'll provide you with a different subject and two sets of quizzes - one easy and one difficult. The quizzes will comprise a series of questions that center on the weekly topic. No matter your skill level, there's something here for everyone. Each quiz will offer an optional leaderboard where you can see how you compare to other quiz participants. The leaderboard will be available only during the initial week of each quiz, and sharing your score on it is entirely voluntary.
 
 ## PowerShell Parameters Code Challenge - Starter Edition:
 
