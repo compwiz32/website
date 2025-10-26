@@ -346,7 +346,7 @@ Now you can see the complete picture. SAML authenticates within federations. OAu
 
 Now that you understand what these protocols are and how they differ, the question becomes: which one should you use for your situation? Here's a simple flowchart to help you make a quick decision.
 
-![Protocol Decision Matrix](/static/images/2025/SAML-OAUTH-OIDC-Differences/Which-Protocol-to-Use.png)
+![Protocol Decision Matrix](/images/2025/SAML-OAUTH-OIDC-Differences/Which-Protocol-to-Use.png)
 
 ## Real-World Use Cases
 
