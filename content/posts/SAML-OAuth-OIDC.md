@@ -1,7 +1,7 @@
 ---
 title: "SAML vs OAuth vs OIDC: What's the Difference"
 slug: 'SAML-OAUTH-OIDC-Differences'
-description: 'Article blurb which will appear in google - 120 chars max'
+description: 'Confused about SAML vs OAuth vs OIDC? This guide explains what each protocol does and when to use them.'
 date: '2025-10-26'
 authors: [mike]
 image: '/images/2025/SAML-OAUTH-OIDC-Differences/protocol-chooser-header-resize.webp'
