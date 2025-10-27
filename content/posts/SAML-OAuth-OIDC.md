@@ -99,7 +99,7 @@ Before you ever attempt to log in, your company's identity team has already set 
 
 <div class="callout">
   <p><strong>What is Federation?</strong></p>
-  <p>Federation is a trust relationship established between an identity provider and a service provider. Your identity team configures this relationship by exchanging metadata between the two systems - essentially teaching them how to communicate securely and what to trust from each other. <br><br>
+  <p>Federation is a trust relationship established between an identity provider and a service provider. Your identity team configures this relationship by exchanging metadata between the two systems - essentially teaching them how to communicate securely and what to trust from each other. <br>
 
 Once federated, the service provider trusts authentication assertions from your IdP without needing to verify credentials itself. This is why SAML is often called a "federated identity" protocol.</p>
 </div>
@@ -215,8 +215,8 @@ Here's what happens when PrintMyPhotos uses OAuth to access your Google Photos:
 7. PrintMyPhotos uses this token to call Google Photos API and download your selected images
 
 **What PrintMyPhotos Actually Knows**
-This is the critical part that many people miss. After this OAuth flow, here's what PrintMyPhotos has:
-What PrintMyPhotos KNOWS:
+<br>
+This is the critical part that many people miss. After this OAuth flow, here's what PrintMyPhotos KNOWS:
 
 ✅ I have an access token that can read photos from account XYZ
 
