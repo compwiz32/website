@@ -49,11 +49,11 @@ SSO works the same way. The application doesn't receive a copy of your password.
 
 Let's start with the simplest possible explanations:
 
-SAML: Enterprise single sign-on that proves who you are to web applications
+**SAML**: Enterprise single sign-on that proves who you are to web applications
 
-OAuth 2.0: Lets apps access your stuff elsewhere without your password
+**OAuth 2.0**: Lets apps access your stuff elsewhere without your password
 
-OIDC: OAuth plus proper login - gives apps your identity AND access to your stuff
+**OIDC**: OAuth plus proper login - gives apps your identity AND access to your stuff
 
 Those one-liners give a high level overview of what each protocol was designed for. We're going to get into more detail on each and by the end, you'll understand why SAML can't do what OAuth does and what's the actual difference between OAuth and OIDC.
 
@@ -69,7 +69,7 @@ The key insight: these aren't competing protocols - they solve different problem
 
 ## SAML: Enterprise Single Sign-On
 
-> Enterprise single sign-on that proves who you are to web applications
+_**Enterprise single sign-on that proves who you are to web applications**_
 
 SAML (Security Assertion Markup Language) has been the defacto standard for enterprise SSO for nearly two decades. If you've ever logged into your company's portal and then accessed applications like Salesforce, Workday, or ServiceNow without entering your password again - you've used SAML.
 
@@ -77,13 +77,37 @@ SAML (Security Assertion Markup Language) has been the defacto standard for ente
 
 SAML operates on a federation model with two main players:
 
-**Identity Provider (IdP)**: This is your directory service - Azure AD, Okta, or similar - that stores and verifies your credentials
-**Service Provider (SP)**: The application you're trying to access - like Workday or Salesforce
+- **Identity Provider (IdP)**: This is your directory service - Azure AD, Okta, or similar - that stores and verifies your credentials
+- **Service Provider (SP)**: The application you're trying to access - like Workday or Salesforce
 
 Before you ever attempt to log in, your company's identity team has already set up a trust relationship between your IdP and Workday. This pre-configured relationship is what allows the two systems to communicate securely and trust each other's information.
 
-> **What is Federation?**
-> Federation is a trust relationship established between an identity provider and a service provider. Your identity team configures this relationship by exchanging metadata between the two systems - essentially teaching them how to communicate securely and what to trust from each other. Once federated, the service provider trusts authentication assertions from your IdP without needing to verify credentials itself. This is why SAML is often called a "federated identity" protocol.
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Callout Box Federation</title>
+<style>
+.callout {
+  padding: 20px;
+  background-color: #E3F2FD;
+  border-left: 6px solid #2196F3;
+}
+</style>
+</head>
+<body>
+
+<div class="callout">
+  <p><strong>What is Federation?</strong></p>
+  <p>Federation is a trust relationship established between an identity provider and a service provider. Your identity team configures this relationship by exchanging metadata between the two systems - essentially teaching them how to communicate securely and what to trust from each other. <br><br>
+
+Once federated, the service provider trusts authentication assertions from your IdP without needing to verify credentials itself. This is why SAML is often called a "federated identity" protocol.</p>
+</div>
+
+</body>
+</html>
+
+<br>
 
 Here's what happens when you log into a SAML-enabled application:
 
@@ -153,7 +177,7 @@ Protocol | Primary Purpose | What You Get
 
 ## OAuth: Authorization instead of Authentication
 
-> Lets apps access your stuff elsewhere without your password
+_**Lets apps access your stuff elsewhere without your password**_
 
 SAML handles enterprise SSO beautifully, but it is basically a one trick pony. Yes it works well, but for one scenario only: a person needs to login to a web based application AND that person only needs to work or perform activities inside that one application. However, if person needs to login into an application and that application needs to access data from a third party, SAML can't handle that situation.
 
@@ -265,7 +289,7 @@ Protocol | Primary Purpose | What You Get
 
 ## OIDC: Authentication Built on OAuth
 
-> gives apps your identity AND access to your stuff
+_**Gives apps your identity AND access to your stuff**_
 
 The gaps between what OAuth provided and what developers needed is exactly why OIDC was created. In 2014, the OpenID Foundation published OpenID Connect (OIDC) with contributions from major tech companies like Google, Microsoft, Ping Identity, and Salesforce. Their goal was simple: add proper authentication to OAuth 2.0.
 
