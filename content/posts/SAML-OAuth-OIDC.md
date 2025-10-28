@@ -300,6 +300,7 @@ OIDC doesn't replace OAuth - it builds directly on top of it. Think of OIDC as O
 The key innovation in OIDC is the ID token. When you authenticate with OIDC, you get two things:
 
 **ID Token:** A standardized token (in JWT format) that contains your identity information
+
 **Access Token:** The same OAuth access token for calling APIs
 
 Here's what an ID token contains:
