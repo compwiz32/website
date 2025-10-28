@@ -9,6 +9,13 @@ tags: '[Identity Mgmt]'
 draft: false
 ---
 
+I work on an automation team that also handles all the SSO configurations for our organization. We're a talented group - we've set up hundreds of SAML integrations, configured countless app registrations in Azure, and automated authentication workflows across our enterprise. We know what we're doing.
+Or so I thought.
+
+One day we got to talking about OAuth and OIDC, and I was surprised to discover something: while we could all configure these protocols successfully, the group couldn't clearly explain the fundamental differences between them. We knew SAML was for SSO, OAuth was for "API stuff," and OIDC was "OAuth but newer" - but the why behind it all was fuzzy.
+
+Here's the thing - you can go really far in configuring app registrations in Azure without actually understanding what's happening behind the scenes. You follow the documentation, check the right boxes, copy the right scope strings, and it works. But when someone asks "Why are we using OAuth here instead of SAML?" or "What's the difference between OAuth and OIDC?" - that's when the gaps show up. I'd like to help you understand the differences.
+
 - [What is SSO?](#what-is-sso)
 - [The One-Sentence Explanations](#the-one-sentence-explanations)
 - [SAML: Enterprise Single Sign-On](#saml-enterprise-single-sign-on)
@@ -27,13 +34,6 @@ draft: false
 - [Which One Should You Use?](#which-one-should-you-use)
 - [Real-World Use Cases](#real-world-use-cases)
 - [Wrapping Up](#wrapping-up)
-
-I work on an automation team that also handles all the SSO configurations for our organization. We're a talented group - we've set up hundreds of SAML integrations, configured countless app registrations in Azure, and automated authentication workflows across our enterprise. We know what we're doing.
-Or so I thought.
-
-One day we got to talking about OAuth and OIDC, and I was surprised to discover something: while we could all configure these protocols successfully, the group couldn't clearly explain the fundamental differences between them. We knew SAML was for SSO, OAuth was for "API stuff," and OIDC was "OAuth but newer" - but the why behind it all was fuzzy.
-
-Here's the thing - you can go really far in configuring app registrations in Azure without actually understanding what's happening behind the scenes. You follow the documentation, check the right boxes, copy the right scope strings, and it works. But when someone asks "Why are we using OAuth here instead of SAML?" or "What's the difference between OAuth and OIDC?" - that's when the gaps show up. I'd like to help you understand the differences.
 
 ## What is SSO?
 
@@ -299,9 +299,8 @@ OIDC doesn't replace OAuth - it builds directly on top of it. Think of OIDC as O
 
 The key innovation in OIDC is the ID token. When you authenticate with OIDC, you get two things:
 
-**ID Token:** A standardized token (in JWT format) that contains your identity information
-
-**Access Token:** The same OAuth access token for calling APIs
+- **ID Token:** A standardized token (in JWT format) that contains your identity information
+- **Access Token:** The same OAuth access token for calling APIs
 
 Here's what an ID token contains:
 
