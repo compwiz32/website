@@ -5,6 +5,20 @@ publish = "public"
 [build.environment]
 HUGO_VERSION = "0.110.0"
 
+# Force HTTPS
+[[redirects]]
+from = "http://networkadm.in/*"
+to = "https://networkadm.in/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "http://www.networkadm.in/*"
+to = "https://www.networkadm.in/:splat"
+status = 301
+force = true
+
+# Redirect to new domain (HTTPS)
 [[redirects]]
 from = "https://networkadm.in/*"
 to = "https://commandline.ninja/:splat"
