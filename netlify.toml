@@ -6,12 +6,16 @@ publish = "public"
 HUGO_VERSION = "0.110.0"
 
 [[redirects]]
-from = "/*"
+from = "https://networkadm.in/*"
 to = "https://commandline.ninja/:splat"
 status = 301
 force = true
-conditions = { Domain = ["networkadm.in", "www.networkadm.in"] }
 
+[[redirects]]
+from = "https://www.networkadm.in/*"
+to = "https://commandline.ninja/:splat"
+status = 301
+force = true
 
 [[redirects]]
 from = "/find-inactive-user-accounts-in-your-domain"
