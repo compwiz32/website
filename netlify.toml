@@ -1,9 +1,16 @@
 [build]
-  command = "hugo"
-  publish = "public"
+command = "hugo"
+publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.110.0"
+HUGO_VERSION = "0.110.0"
+
+[[redirects]]
+from = "/*"
+to = "https://commandline.ninja/:splat"
+status = 301
+force = true
+conditions = { Domain = ["networkadm.in", "www.networkadm.in"] }
 
 
 [[redirects]]
