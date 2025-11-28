@@ -1,7 +1,7 @@
 ---
-title: "SAML vs OAuth vs OIDC: What's the Difference"
+title: "Single Sign-On(SSO): SAML vs OAuth vs OIDC - What's the Difference"
 slug: 'SAML-OAUTH-OIDC-Differences'
-description: 'Confused about SAML vs OAuth vs OIDC? This guide explains what each protocol does and when to use them.'
+description: 'Single sign-on (SSO) explained! Learn how SSO streamlines login to multiple applications. Understand the differences between SAML, OAuth, and OIDC.'
 date: '2025-10-26'
 authors: [mike]
 image: '/images/2025/SAML-OAUTH-OIDC-Differences/protocol-chooser-header-resize.webp'
@@ -17,7 +17,7 @@ One day we got to talking about OAuth and OIDC, and I was surprised to discover 
 Here's the thing - you can go really far in configuring app registrations in Azure without actually understanding what's happening behind the scenes. You follow the documentation, check the right boxes, copy the right scope strings, and it works. But when someone asks "Why are we using OAuth here instead of SAML?" or "What's the difference between OAuth and OIDC?" - that's when the gaps show up. I'd like to help you understand the differences.
 
 - [What is SSO?](#what-is-sso)
-- [The One-Sentence Explanations](#the-one-sentence-explanations)
+- [SAML/OAUTH/OIDC - The One-Sentence Explanations](#samloauthoidc---the-one-sentence-explanations)
 - [SAML: Enterprise Single Sign-On](#saml-enterprise-single-sign-on)
   - [How SAML Works](#how-saml-works)
   - [What Makes SAML Powerful](#what-makes-saml-powerful)
@@ -31,7 +31,7 @@ Here's the thing - you can go really far in configuring app registrations in Azu
   - [Using OAuth for Authentication](#using-oauth-for-authentication)
 - [OIDC: Authentication Built on OAuth](#oidc-authentication-built-on-oauth)
   - [What OIDC Adds: The ID Token](#what-oidc-adds-the-id-token)
-- [Which One Should You Use?](#which-one-should-you-use)
+- [Which One Should You Use for Login?](#which-one-should-you-use-for-login)
 - [Real-World Use Cases](#real-world-use-cases)
 - [Wrapping Up](#wrapping-up)
 
@@ -45,7 +45,7 @@ SSO works the same way. The application doesn't receive a copy of your password.
 
 **SSO is the user experience** - the goal we're trying to achieve. **SAML, OAuth, and OIDC are the technical protocols that make SSO possible**, but they achieve it in very different ways. Understanding what makes them different starts with understanding what problem each one was designed to solve.
 
-## The One-Sentence Explanations
+## SAML/OAUTH/OIDC - The One-Sentence Explanations
 
 Let's start with the simplest possible explanations:
 
@@ -71,7 +71,7 @@ The key insight: these aren't competing protocols - they solve different problem
 
 _**Enterprise single sign-on that proves who you are to web applications**_
 
-SAML (Security Assertion Markup Language) has been the defacto standard for enterprise SSO for nearly two decades. If you've ever logged into your company's portal and then accessed applications like Salesforce, Workday, or ServiceNow without entering your password again - you've used SAML.
+SAML (Security Assertion Markup Language) has been the standard for enterprise SSO for nearly two decades. If you've ever logged into your company's portal and then accessed applications like Salesforce, Workday, or ServiceNow without entering your password again - you've used SAML.
 
 ### How SAML Works
 
@@ -165,7 +165,7 @@ SAML is ideal for enterprise environments where:
 - Everything operates within a trust federation
 - Applications are primarily web-based (they can be cloud based or internal company apps)
 
-For corporate SSO scenarios, SAML has been and continues to be the first choice for SSO authentication. It's mature, well-supported, and does exactly what it was designed to do. At my org we have built hundreds of SAML federations and continue to do so regularly.
+For corporate SSO scenarios, SAML has been and continues to be the first choice for identity and access management. It's mature, well-supported, and does exactly what it was designed to do. At my org we have built hundreds of SAML federations and continue to do so regularly.
 
 ### SAML Limitations
 
@@ -366,7 +366,7 @@ Protocol | Primary Purpose | What You Get | Common Use Case
 
 Now you can see the complete picture. SAML authenticates within federations. OAuth delegates access to resources. OIDC does both - it authenticates users AND provides OAuth's delegation capabilities.
 
-## Which One Should You Use?
+## Which One Should You Use for Login?
 
 Now that you understand what these protocols are and how they differ, the question becomes: which one should you use for your situation? Here's a simple flowchart to help you make a quick decision.
 
