@@ -1,17 +1,11 @@
 ---
 layout: contact
-title: Reach out and say, Hi!
+title: Get in Touch
 image: '/images/Tin-Can-Messaging.jpg'
 ---
 
-- Do you have questions?
-- Looking for more information on a topic?
-- Want to learn more about an upcoming PowerShell event?
+Have questions about something I wrote? Want to know about an upcoming PowerShell event? Send me a message and I'll do my best to respond.
 
-Send me a message! I will do my best to respond as quickly as possible.
+About code help: I get a lot of requests for help debugging scripts or writing custom code. I wish I could help everyone individually, but between work, family, and community stuff, I just don't have the bandwidth. If you need coding help, check out the PowerShell-Help forum. It's a solid community where people actually work through problems together. You can join via [Discord](https://aka.ms/psdiscord) or [Slack](https://aka.ms/psslack) — the links get you in immediately. Look for the _powershell-help_ channel.
 
-Please be aware that I receive an overwhelming amount of requests for code help with individuals' scripts. Although I appreciate your interest in my support, my resources are limited and I usually cannot offer individual code help. Just to be clear, I won't write code for you or fix any of your scripts.
-
-If you need help with coding, I recommend checking out the PowerShell-Help forum. The community is full of talented folks who can help with your coding questions. You can access the forum via [Discord](https://aka.ms/psdiscord) or [Slack](https://aka.ms/psslack).
-
-The forum is invite only, but all you need to do is follow one of the links I posted above and you will be immediately invited into the forum. Once you're in, you can find the #powershell-help channel on the left-hand side. It's the first one listed.
+The reality is the _powershell-help_ forum will get better, faster help than waiting on me. Most people get answers to their questions in under 15 minutes.

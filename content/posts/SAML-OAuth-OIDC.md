@@ -5,7 +5,7 @@ description: 'Single sign-on (SSO) explained! Learn how SSO streamlines login to
 date: '2025-10-26'
 authors: [mike]
 image: '/images/2025/SAML-OAUTH-OIDC-Differences/protocol-chooser-header-resize.webp'
-tags: '[Identity Mgmt]'
+tags: 'Identity Mgmt'
 draft: false
 ---
 
