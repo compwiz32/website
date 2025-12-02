@@ -114,16 +114,16 @@ paginate = 6
     tag = "PowerShell"
 
   [[params.tag]]
-    tag = "Identity Mgmt"
+    tag = "Identity-Mgmt"
 
   [[params.tag]]
-    tag = "Server Administration"
+    tag = "Server-Administration"
 
 [[params.tag]]
-    tag = "Jumpstarts"
+    tag = "Jumpstart"
 
   [[params.tag]]
-    tag = "Code Challenges"
+    tag = "Code-Challenge"
 
   # You can add many tag sections to the homepage; each section will show the recent posts by the tag.
 

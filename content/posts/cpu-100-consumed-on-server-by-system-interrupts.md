@@ -1,6 +1,7 @@
 ---
+
 title: CPU consumed on server by System Interrupts
-tags: [Server Admin]
+tags: [Server-Administration]
 date: 2017-08-07
 description: How I hunted down the fix for a CPU hog
 draft: false
