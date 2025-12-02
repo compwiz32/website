@@ -4,7 +4,7 @@ description: Learn how AzureAD Conditional Access policies can control multi-fac
 draft: false
 authors: [mike]
 image: /images/2022/Conditional-Access-Policy-Fundamentals/Checkpoint.jpg
-tags: [Azure]
+tags: [Identity-Mgmt]
 title: "Getting started with EntraID Conditional Access policies"
 slug: azure-conditional-access-policies-fundamentals
 ---
@@ -21,4 +21,4 @@ These factors result in dynamic environments that a straightforward set of rules
 
 This article, hosted on the [TechTarget website](https://www.techtarget.com/searchwindowsserver/tutorial/Build-your-knowledge-of-Azure-AD-conditional-access-policies), provides a comprehensive guide to getting started with Azure Active Conditional Access. I discuss multiple scenarios for implementing Azure single sign-on in your organization's configuration.
 
-You can also check [Microsoft's outstanding docs website](https://docs.microsoft.com/en-us/azure/active directory/conditional-access/overview/?WT.mc_id=CDM-MVP-5004073) on Conditional Access for much more information on all the moving piece involved with Conditional Access. You can find all the articles I have written for TechTarget at [my author webpage](https://www.techtarget.com/contributor/Mike-Kanakos).
+You can also check [Microsoft's outstanding docs website](<https://docs.microsoft.com/en-us/azure/active> directory/conditional-access/overview/?WT.mc_id=CDM-MVP-5004073) on Conditional Access for much more information on all the moving piece involved with Conditional Access. You can find all the articles I have written for TechTarget at [my author webpage](https://www.techtarget.com/contributor/Mike-Kanakos).

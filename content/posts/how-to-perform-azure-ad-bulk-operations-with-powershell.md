@@ -6,7 +6,7 @@ draft: false
 authors: [mike]
 image: "/images/2022/AzureAD-Bulk-Operations/alvaro-reyes-unsplash.jpg"
 slug: "how-to-perform-azure-ad-bulk-operations-with-powershell"
-tags: ["Azure", "PowerShell"]
+tags: [PowerShell, 'Identity-Mgmt']
 title: "How to perform Azure AD bulk operations with PowerShell"
 ---
 
