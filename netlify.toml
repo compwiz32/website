@@ -41,15 +41,21 @@ to = "/use-powershell-to-find-services-configured-to-run-as-another-user"
 
 [[redirects]]
 from = "/get-aduser-syntax-refresh"
-to = "/get-aduser"
+to = "/get-aduser/"
+status = 301
+force = true
 
 [[redirects]]
 from = "/get-aduser-syntax-and-examples-refresh"
-to = "/get-aduser"
+to = "/get-aduser/"
+status = 301
+force = true
 
 [[redirects]]
 from = "/get-aduser-syantax-and-examples"
-to = "/get-aduser"
+to = "/get-aduser/"
+status = 301
+force = true
 
 [[redirects]]
 from = "/select-string-powershell7"
