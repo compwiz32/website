@@ -5,7 +5,7 @@ date: 2018-05-05
 authors: [mike]
 image: /images/2018/join-a-local-usergroup/RTPSUG-meeting.webp
 slug: "join-a-local-user-group"
-tags: ["PowerShell", "Community"]
+tags: ["PowerShell"]
 draft: false
 ---
 
@@ -19,9 +19,9 @@ draft: false
 
 For the past year, I've been regularly attending monthly meetings at my local PowerShell user group in Raleigh. Recently, I had the chance to attend a SQL users group in the area where they discussed a topic specific to PowerShell. I thought I'd share my experiences and encourage you to get involved in local user groups.
 
-* So what the heck is a user group?
-* What happens at these meetings?
-* What's their purpose?
+- So what the heck is a user group?
+- What happens at these meetings?
+- What's their purpose?
 
 ### What the heck is a user group?
 
@@ -39,9 +39,9 @@ Each user group runs their get-togethers differently: there is no "correct" form
 
 The obvious answer here is that people who love something feel inclined to share their knowledge or take part with other like-minded people. Here's where I am going to get very specific about my experiences. What I didn't expect to find though, was a community. For example, one group I attended started their meetings with simple questions:
 
-* Is there anyone who is looking for a new role or job?
-* Does anyone have any openings in their company they're looking to fill?
-* Does anyone have a challenge at work they need help to solve?
+- Is there anyone who is looking for a new role or job?
+- Does anyone have any openings in their company they're looking to fill?
+- Does anyone have a challenge at work they need help to solve?
 
 Take a moment to consider that. Taking care of its members was a priority for this group. It wasn't merely a superficial presentation followed by an exit. They enjoyed food, engaged in casual conversations, exchanged contact information, and shared tips. In the long run, attending these meetings can be very helpful. This brings me to a crucial subject...
 

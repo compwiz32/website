@@ -117,7 +117,7 @@ paginate = 6
     tag = "Identity-Mgmt"
 
   [[params.tag]]
-    tag = "Server-Administration"
+    tag = "Server-Admin"
 
 [[params.tag]]
     tag = "Jumpstart"

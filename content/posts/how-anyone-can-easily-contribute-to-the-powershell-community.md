@@ -6,7 +6,7 @@ draft: false
 image: "/images/2018/Contribute-Community/fistbump.jpg"
 slug: "how-anyone-can-easily-contribute-to-the-powershell-community"
 description: "Here are 10 ways that ANYONE can start contributing to the PowerShell community immediately."
-tags: [PowerShell, Community]
+tags: [PowerShell]
 ---
 
 One of the things that makes the PowerShell community so great is the willingness of others to help people succeed. Unlike other communities, there is no bitter in-fighting among members or outward competition to one-up the people who actively participate. You also don't have people outwardly flaming each other when they do not agree with your opinions. There is a genuine interest by most active members of the community for others to be successful and grow within the community.
@@ -42,11 +42,11 @@ So enough about myself, let's get down to business. Here are 10 ways that ANYONE
 
    There are user groups spread out across the US and literally across the entire world! You can find those groups on sites like [Meetup](https://www.meetup.com/), Reddit, Twitter, Facebook, LinkedIn and many others. User groups like [mine](https://www.meetup.com/Research-Triangle-PowerShell-Users-Group/) are  made up of individuals with similar interests who get together to share ideas, solutions and questions. It is a fantastic way to get to know other members in your local area or online.
 
-3.  **Write a blog post/share some code**
+3. **Write a blog post/share some code**
     If you are comfortable writing, then put your thoughts into blog posts to help others learn from your experiences. Also not all blogs have to be teaching websites. You could literally blog a collection of useful links. Many people blog simply to create an archive of solutions they used to solve their own problems. Those "archives" end up being super useful to not just you but others as well.
 
 4. **Fix an issue on a GitHub Repo**
-   The community shares code on sites like [GitHub](https://www.github.com), [Bitbucket](https://bitbucket.org/), [GitLab](https://gitlab.com/) [PSGallery](https://www.powershellgallery.com/), [PowerShell.org](http://PowerShell.org) as well as personal blogs, Facebook groups, [Reddit](https://www.reddit.com/r/PowerShell/), LinkedIn groups and a few other choice locations. Community members who share their code are looking for people to help create code, find problems, and fix typos. There are simple issues that anyone can fix (like spell checking, grammar, re-writing help files). You can find these types of issues on GitHub by looking in the issues section of any repo and then looking for tags named *Help Wanted* or *Good First Issue* to help you find the easier issues to tackle.
+   The community shares code on sites like [GitHub](https://www.github.com), [Bitbucket](https://bitbucket.org/), [GitLab](https://gitlab.com/) [PSGallery](https://www.powershellgallery.com/), [PowerShell.org](http://PowerShell.org) as well as personal blogs, Facebook groups, [Reddit](https://www.reddit.com/r/PowerShell/), LinkedIn groups and a few other choice locations. Community members who share their code are looking for people to help create code, find problems, and fix typos. There are simple issues that anyone can fix (like spell checking, grammar, re-writing help files). You can find these types of issues on GitHub by looking in the issues section of any repo and then looking for tags named _Help Wanted_ or _Good First Issue_ to help you find the easier issues to tackle.
 
     Bonus: fix an issue on Microsoft's GitHub repo and your solution may be seen by millions of people!
 
@@ -62,7 +62,7 @@ So enough about myself, let's get down to business. Here are 10 ways that ANYONE
 8. **Help solve problems listed on sites like Stack Overflow or Powershell.org**
    At some point everyone hits a roadblock and inevitably reaches out for help. Many people turn to sites like [Stack Overflow](https://stackoverflow.com/) and [PowerShell.org](https://powershell.org/) to ask questions with the hope that someone has the answer they're looking for. Logging and answering a few questions helps those in need and gives you a great sense of fulfillment. Also as a bonus, you start to get a reputation as a problem solver when you solve people's questions.
 
-9.  **Start a user group**
+9. **Start a user group**
    What happens if there isn't a group nearby that meets regularly? How 'bout starting your own group! It isn't as hard as it may sound. The hardest part is finding like-minded individuals and a place to meet. Once you get a few people who are willing to show up, all you need is a few ideas for discussion starters. Once people get started, it's usually not too hard to get some really good conversations going about topics that are relevant to you and others. Need a reference guide to help you get started? Try this on for size: [So you want to form a User Group?](https://powershell.org/2021/07/so-you-want-to-start-a-user-group/)
 
 10. **Ask for help!**

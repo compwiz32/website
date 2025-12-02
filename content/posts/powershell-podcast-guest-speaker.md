@@ -4,7 +4,7 @@ description: I discuss community involvement, sharing your code, & being ok with
 draft: false
 image: /images/2022/PowerShell-Podcast-Community/PowerShell-Podcast.jpg
 slug: powershell-podcast-guest-speaker
-tags: [Community, PowerShell]
+tags: [PowerShell]
 title: Talking about community on the new PowerShell Podcast
 authors: [mike]
 ---
