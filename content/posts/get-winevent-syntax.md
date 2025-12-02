@@ -6,7 +6,7 @@ draft: false
 image: /images/2018/Get-WinEvent/Get-WinEvent.webp
 slug: "get-winevent-syntax"
 description: "cmdlet syntax and real-world usage examples showing how to use the Get-WinEvent cmdlet"
-tags: [PowerShell, 'Event Logs']
+tags: [PowerShell, 'Server-Aadmin']
 ---
 
 **TABLE OF CONTENTS**
@@ -15,7 +15,6 @@ tags: [PowerShell, 'Event Logs']
 - [DESCRIPTION](#description)
 - [SYNTAX](#syntax)
 - [REAL-WORLD EXAMPLES](#real-world-examples)
-
 
 ## SYNOPSIS
 
@@ -68,7 +67,7 @@ Get-WinEvent -FilterHashtable @{logname='system'; level=2,3} -MaxEvents 50
 
 <br>
 
-__Event Log levels__
+**Event Log levels**
 
 | Name      |    Value |
 :-------- | --------:
@@ -80,13 +79,13 @@ __Event Log levels__
 
 <br>
 
-__Event Log DisplayNames__
+**Event Log DisplayNames**
 
-* Information
-* Warning
-* Critical
-* Error
-* Verbose
+- Information
+- Warning
+- Critical
+- Error
+- Verbose
 <br>
 
 ```PowerShell

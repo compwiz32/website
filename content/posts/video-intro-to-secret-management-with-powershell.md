@@ -4,7 +4,7 @@ description: "Learn the secure way to manage your passwords and secrets with Mic
 draft: false
 image: "/images/2022/Secret-Mgmt-Video-Intro/Lock-and-Chain.webp"
 slug: "video-intro-to-secret-management"
-tags: ['PowerShell', 'Secret Management']
+tags: ['PowerShell']
 title: "Video Intro to Secret Management with PowerShell"
 featured: true
 authors: [mike]

@@ -4,7 +4,7 @@ description: 'Learn to fetch Windows service Run as details using CIM data with 
 date: 2022-02-14
 authors: [mike]
 image: '/images/2022/Use-PowerShell-Find-Svcs/Get-Service.jpg'
-tags: [PowerShell, Windows Services, CIM-WMI]
+tags: [PowerShell, Server-Admin]
 featured: true
 authors: [mike]
 ---
@@ -166,7 +166,6 @@ I discuss the differences between CIM and WMI at length in my article on [How to
 
 </body>
 </html>
-
 
 The lookup I need to perform for CIM is:
 

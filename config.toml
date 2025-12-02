@@ -120,7 +120,7 @@ paginate = 6
     tag = "Server-Admin"
 
 [[params.tag]]
-    tag = "Jumpstart"
+    tag = "Jumpstarts"
 
   [[params.tag]]
     tag = "Code-Challenge"
