@@ -1,6 +1,6 @@
 ---
 title: "Monitor Multiple PCs' Uptime with Ease Using Get-PCUptime in PowerShell"
-tags: [PowerShell]
+tags: [PowerShell, Server-Admin]
 date: 2020-07-15
 authors: [mike]
 draft: false
@@ -16,7 +16,6 @@ description: "Get-PCUptime is a PowerShell tool built to get the up-time from mu
 - [Storing the date/time information](#storing-the-datetime-information)
 - [Formatting the Output](#formatting-the-output)
 - [Bringing it all together](#bringing-it-all-together)
-
 
 One thing that frustrates me is how hard it can be to find out how long a computer is powered on. Yes, there are [many ways](https://stackoverflow.com/questions/11606774/how-to-get-the-system-uptime-in-windows) to find out the up-time of a computer, but most are not "PowerShell friendly". If I want to use any of the methods listed in the link above in a script, then I have to manipulate string data or other options which are even worse. I built myself a simple utility to solve this dilemma. Let me show you how I did it.
 
