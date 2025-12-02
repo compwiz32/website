@@ -4,7 +4,7 @@ draft: false
 image: "/images/2021/Customize-Cmd-Prompt/WindowsTerminal-Header.jpg"
 slug: "customize-pscmdprompt"
 description: "Learn how to customize your PowerShell command prompt with useful data!"
-tags: [PowerShell,'Windows Terminal']
+tags: [PowerShell']
 title: "How to customize your PowerShell command prompt"
 featured: true
 authors: [mike]

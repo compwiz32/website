@@ -4,7 +4,7 @@ description: "The PowerShell devs have added new tools and functionality that ma
 draft: false
 image: '/images/2022/Four-PowerShell-Addons/Windows-Terminal.webp'
 slug: "PowerShell-Addons"
-tags: [PowerShell, PSReadLine, PSStyle]
+tags: [PowerShell]
 title: "Power Up your PowerShell experience with these four add-ons"
 authors: [mike]
 ---
