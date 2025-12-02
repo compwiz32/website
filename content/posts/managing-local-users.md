@@ -6,7 +6,7 @@ draft: false
 image: "/images/2019/Manage-Local-UserAccounts/Matrix.jpg"
 slug: "managing-local-users"
 description: "Explore my PowerShell script that makes it a breeze to add domain accounts to local user groups."
-tags: [PowerShell]
+tags: [PowerShell,Server-Admin]
 ---
 
 I've always been frustrated trying to manage local user accounts on servers and PC's. Ok, I'll admit my frustration mostly lies with the management of local PC's because those computers are not always online and sometimes they're in distant offices that are not well connected. For me, managing the user accounts on local PC's can sometimes just be time consuming.
