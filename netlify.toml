@@ -36,7 +36,7 @@ from = "/find-inactive-user-accounts-in-your-domain"
 to = "/find-inactive-user-accts"
 
 [[redirects]]
-from = "use-powershell-to-find-windows-svcs-configured-to-run-as-another-user"
+from = "/use-powershell-to-find-windows-svcs-configured-to-run-as-another-user"
 to = "/use-powershell-to-find-services-configured-to-run-as-another-user"
 
 [[redirects]]
@@ -53,7 +53,7 @@ to = "/get-aduser"
 
 [[redirects]]
 from = "/select-string-powershell7"
-to = "select-string-whats-new"
+to = "/select-string-whats-new"
 
 [[redirects]]
 from = "/tag/*"
