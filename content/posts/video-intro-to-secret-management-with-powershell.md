@@ -6,8 +6,9 @@ image: "/images/2022/Secret-Mgmt-Video-Intro/Lock-and-Chain.webp"
 slug: "video-intro-to-secret-management"
 tags: ['PowerShell']
 title: "Video Intro to Secret Management with PowerShell"
-featured: true
 authors: [mike]
+featured: true
+weight: 2
 ---
 
 Storing and accessing secrets with PowerShell used to pose a challenge. Until 2021, there was no easy, convenient solution for creating and storing secrets. Microsoft's [Secret Management module](https://www.powershellgallery.com/packages/Microsoft.PowerShell.SecretManagement/), released in early 2021, has made life much easier. The module simplifies creating, storing, and recalling secrets by providing easy-to-use commands.

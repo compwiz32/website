@@ -6,8 +6,9 @@ slug: "configure-one-powershell-profile-for-many-users"
 description: "Learn how to use one PowerShell profile script for multiple users on a box. Configure your profile settings once and be done for all users! "
 tags: [PowerShell]
 title: "Configure one PowerShell profile for many users"
-featured: true
 authors: [mike]
+featured: true
+weight: 5
 ---
 
 

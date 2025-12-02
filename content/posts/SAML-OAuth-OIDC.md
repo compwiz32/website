@@ -7,6 +7,8 @@ authors: [mike]
 image: '/images/2025/SAML-OAUTH-OIDC-Differences/protocol-chooser-header-resize.webp'
 tags: 'Identity-Mgmt'
 draft: false
+featured: true
+weight: 3
 ---
 
 I work on an automation team that also handles all the SSO configurations for our organization. We're a talented group - we've set up hundreds of SAML integrations, configured countless app registrations in Azure, and automated authentication workflows across our enterprise. We know what we're doing.

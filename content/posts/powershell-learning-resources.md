@@ -6,6 +6,7 @@ authors: [mike]
 image: '/images/2022/PS-Learning-Resources/Learning-Head-Image.webp'
 tags: [jumpstarts, PowerShell]
 featured: true
+weight: 4
 ---
 
 **TABLE OF CONTENTS**
@@ -17,8 +18,6 @@ featured: true
 - [If you like to learn from doing](#if-you-like-to-learn-from-doing)
 - [When it's time to write code](#when-its-time-to-write-code)
 - [One last resource...](#one-last-resource)
-
-
 
 Newcomers to PowerShell and automation often ask me: Where can I find great resources to learn PowerShell?
 
@@ -129,7 +128,7 @@ Jeff Hicks runs a website that contains hundreds of PowerShell puzzles for all s
 
 Listen, let me say this right now... stop using the PowerShell ISE!! Like now! Do yourself a favor and go download VSCODE. It's a great tool for writing PowerShell code. It has a bit of a learning curve on day 1 but there are plenty of plugins and add-ons to make PowerShell exceptional. VSCode is the de facto tool used by most PowerShell community members today.
 
-## One last resource...
+## One last resource
 
 [Awesome PowerShell](https://github.com/janikvonrotz/awesome-powershell?ref=commandline.ninja)
 

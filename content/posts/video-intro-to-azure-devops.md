@@ -7,7 +7,6 @@ image: /images/2022/AZDevOps-Video-Intro/introducing-azure-devops.webp
 slug: "video-intro-to-azure-devops"
 tags: [Server-Admin]
 title: "Video Intro to Azure DevOps"
-featured: true
 ---
 
 

@@ -5,8 +5,9 @@ date: 2022-02-14
 authors: [mike]
 image: '/images/2022/Use-PowerShell-Find-Svcs/Get-Service.jpg'
 tags: [PowerShell, Server-Admin]
-featured: true
 authors: [mike]
+featured: true
+weight: 1
 ---
 
 Article Contents:
