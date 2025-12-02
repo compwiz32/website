@@ -6,7 +6,7 @@ authors: [mike]
 image: /images/2020/Connect-Multiple-Computers-Invoke-Command/roadways-compressed.webp
 slug: connecting-to-multiple-computers-with-invoke-command
 description: Learn how to connect to multiple computers from PowerShell with my guide on PowerShell Remoting and Invoke-Command.
-tags: [PowerShell, 'PowerShell Remoting']
+tags: [PowerShell, 'Server-Admin']
 ---
 
 PowerShell remoting is a method you can use to connect securely to many machines with very little effort. Using remoting, a user can quickly query information or deploy a change to multiple computers without ever having to login via a GUI or RDP. Let's review the basics of this cmdlet and how you can get started using Invoke-Command.

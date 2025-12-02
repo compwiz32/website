@@ -6,7 +6,7 @@ draft: false
 image: "/images/2018/ps-conf-book/header-image.webp"
 slug: "ps-conference-book"
 description: "The PowerShell Conference Book features contributions from over 30 experts in different fields, with all royalties benefiting the OnRamp Scholarship program."
-tags: ["PowerShell", "Active Directory"]
+tags: [PowerShell, 'Identity-Mgmt']
 ---
 
 Many of you may be wondering where I have been for the past few months. I had been regularly posting content once or twice a week but then things slowed down to a trickle and eventually to a full stop...

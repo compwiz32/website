@@ -6,7 +6,7 @@ draft: false
 image: /images/2018/Get-WinEvent/Get-WinEvent.webp
 slug: "get-winevent-syntax"
 description: "cmdlet syntax and real-world usage examples showing how to use the Get-WinEvent cmdlet"
-tags: [PowerShell, 'Server-Aadmin']
+tags: [PowerShell, 'Server-Admin']
 ---
 
 **TABLE OF CONTENTS**

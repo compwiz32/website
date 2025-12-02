@@ -5,7 +5,7 @@ authors: [mike]
 draft: false
 image: /images/2022/Find-Inactive-User-Accounts/Find-Inactive-User-Accts-Header.jpg
 slug: find-inactive-user-accounts-in-your-domain
-tags: [Active-Directory, PowerShell]
+tags: [PowerShell, 'Identity-Mgmt']
 description: "Learn how to identify and automatically remove inactive user accounts in Active Directory."
 ---
 
@@ -98,7 +98,7 @@ MNSLogonAccount        : False
 SmartcardLogonRequired : False
 ```
 
-Your results may vary based on what your Active Directory domain functional level is. My search returns eight attributes, three look promising: _LastLogon, LastLogonDate and LastLogonTimeStamp_. Some values may look a little weird if you are unfamiliar with how Active Directory stores date/time information in certain attributes. Some date info is traditional date-time info, and others are are saved as "ticks".
+Your results may vary based on what your Active Directory domain functional level is. My search returns eight attributes, three look promising: *LastLogon, LastLogonDate and LastLogonTimeStamp*. Some values may look a little weird if you are unfamiliar with how Active Directory stores date/time information in certain attributes. Some date info is traditional date-time info, and others are are saved as "ticks".
 
 <html lang="en">
 <head>
@@ -130,7 +130,6 @@ PowerShell shows the actual value for the tick that represents the date/time. Th
 ## Logon attributes explained
 
 Our search found multiple properties that show date/time logon information. One property has a different time stamp than the others.
-
 
 <html lang="en">
 <head>
@@ -242,7 +241,7 @@ $DisabledUsers = (
     )
 ```
 
-We have disabled our user accounts. It's time to move them to a new OU. For our example, we'll use the OU named _Disabled-Users_. The Distinguished Name for this OU is "OU=Disabled-Users,DC=Contoso,DC=Com". We use the `Move-ADObject` cmdlet to move users to the target OU
+We have disabled our user accounts. It's time to move them to a new OU. For our example, we'll use the OU named *Disabled-Users*. The Distinguished Name for this OU is "OU=Disabled-Users,DC=Contoso,DC=Com". We use the `Move-ADObject` cmdlet to move users to the target OU
 
 ```PowerShell
 $DisabledUsers | ForEach-Object {

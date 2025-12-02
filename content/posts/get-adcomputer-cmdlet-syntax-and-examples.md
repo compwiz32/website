@@ -5,7 +5,7 @@ authors: [mike]
 draft: false
 image: /images/2018/Get-ADComputer/Get-ADComputer.webp
 slug: get-adcomputer-cmdlet-syntax-and-examples
-tags: ['Active Directory', PowerShell]
+tags: [PowerShell, 'Identity-Mgmt']
 description: "Let's check out some common searches you can do with the Get-ADComputer cmdlet, and a few cool tricks too."
 ---
 
@@ -48,6 +48,7 @@ Get-ADComputer [-AuthType {Negotiate | Basic}] [-Credential <PSCredential>] [-Pr
 [-ResultSetSize <Int32>] [-SearchBase <String>] [-SearchScope {Base | OneLevel | Subtree}] [-Server <String>] -LDAPFilter <String>
 [<CommonParameters>]
 ```
+
 <br/>
 
 ## EXAMPLES
@@ -83,7 +84,6 @@ get-adcomputer -filter 'Description -like "*WSUS*" -prop * | select name, `
 - Returns Server name, Server Description and the managed by field
 - converts the *Managed By* DN to SAMAccountName
 <br/>
-
 
 ```PowerShell
 get-adcomputer -filter 'OperatingSystem -like "*server*"' -prop MemberOf, managedby, description |

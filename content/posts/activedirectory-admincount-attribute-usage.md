@@ -1,5 +1,5 @@
 ---
-tags: ["Active Directory", "PowerShell"]
+tags: [PowerShell, 'Identity-Mgmt']
 date: 2022-03-03
 description: "Learn what the AdminCount value in Active Directory is used for, its purpose, and how to set it correctly."
 draft: false

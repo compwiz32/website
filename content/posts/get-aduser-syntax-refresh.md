@@ -6,7 +6,7 @@ authors: [mike]
 image: /images/2022/Get-ADUser-Refresh/update-unsplash.jpg
 slug: get-aduser-syntax-and-examples-post-refresh
 description: Explore even more examples of pulling data from Active Directory with Get-ADUser!
-tags: [PowerShell, 'Active Directory']
+tags: [PowerShell, 'Identity-Mgmt']
 ---
 
 Hey PowerShell family...
@@ -17,6 +17,6 @@ The refreshed blog post is just under 3000 words and contains 15 different Get-A
 
 You can find the post here:
 
-https://www.commandline.ninja/get-aduser-syntax-and-examples/
+<https://www.commandline.ninja/get-aduser-syntax-and-examples/>
 
 Thanks for reading!

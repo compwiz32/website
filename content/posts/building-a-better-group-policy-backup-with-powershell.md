@@ -6,7 +6,7 @@ draft: false
 image: "/images/2019/Build-a-better-GPO-backup/old-school-tapes.webp"
 slug: "building-a-better-group-policy-backup-with-powershell"
 description: "How I built a better Group Policy backup tool using PowerShell than what is possible with the built-in cmdlets from Microsoft"
-tags: ["PowerShell", "Group Policy"]
+tags: ["PowerShell", 'Active-Directory']
 ---
 
 I have always been a bit frustrated with the built-in group policy cmdlets included from Microsoft. Don't get me wrong, they work absolutely fine, but sometimes they don't work in a way that makes them easy to use. To highlight this fact, I recently wrote an article over at [4sysops](https://4sysops.com/archives/group-policy-backup-with-a-powershell/) describing my experiences with the `Backup-GPO` cmdlet and the output of the cmdlet.

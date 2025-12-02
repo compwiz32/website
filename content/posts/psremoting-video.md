@@ -6,7 +6,7 @@ draft: false
 image: "/images/2019/Video-Remoting/Intro-Screencap.webp"
 slug: "psremoting-video"
 description: "Remoting in PowerShell unfairly gets a bad rap in the security world.  When done right; PowerShell remoting is equal to SSH. "
-tags: ["PowerShell","PowerShell Remoting"]
+tags: [PowerShell,Server-Admin]
 ---
 
 Last week I gave a presentation on configuring PowerShell remoting security and logging for my user group. This talk focused on how to properly setup remoting security and logging options. I talk briefly about how remoting works with some simple examples of what a real-world remoting connection looks like.

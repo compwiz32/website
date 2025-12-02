@@ -5,7 +5,7 @@ description: "Azure DevOps is a great option to consider for use as an on-prem t
 draft: false
 image: /images/2022/AZDevOps-Video-Intro/introducing-azure-devops.webp
 slug: "video-intro-to-azure-devops"
-tags: [Azure, Server-Admin]
+tags: [Server-Admin]
 title: "Video Intro to Azure DevOps"
 featured: true
 ---

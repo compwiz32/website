@@ -1,6 +1,6 @@
 ---
 title: "Get-ADOrganizationalUnit - Cmdlet Syntax and Examples"
-tags: ["active directory", PowerShell]
+tags: [PowerShell, 'Identity-Mgmt']
 date: 2018-05-05T05:06:15Z
 authors: [mike]
 draft: false

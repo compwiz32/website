@@ -6,7 +6,7 @@ draft: false
 image: /images/2018/Secure-PowerShell/door-green-closed-lock.webp
 slug: "securing-powershell"
 description: "PowerShell remoting is safe by default, but you can enhance its security. Read on to discover the key points."
-tags: [PowerShell, 'PowerShell Remoting']
+tags: [PowerShell, 'Server-Admin']
 ---
 
 **TABLE OF CONTENTS**
@@ -28,10 +28,10 @@ I was recently asked to come up with a security posture for my organization and 
 
 This is a reference guide I originally built for myself that I thought would be useful for others when trying to figure out how to secure PowerShell remoting or at least answer the questions someone may be asked from management or security teams in a corporate environment. I have pulled relevant data from a number of sources including, but not limited to:
 
-* [Microsoft: Authentication for Remote Connections](https://docs.microsoft.com/en-us/windows/desktop/winrm/authentication-for-remote-connections)
-* [Microsoft: PowerShell Remoting Security Considerations](https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/winrmsecurity?view=powershell-7)
-* [FireEye: Greater Visibility Through PowerShell Logging](https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html)
-* [FoxDeploy.com: Is WinRM Secure or do I need HTTPs?](https://foxdeploy.com/2017/02/08/is-winrm-secure-or-do-i-need-https/)
+- [Microsoft: Authentication for Remote Connections](https://docs.microsoft.com/en-us/windows/desktop/winrm/authentication-for-remote-connections)
+- [Microsoft: PowerShell Remoting Security Considerations](https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/winrmsecurity?view=powershell-7)
+- [FireEye: Greater Visibility Through PowerShell Logging](https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html)
+- [FoxDeploy.com: Is WinRM Secure or do I need HTTPs?](https://foxdeploy.com/2017/02/08/is-winrm-secure-or-do-i-need-https/)
 
 One big caveat before I begin: There are different settings that can be put in place for domain-based machines and workgroup based machines. I am largely ignoring the workgroup scenarios because I do not have to worry about that consideration. I'll make a few references to configs for workgroup computers, but this guide is targeted at securing connections in an Active Directory domain running mostly Windows computers. Also of note, I am not going to talk at all about PS remoting to Linux because, again, not a big requirement for me or my org. Please visit the links above and see the security considerations for those two scenarios.
 
@@ -45,14 +45,14 @@ Once the authentication phase has completed, all session communications are encr
 
 Remote connections between domain-joined computers can be made with a number of different methods. The three most common methods when using PowerShell are:
 
-* Connect via WMI
-* Connect via CIM
-* Connect via PS remoting/WinRM
+- Connect via WMI
+- Connect via CIM
+- Connect via PS remoting/WinRM
 
 The main difference between these remote connection methods is what protocol is used to make the remote connection. Connections via WMI use DCOM to access remote machines. Connections via CIM or WinRM use the WSMan protocol.
 
-* **WMI** is the Microsoft implementation of Web-Based Enterprise Management and provides users with information about the status of local or remote computer systems. The main knock against WMI is that it isn't very firewall friendly. For the connection to succeed, the remote computer must permit incoming network traffic on TCP ports 135, 445, and additional dynamically-assigned ports, typically in the range of 1024 to 1034.
-* **WS-Management protocol**, a SOAP-based, firewall-friendly protocol, was designed for systems to locate and exchange management information. The intent of the [WS-Management protocol](https://en.wikipedia.org/wiki/WS-Management) specification is to provide interoperability and consistency for enterprise systems that have computers running on a variety of operating systems from different vendors. It only requires TWO ports (one for http, one for https) to be open and has much greater security posture than WMI.
+- **WMI** is the Microsoft implementation of Web-Based Enterprise Management and provides users with information about the status of local or remote computer systems. The main knock against WMI is that it isn't very firewall friendly. For the connection to succeed, the remote computer must permit incoming network traffic on TCP ports 135, 445, and additional dynamically-assigned ports, typically in the range of 1024 to 1034.
+- **WS-Management protocol**, a SOAP-based, firewall-friendly protocol, was designed for systems to locate and exchange management information. The intent of the [WS-Management protocol](https://en.wikipedia.org/wiki/WS-Management) specification is to provide interoperability and consistency for enterprise systems that have computers running on a variety of operating systems from different vendors. It only requires TWO ports (one for http, one for https) to be open and has much greater security posture than WMI.
 
 By default, PowerShell Remoting relies on WinRM to make connections to other machines unless a WMI call is being made. WinRM (and WMI) only allow connections from members of the Administrators group. If you have a handle on who has admin access to your servers and desktops, then you're off to a great start in securing your PS remoting environment. PS remote sessions are launched under the user's context, so all operating system access controls applied to individual users and groups continue to apply to them while connected over PowerShell remoting.
 
@@ -66,8 +66,8 @@ In order for you to enable Certificate-Based Authentication, you must have a cer
 
 PowerShell Remoting (and WinRM) listen on the following ports:
 
-* HTTP: 5985
-* HTTPS: 5986
+- HTTP: 5985
+- HTTPS: 5986
 
 Earlier I mentioned that WMI is less firewall friendly because it connects via TCP ports 135, 445, and additional dynamically-assigned ports, typically in the range of 1024 to 1034. WinRM is much easier to secure since you can limit your firewall to only opening two ports.
 
@@ -105,9 +105,9 @@ PowerShell logs connection attempts and successful connections by default but do
 
 There are three log settings that can be enabled to log activity for WinRM remote sessions:
 
-* Module Logging
-* Script Block Logging
-* Transcription
+- Module Logging
+- Script Block Logging
+- Transcription
 
 ### Module Logging
 
@@ -143,15 +143,15 @@ Enabling script block logging and transcription will record most activity while 
 
 Follow these recommendations and you will have a very strong security posture with respect to running PowerShell in your organization:
 
-* Turn on transcription logging and have logs write to a central file share
-* Lock down who has the ability to remove logs from the central share
-* Turn on script block logging and assess the impact on your PC's
-* Module logging is also recommended but it will generate large volumes of event log data, so think carefully before enabling this setting
-* Enable a certificate infrastructure for your domain
-* Install SSL certificates on all domain computers
-* Disable the HTTP port in use for PowerShell after SSL certs have been deployed
-* Limit via GPO which PC's can initiate PowerShell connection attempts
-* Install Windows PowerShell v5 on every node in your environment
-* Eliminate local administrators on PC's and servers aggressively
+- Turn on transcription logging and have logs write to a central file share
+- Lock down who has the ability to remove logs from the central share
+- Turn on script block logging and assess the impact on your PC's
+- Module logging is also recommended but it will generate large volumes of event log data, so think carefully before enabling this setting
+- Enable a certificate infrastructure for your domain
+- Install SSL certificates on all domain computers
+- Disable the HTTP port in use for PowerShell after SSL certs have been deployed
+- Limit via GPO which PC's can initiate PowerShell connection attempts
+- Install Windows PowerShell v5 on every node in your environment
+- Eliminate local administrators on PC's and servers aggressively
 
 I hope you find this practical guide useful in your research. I welcome you to leave comments below and let me know what concerns or feedback you have. If you like articles like this, don't forget to sign up for my mailing list. I usually write one article a week and I never share your info with anyone or any business.
