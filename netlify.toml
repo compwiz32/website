@@ -52,6 +52,12 @@ status = 301
 force = true
 
 [[redirects]]
+from = "/get-aduser-syntax-refresh/"
+to = "/get-aduser/"
+status = 301
+force = true
+
+[[redirects]]
 from = "/get-aduser-syntax-and-examples-refresh"
 to = "/get-aduser/"
 status = 301
