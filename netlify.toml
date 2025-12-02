@@ -40,7 +40,7 @@ from = "use-powershell-to-find-windows-svcs-configured-to-run-as-another-user"
 to = "/use-powershell-to-find-services-configured-to-run-as-another-user"
 
 [[redirects]]
-from = "/get-aduser-syntax-and-examples-post-refresh"
+from = "/get-aduser-syntax-and-examples-refresh"
 to = "/get-aduser-syantax-and-examples"
 
 [[redirects]]
