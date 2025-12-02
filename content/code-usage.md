@@ -3,49 +3,67 @@ title: Steal My Code!
 image: '/images/Unsplash-TwoComputers.jpg#wide'
 ---
 
+## The Short Version
 
-I stumbled across a great post on [Stack Overflow](https://stackoverflow.blog/2020/05/20/good-coders-borrow-great-coders-steal/) talking about taking code from others and using it for your own. I liked it so much, that I used the core of the article to explain how I feel about others using my code.
+All code on this site is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/). That means you can use it, modify it, share it, and even use it commercially—just give credit and indicate if you made changes.
 
-Many people attribute the quote to the famous artist Pablo Picasso:
+**Fair warning:** This code is developed and tested in my home lab. What works in my small environment might not be production-ready for your enterprise. Always test before you deploy.
 
-> "Good artists borrow, great artists steal."
+## How to Give Credit
 
-Taking something without permission is just plain wrong, especially when you pretend it's yours. That's plagiarism. But the quote I mentioned earlier uses "steal" to mean something different. When you borrow something, it's still someone else's. If you want to own an idea, you need to make it yours. You need to learn from that idea and then explain in your own way.
+Attribution is simple. At the top of your script or in your documentation, include something like this:
 
-> Taking credit for someone else's idea is borrowing; understanding an idea and weaving it into your own work, that's what he meant by theft.
+```powershell
+# Original code from Mike Kanakos
+# https://commandline.ninja/your-article-name/
+# Modified by [Your Name] on [Date]
+```
 
-I encourage you to use the code I post on this website for your own personal use. However, you need to understand a few important things before you do so.
+Or in documentation:
+> "Based on code by Mike Kanakos from [commandline.ninja/article-url](https://commandline.ninja/article-url)"
 
-### The code I share is not exactly what I use in production, but it's close**
+That's it. Takes five seconds and keeps the knowledge-sharing ecosystem healthy.
 
-My home lab serves as the testing ground where I write and verify the code for the concepts I discuss in my articles. What works for me in my small environment may not be suitable for production deployment in your organization. I'll make every attempt to mention in my articles whether the code I've written is appropriate for corporate settings, but it's crucial to test it before running.
+## What You Can Do
 
-### You can use my code, but you still need to give me the credit
+Under CC BY 4.0, you're free to:
 
-Let me be real with you... I wanna do my bit and assist others. I just want to be acknowledged for helping people. Neglecting to acknowledge your sources undermines the core principles of a thriving community. You're not contributing to what came before you. Your actions are harming the open source community and compromising the knowledge sharing process. Just do the right thing and give credit if you borrow from my site.
+- **Share:** Copy and redistribute the code in any format
+- **Adapt:** Modify, remix, and build upon it
+- **Use commercially:** Yes, even in production products or consulting work
 
-## Creative Commons License and Usage Guidelines
+No need to ask permission. Just attribute.
 
-The information and scripts on this site are licensed under a Creative Commons Attribution 4.0 International License.
+## What You Must Do
 
-- This license is acceptable for Free Cultural Works.
-- The licensor cannot revoke these freedoms as long as you follow the license terms.
+- **Give credit:** Acknowledge the source with a link when reasonable
+- **Note changes:** If you modified the code, mention it
+- **Keep it open:** Don't add restrictions that prevent others from doing what the license allows
 
-You are free to:
+## Important Disclaimers
 
-- **Share:** copy and redistribute the material in any medium or format.
-- **Adapt:** remix, transform, and build upon the material for any purpose, even commercially.
+**No warranty.** This code is provided as-is. I do my best to write solid, working examples, but I'm not responsible if something breaks in your environment. Test thoroughly before production use.
 
-Under the following terms:
+**Not production-hardened.** My home lab isn't your enterprise datacenter. The code demonstrates concepts and patterns, but you'll likely need to adapt it for scale, error handling, logging, and your specific security requirements.
 
-- **Attribution:** You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+**Your responsibility.** You own the decision to use this code. Make sure it fits your needs, meets your standards, and complies with your organization's policies.
 
-- **No additional restrictions:** You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+## Why Attribution Matters
 
-<hr>
+I stumbled across a [great Stack Overflow article](https://stackoverflow.blog/2020/05/20/good-coders-borrow-great-coders-steal/) about using other people's code. It references the famous Picasso quote: "Good artists borrow, great artists steal."
 
- <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">The Command Line Ninja website and associated code found on website</span> was created by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.commandline.ninja/">Mike Kanakos</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
+Here's what that means: Taking something and pretending it's yours is plagiarism. But truly "stealing" an idea means understanding it deeply enough to make it your own—learning from it, adapting it, and explaining it in your own way.
 
-<hr>
+When you borrow code, it's still someone else's. When you understand it and integrate it into your work, you've made it yours. Either way, acknowledge where you learned it.
 
-Photo by <a href="https://unsplash.com/@freestocks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">freestocks</a> on <a href="https://unsplash.com/photos/person-using-black-laptop-computer-I_pOqP6kCOI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Attribution isn't about ego. It's about maintaining a functioning community where people share knowledge freely because they know they'll get credit. Skip the attribution, and you're cutting the thread that connects you to everyone who came before. Do the right thing.
+
+## The Legal Stuff
+
+The Command Line Ninja website and all associated code is created by [Mike Kanakos](https://www.commandline.ninja/) and licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/).
+
+The licensor cannot revoke these freedoms as long as you follow the license terms. This license is acceptable for Free Cultural Works.
+
+---
+
+*Photo by [freestocks](https://unsplash.com/@freestocks) on [Unsplash](https://unsplash.com/photos/person-using-black-laptop-computer-I_pOqP6kCOI)*
