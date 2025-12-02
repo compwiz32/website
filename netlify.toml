@@ -46,7 +46,7 @@ force = true
 
 
 [[redirects]]
-from = "/get-aduser-syntax-refresh"
+from = "/get-aduser-syntax-and-examples/"
 to = "/get-aduser/"
 status = 301
 force = true
