@@ -34,10 +34,16 @@ force = true
 [[redirects]]
 from = "/find-inactive-user-accounts-in-your-domain"
 to = "/find-inactive-user-accts"
+status = 301
+force = true
+
 
 [[redirects]]
 from = "/use-powershell-to-find-windows-svcs-configured-to-run-as-another-user"
 to = "/use-powershell-to-find-services-configured-to-run-as-another-user"
+status = 301
+force = true
+
 
 [[redirects]]
 from = "/get-aduser-syntax-refresh"
@@ -60,18 +66,27 @@ force = true
 [[redirects]]
 from = "/select-string-powershell7"
 to = "/select-string-whats-new"
+status = 301
+force = true
+
 
 [[redirects]]
 from = "/tag/*"
 to = "/tags"
+status = 301
+force = true
 
 [[redirects]]
 from = "/easily-display-powershell-console-colors"
 to = "/display-console-colors"
+status = 301
+force = true
 
 [[redirects]]
 from = "/jumpstart-learning-resources-for-powershell/"
 to = "/powershell-learning-resources/"
+status = 301
+force = true
 
 [[redirects]]
 from = "/psindex"
