@@ -101,3 +101,100 @@ to = "/tags"
 [[redirects]]
 from = "/:context/amp"
 to = "/:context"
+
+
+# Old tag redirects - Hugo tag consolidation
+[[redirects]]
+from = "/tags/psreadline/*"
+to = "/tags/powershell/"
+status = 301
+
+[[redirects]]
+from = "/tags/PSReadLine/*"
+to = "/tags/powershell/"
+status = 301
+
+[[redirects]]
+from = "/tags/psstyle/*"
+to = "/tags/powershell/"
+status = 301
+
+[[redirects]]
+from = "/tags/PSStyle/*"
+to = "/tags/powershell/"
+status = 301
+
+[[redirects]]
+from = "/tags/active-directory/*"
+to = "/tags/identity-mgmt/"
+status = 301
+
+[[redirects]]
+from = "/tags/community/*"
+to = "/tags/powershell/"
+status = 301
+
+[[redirects]]
+from = "/tags/Community/*"
+to = "/tags/powershell/"
+status = 301
+
+[[redirects]]
+from = "/tags/cim-wmi/*"
+to = "/tags/powershell/"
+status = 301
+
+[[redirects]]
+from = "/tags/CIM-WMI/*"
+to = "/tags/powershell/"
+status = 301
+
+[[redirects]]
+from = "/tags/azure/*"
+to = "/tags/identity-mgmt/"
+status = 301
+
+[[redirects]]
+from = "/tags/Azure/*"
+to = "/tags/identity-mgmt/"
+status = 301
+
+[[redirects]]
+from = "/tags/windows-services/*"
+to = "/tags/server-admin/"
+status = 301
+
+[[redirects]]
+from = "/tags/azure-devops/*"
+to = "/tags/powershell/"
+status = 301
+
+[[redirects]]
+from = "/tags/secret-management/*"
+to = "/tags/powershell/"
+status = 301
+
+[[redirects]]
+from = "/tags/powershell-profiles/*"
+to = "/tags/powershell/"
+status = 301
+
+[[redirects]]
+from = "/tags/windows-terminal/*"
+to = "/tags/powershell/"
+status = 301
+
+[[redirects]]
+from = "/tags/powershell-remoting/*"
+to = "/tags/powershell/"
+status = 301
+
+[[redirects]]
+from = "/tags/group-policy/*"
+to = "/tags/server-admin/"
+status = 301
+
+[[redirects]]
+from = "/tags/event-logs/*"
+to = "/tags/server-admin/"
+status = 301
