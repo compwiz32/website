@@ -22,7 +22,7 @@ paginate = 6
 
   [[menu.main]]
     name = "Code Challenges"
-    url = "/tags/codechallenge/"
+    url = "/tags/code-challenge/"
     weight = 4
 
   [[menu.main]]
